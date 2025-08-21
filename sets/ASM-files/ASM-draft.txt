@@ -2790,279 +2790,278 @@
 	]
 
 [rare(1)]
-	2 Sparkthorn Stagehand
-	2 Supercalifragilisticexpialidocious
-	2 Eva, Heavenly Voice
-	2 Ghostly Waltz
-	2 Chirping Balladeer
-	2 Exeunt
-	2 Danielle, Dragon Dancer
-	2 Dance of Tides
-	2 Performance Preparation
-	2 Fearbreath Drake
-	2 Stunt Double
-	2 Deathly Dancer
-	2 Undying Dread
-	2 Dramatic Solo
-	2 False King's Conquest
-	2 Galloping Gorgon
-	2 Discord, Dissonant Chaos
-	2 Hearthside Singer
-	2 Kobold Minstrel
-	2 Final Song
-	2 Chord of Calling
-	2 Inspiring Writing
-	2 Lounging Performer
-	2 Curious Mask
-	2 Advisor of Fame
-	2 Shattered Facade
-	2 Impish Confidant
-	2 Pim, Exquisite Storyteller
-	2 Dolion, the False King
-	2 Climactic Moment
-	2 Crowded Streets
-	2 Lord of the Stage
-	2 Paige, Devil's Violinist
-	2 Faldain, Cruel Director
-	2 Tag-Team Strike
-	2 Faerie Thief
-	2 Dance of Flames
-	2 Interplanar Illusions
-	2 Ashiok's Masterwork
-	2 Finn, the Final Curtain
-	2 Assemble the Band
-	2 Crystallized Spotlight
-	2 Gravesong
-	2 Altar of Duets
-	2 Masquerade
-	2 Living Stage
-	2 Luna Ring
-	2 Multiversal Lens
-	2 Stage of the Multiverse
-	2 Falseborn Greatsword
-	2 Hooded Visitors
-	2 Supporting Role
-	2 Role Swap
-	2 Spectral Gathering
-	2 Ruvira, Technician Manager
-	1 Verchiel, Face of Comedy
-	1 Tibalt, Finale Saboteur
-	1 Troupe Puppetmaster
-	1 Solemn Sapling
-	1 Scene Change
-	1 Sarah, the Seamstress
-	1 Queen of Fame
-	1 Oko, Charming Shapeshifter
-	1 Nightshroud Steed
-	1 Never-Ending Story
-	1 Moment Frozen In Time
-	1 Mask Workshop
-	1 Lightshow Lamps
-	1 Goldblaze Enforcer
-	1 Furious Conductor
-	1 Encore!
-	1 Blessing of Sight
-	1 Bane of Creativity
-	1 Ashiok, Phantom of the Opera
+	5 Sparkthorn Stagehand
+	5 Supercalifragilisticexpialidocious
+	5 The Wanderer's Journey
+	5 Eva, Heavenly Voice
+	5 Ghostly Waltz
+	5 Chirping Balladeer
+	5 Exeunt
+	5 Lost Again
+	5 Danielle, Dragon Dancer
+	5 Troupe Puppetmaster
+	5 Dance of Tides
+	5 Performance Preparation
+	5 Fearbreath Drake
+	5 Stunt Double
+	5 March of the Dreadhorde
+	5 Sarah, the Seamstress
+	5 Deathly Dancer
+	5 Undying Dread
+	5 Dramatic Solo
+	5 False King's Conquest
+	5 Galloping Gorgon
+	5 Theft of the Tyrite Sword
+	5 Discord, Dissonant Chaos
+	5 Hearthside Singer
+	5 Kobold Minstrel
+	5 Scene Change
+	5 Final Song
+	5 Ruination of Zendikar
+	5 Chord of Calling
+	5 Inspiring Writing
+	5 Lounging Performer
+	5 Curious Mask
+	5 Advisor of Fame
+	5 Goldblaze Enforcer
+	5 Shattered Facade
+	5 Encore!
+	5 Impish Confidant
+	5 Nightshroud Steed
+	5 Tibalt, Finale Saboteur
+	5 Furious Conductor
+	5 Bane of Creativity
+	5 Queen of Fame
+	5 Pim, Exquisite Storyteller
+	5 Dolion, the False King
+	5 Climactic Moment
+	5 Crowded Streets
+	5 Lord of the Stage
+	5 Paige, Devil's Violinist
+	5 Faldain, Cruel Director
+	5 Tag-Team Strike
+	5 Faerie Thief
+	5 Rebirth of the Guildpact
+	5 Oko, Charming Shapeshifter
+	5 Ashiok, Phantom of the Opera
+	5 Dance of Flames
+	5 Interplanar Illusions
+	5 Ashiok's Masterwork
+	5 Finn, the Final Curtain
+	5 Assemble the Band
+	5 Crystallized Spotlight
+	5 Gravesong
+	5 Altar of Duets
+	5 Masquerade
+	5 Living Stage
+	5 Luna Ring
+	5 Multiversal Lens
+	5 Stage of the Multiverse
+	5 Falseborn Greatsword
+	5 Hooded Visitors
+	5 Moment Frozen In Time
+	5 Lightshow Lamps
+	5 Solemn Sapling
+	5 Mask Workshop
+	5 Supporting Role
+	5 Blessing of Sight
+	5 Never-Ending Story
+	5 Verchiel, Face of Comedy
+	5 Role Swap
+	5 Spectral Gathering
+	5 Ruvira, Technician Manager
 [uncommon(3)]
-	9 Inspiring Daredevil
-	9 Forest Runner
-	9 Prancing Piper
-	9 Inspiration Seeker
-	9 Upbeat Lightdancer
-	9 Fleeting Songbird
-	9 Angelo, the Serenader
-	9 Starstruck Songmaster
-	9 Lovestruck Clairovoyant
-	9 Opening Night
-	9 Multiverse Opera
-	9 Otherworldly Composition
-	9 Stunning Entrance
-	9 Faerie Prankster
-	9 Fear Rallier
-	9 Frost Seer
-	9 Terror Toad
-	9 Mask Maker
-	9 Masked Deflector
-	9 Apprentice Clairovoyant
-	9 Collective Cancel
-	9 Convincing Performance
-	9 Award Ceremony
-	9 Heartbreaking Trick
-	9 Puppeteering Act
-	9 Dancing Demon
-	9 Undying Actor
-	9 Winged Dread
-	9 Deadly Serenader
-	9 Ashiok's Creeper
-	9 Planned End
-	9 Rosa, the Romantic
-	9 Shredding Soloist
-	9 Landscape Elemental
-	9 Charming Hero
-	9 Firewhip Magician
-	9 Passionate Performance
-	9 Inspired Ritual
-	9 Warming Up
-	9 Song of Storms
-	9 Grizzly Dancer
-	9 Socialite's Advice
-	9 Treetop Gremlins
-	9 Cursed Elderwood
-	9 Soundshrouded Harpist
-	9 Rescue From Tragedy
-	9 Masked Elf
-	9 Walking Shelter
-	9 Manor Maiden
-	9 Method Actor
-	9 Interplanar Seer
-	9 Sap Strength
-	9 Final Bow
-	9 Musical Instructor
-	9 Embodiment of Duality
-	9 Fluttering Lights
-	9 Unwelcome Presence
-	9 Blade Dancer
-	9 Masked Mistweaver
-	9 Secret Script
-	9 Mind Read
-	9 Contemplative Dead
-	9 Fleeting Queen
-	9 Bold Stuntman
-	9 Violent Inferno
-	9 Dance Preparation
-	9 Stage Scaffolding
-	9 Shifting Mask
-	9 Costumed Mannequin
-	9 World Lens
-	9 Protagonist's Pet
-	9 Silent Statue
-	9 Dance Channeler
-	9 Darkwood Manor
-	9 Crystalline Cave
-	9 Festival Plaza
-	9 Lively Stage
-	9 Changing Room
-	9 Burning Theater
-	9 Romantic Rendezvous
-	9 Diviner's Study
-	9 Opera of Horrors
-	9 Spectral Ballroom
-	9 Enchanting Song
-	9 Masked Lifeblade
-	9 Otherworldly Visions
-[common(9)]
-	30 Masked Seer
-	30 Songwriter Protector
-	30 Warrior Poet
-	30 Goldblaze Savior
-	30 Festival Dance
-	30 From the Storybooks
-	30 Glide Gifter
-	30 Songsqueaker
-	30 Daring Trapezist
-	30 Decorated Dancer
-	30 Keeper of Tradition
-	30 Lightfin
-	30 Brilliant Retribution
-	30 Moonlight Violinist
-	30 Sorrowful Gaze
-	30 False Strength
-	30 Search Beyond Eternity
-	30 Mothsquerade
-	30 Chilling Performer
-	30 Weaver of Reality
-	30 Script Thief
-	30 False Lorekeeper
-	30 Airborne Fear
-	30 Haunting Heckling
-	30 Shattering Silence
-	30 Stagefright
-	30 Levitate
-	30 Reach Stardom
-	30 Winding Waves
-	30 Crystalline Starlighter
-	30 Spotlight Summoner
-	30 Soul Snatcher
-	30 March of the False King
-	30 Play Dead
-	30 Banehound
-	30 Backstage Saboteur
-	30 Fear Rider
-	30 Villainous Thespian
-	30 Sonic Songmasters
-	30 Tragic Offering
-	30 Break a Leg
-	30 Inspiration Theft
-	30 False Slash
-	30 Unseen Terror
-	30 Socialite's Demise
-	30 Gatherer of Doubt
-	30 Nocturnal Socialite
-	30 Cruel Celebrity
-	30 Doombringer Falsehorn
-	30 Crowd's Favor
-	30 Stagelighter
-	30 Torchlight Orator
-	30 Thundering Storyteller
-	30 Recreant Performer
-	30 Lantern Dancer
-	30 Audience Participation
-	30 Burning Ferocity
-	30 Reach for Inspiration
-	30 Threatening Distraction
-	30 Shock the Crowd
-	30 Daring Lead
-	30 Final Act Flamecaster
-	30 Hopeless Romantic
-	30 Roaring Spotlight
-	30 Searing Attention
-	30 Lunar Dancer
-	30 Arachnid Actor
-	30 Versatile Stand-In
-	30 Solitary Performance
-	30 Reincarnation Dance
-	30 Plummet
-	30 Revitalizing Melody
-	30 Wild Songmaster
-	30 Autumn Observer
-	30 Galloping Aristocrat
-	30 Cold Chorister
-	30 Secret Gathering
-	30 Silent Ambush
-	30 Masked Warrior
-	30 Wandering Elderwood
-	30 Harmonizing Diva
-	30 Opera Gargoyle
-	30 Mystical Program
-	30 Backstage Curtain
-	30 Living Statue
-	30 Fearful Fiddler
-	30 Sword of Revealing Light
-	30 Evolving Wilds
-	30 Fiddling Fiend
-	30 Blooming Elderwood
-	30 It Takes Two
-	30 Amateur Auteur
-[performance(1)]
-	1 Rebirth of the Guildpact
-	2 The Wanderer's Journey
-	2 Lost Again
-	2 March of the Dreadhorde
-	2 Theft of the Tyrite Sword
-	2 Ruination of Zendikar
-	9 Mutations of Ikoria
-	9 Return of the Dragonlords
-	9 The Promised End
-	9 The Royal Transmutation
-	9 Lockdown at the Inventor's Fair
-	30 Garruk's Curse
-	30 The Crimson Vow
-	30 The Harvesttide Festival
-	30 Investigation on Innistrad
-	30 Xenagos Rises to Godhood
-	30 The Trials of Amonkhet
-	30 Search for the Maze's End
-	30 Rise of the False King
-	30 Phyrexian Invasion
-	30 Teferi's Reascension
+	5 Inspiring Daredevil
+	5 Forest Runner
+	5 Prancing Piper
+	5 Inspiration Seeker
+	5 Upbeat Lightdancer
+	5 Fleeting Songbird
+	5 Angelo, the Serenader
+	5 Starstruck Songmaster
+	5 Lovestruck Clairovoyant
+	5 Opening Night
+	5 Multiverse Opera
+	5 Otherworldly Composition
+	5 Lockdown at the Inventor's Fair
+	5 Stunning Entrance
+	5 Faerie Prankster
+	5 Fear Rallier
+	5 Frost Seer
+	5 Terror Toad
+	5 Mask Maker
+	5 Masked Deflector
+	5 Apprentice Clairovoyant
+	5 Collective Cancel
+	5 The Royal Transmutation
+	5 Convincing Performance
+	5 Award Ceremony
+	5 Heartbreaking Trick
+	5 Puppeteering Act
+	5 Dancing Demon
+	5 Undying Actor
+	5 Winged Dread
+	5 Deadly Serenader
+	5 Ashiok's Creeper
+	5 Planned End
+	5 The Promised End
+	5 Rosa, the Romantic
+	5 Shredding Soloist
+	5 Landscape Elemental
+	5 Charming Hero
+	5 Firewhip Magician
+	5 Passionate Performance
+	5 Inspired Ritual
+	5 Warming Up
+	5 Song of Storms
+	5 Return of the Dragonlords
+	5 Grizzly Dancer
+	5 Socialite's Advice
+	5 Treetop Gremlins
+	5 Cursed Elderwood
+	5 Soundshrouded Harpist
+	5 Rescue From Tragedy
+	5 Masked Elf
+	5 Walking Shelter
+	5 Manor Maiden
+	5 Method Actor
+	5 Mutations of Ikoria
+	5 Interplanar Seer
+	5 Sap Strength
+	5 Final Bow
+	5 Musical Instructor
+	5 Embodiment of Duality
+	5 Fluttering Lights
+	5 Unwelcome Presence
+	5 Blade Dancer
+	5 Masked Mistweaver
+	5 Secret Script
+	5 Mind Read
+	5 Contemplative Dead
+	5 Fleeting Queen
+	5 Bold Stuntman
+	5 Violent Inferno
+	5 Dance Preparation
+	5 Stage Scaffolding
+	5 Shifting Mask
+	5 Costumed Mannequin
+	5 World Lens
+	5 Protagonist's Pet
+	5 Silent Statue
+	5 Dance Channeler
+	5 Darkwood Manor
+	5 Crystalline Cave
+	5 Festival Plaza
+	5 Lively Stage
+	5 Changing Room
+	5 Burning Theater
+	5 Romantic Rendezvous
+	5 Diviner's Study
+	5 Opera of Horrors
+	5 Spectral Ballroom
+	5 Enchanting Song
+	5 Masked Lifeblade
+	5 Otherworldly Visions
+[common(10)]
+	5 Masked Seer
+	5 Songwriter Protector
+	5 Warrior Poet
+	5 Goldblaze Savior
+	5 Festival Dance
+	5 From the Storybooks
+	5 Glide Gifter
+	5 Songsqueaker
+	5 Daring Trapezist
+	5 Decorated Dancer
+	5 Keeper of Tradition
+	5 Lightfin
+	5 Brilliant Retribution
+	5 Moonlight Violinist
+	5 Sorrowful Gaze
+	5 Phyrexian Invasion
+	5 Teferi's Reascension
+	5 False Strength
+	5 Search Beyond Eternity
+	5 Mothsquerade
+	5 Chilling Performer
+	5 Weaver of Reality
+	5 Script Thief
+	5 False Lorekeeper
+	5 Airborne Fear
+	5 Haunting Heckling
+	5 Shattering Silence
+	5 Stagefright
+	5 Levitate
+	5 Reach Stardom
+	5 Winding Waves
+	5 Crystalline Starlighter
+	5 Spotlight Summoner
+	5 Soul Snatcher
+	5 Search for the Maze's End
+	5 Rise of the False King
+	5 Play Dead
+	5 Banehound
+	5 Backstage Saboteur
+	5 Fear Rider
+	5 Villainous Thespian
+	5 March of the False King
+	5 Sonic Songmasters
+	5 Tragic Offering
+	5 Break a Leg
+	5 Inspiration Theft
+	5 False Slash
+	5 Unseen Terror
+	5 Socialite's Demise
+	5 Gatherer of Doubt
+	5 Nocturnal Socialite
+	5 Cruel Celebrity
+	5 Doombringer Falsehorn
+	5 Garruk's Curse
+	5 The Crimson Vow
+	5 Crowd's Favor
+	5 Stagelighter
+	5 Torchlight Orator
+	5 Thundering Storyteller
+	5 Recreant Performer
+	5 Lantern Dancer
+	5 Audience Participation
+	5 Burning Ferocity
+	5 Reach for Inspiration
+	5 Threatening Distraction
+	5 Shock the Crowd
+	5 Daring Lead
+	5 Final Act Flamecaster
+	5 Hopeless Romantic
+	5 Roaring Spotlight
+	5 Searing Attention
+	5 Xenagos Rises to Godhood
+	5 The Trials of Amonkhet
+	5 Lunar Dancer
+	5 Arachnid Actor
+	5 Versatile Stand-In
+	5 Solitary Performance
+	5 Reincarnation Dance
+	5 Plummet
+	5 Revitalizing Melody
+	5 Wild Songmaster
+	5 Autumn Observer
+	5 Galloping Aristocrat
+	5 Cold Chorister
+	5 Secret Gathering
+	5 Silent Ambush
+	5 Masked Warrior
+	5 Wandering Elderwood
+	5 Harmonizing Diva
+	5 The Harvesttide Festival
+	5 Investigation on Innistrad
+	5 Opera Gargoyle
+	5 Mystical Program
+	5 Backstage Curtain
+	5 Living Statue
+	5 Fearful Fiddler
+	5 Sword of Revealing Light
+	5 Evolving Wilds
+	5 Fiddling Fiend
+	5 Blooming Elderwood
+	5 It Takes Two
+	5 Amateur Auteur

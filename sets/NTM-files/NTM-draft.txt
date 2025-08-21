@@ -1,0 +1,2972 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Tibarro, Loan Shark",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Planeswalker — Tibarro",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/236_Tibarro, Loan Shark.png"
+			}
+		},
+		{
+			"name": "Dreaming Mystic",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Merfolk Cleric",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/12_Dreaming Mystic.png"
+			}
+		},
+		{
+			"name": "Fluttering Finwing",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Fish",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/16_Fluttering Finwing.png"
+			}
+		},
+		{
+			"name": "Coral Reef Knight",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Merfolk Knight",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/10_Coral Reef Knight.png"
+			}
+		},
+		{
+			"name": "Marked Sailor",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/20_Marked Sailor.png"
+			}
+		},
+		{
+			"name": "Voyaging Deckhand",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/40_Voyaging Deckhand.png"
+			}
+		},
+		{
+			"name": "Deepwater Defender",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Merfolk Soldier",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/11_Deepwater Defender.png"
+			}
+		},
+		{
+			"name": "Stormdrake Rider",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Merfolk Soldier",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/36_Stormdrake Rider.png"
+			}
+		},
+		{
+			"name": "Wielder of Currents",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/41_Wielder of Currents.png"
+			}
+		},
+		{
+			"name": "Sea Horse",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Horse Fish",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/29_Sea Horse.png"
+			}
+		},
+		{
+			"name": "Shellmount Cavalry",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Merfolk Soldier",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/30_Shellmount Cavalry.png"
+			}
+		},
+		{
+			"name": "Behemoth Hunter",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/5_Behemoth Hunter.png"
+			}
+		},
+		{
+			"name": "Sea Dogs",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Dog Fish",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/28_Sea Dogs.png"
+			}
+		},
+		{
+			"name": "Soldier's Trident",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/34_Soldier's Trident.png"
+			}
+		},
+		{
+			"name": "Swim as One",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/37_Swim as One.png"
+			}
+		},
+		{
+			"name": "Reclaiming Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/26_Reclaiming Strike.png"
+			}
+		},
+		{
+			"name": "Back to Back",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/4_Back to Back.png"
+			}
+		},
+		{
+			"name": "Peaceful Trance",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/25_Peaceful Trance.png"
+			}
+		},
+		{
+			"name": "Anchor of the Heavens",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/1_Anchor of the Heavens.png"
+			}
+		},
+		{
+			"name": "Cleansing Light",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/8_Cleansing Light.png"
+			}
+		},
+		{
+			"name": "Elusive Droplet",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Elemental",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/52_Elusive Droplet.png"
+			}
+		},
+		{
+			"name": "Razor-Shell Bruiser",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Crab Warrior",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/69_Razor-Shell Bruiser.png"
+			}
+		},
+		{
+			"name": "Sail-Line Ambusher",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Merfolk Pirate",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/73_Sail-Line Ambusher.png"
+			}
+		},
+		{
+			"name": "Current Breaker's Icebird",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Elemental Bird",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/49_Current Breaker's Icebird.png"
+			}
+		},
+		{
+			"name": "Finned Dockhand",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Pirate",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/55_Finned Dockhand.png"
+			}
+		},
+		{
+			"name": "Coral Reef Cutthroat",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Merfolk Rogue",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/48_Coral Reef Cutthroat.png"
+			}
+		},
+		{
+			"name": "Drowned Crew",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/50_Drowned Crew.png"
+			}
+		},
+		{
+			"name": "Captain's Drake",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Drake",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/45_Captain's Drake.png"
+			}
+		},
+		{
+			"name": "Tidal Terror",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Elemental Horror",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/76_Tidal Terror.png"
+			}
+		},
+		{
+			"name": "Coral Coating",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/47_Coral Coating.png"
+			}
+		},
+		{
+			"name": "Navigate",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/67_Navigate.png"
+			}
+		},
+		{
+			"name": "Surge of Knowledge",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/74_Surge of Knowledge.png"
+			}
+		},
+		{
+			"name": "Freeze Over",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/57_Freeze Over.png"
+			}
+		},
+		{
+			"name": "Pull into the Depths",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/68_Pull into the Depths.png"
+			}
+		},
+		{
+			"name": "Reality Dam",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/70_Reality Dam.png"
+			}
+		},
+		{
+			"name": "Gone Fishing",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/61_Gone Fishing.png"
+			}
+		},
+		{
+			"name": "Lurk in the Deep",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/65_Lurk in the Deep.png"
+			}
+		},
+		{
+			"name": "Bubble Barrier",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/44_Bubble Barrier.png"
+			}
+		},
+		{
+			"name": "Drowning Frost",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/51_Drowning Frost.png"
+			}
+		},
+		{
+			"name": "Rotblade Assailant",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/115_Rotblade Assailant.png"
+			}
+		},
+		{
+			"name": "Blooodwater Predator",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Merfolk",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/85_Blooodwater Predator.png"
+			}
+		},
+		{
+			"name": "Darktide Angler",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Merfolk Warlock",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/89_Darktide Angler.png"
+			}
+		},
+		{
+			"name": "Hoarding Parrot",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Bird",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/101_Hoarding Parrot.png"
+			}
+		},
+		{
+			"name": "Luminescent Familiar",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Fish",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/104_Luminescent Familiar.png"
+			}
+		},
+		{
+			"name": "Possessed Plunderer",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/109_Possessed Plunderer.png"
+			}
+		},
+		{
+			"name": "Gloomshore Scuttler",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Nightmare Crab",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/97_Gloomshore Scuttler.png"
+			}
+		},
+		{
+			"name": "Rattlebones Marauder",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/111_Rattlebones Marauder.png"
+			}
+		},
+		{
+			"name": "Grim Hunters",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/99_Grim Hunters.png"
+			}
+		},
+		{
+			"name": "Bleakshimmer Leviathan",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Leviathan",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/84_Bleakshimmer Leviathan.png"
+			}
+		},
+		{
+			"name": "Surge of Vengeance",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/118_Surge of Vengeance.png"
+			}
+		},
+		{
+			"name": "Deepwater Rebirth",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/91_Deepwater Rebirth.png"
+			}
+		},
+		{
+			"name": "Silent Takedown",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/117_Silent Takedown.png"
+			}
+		},
+		{
+			"name": "Terrifying Vision",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/120_Terrifying Vision.png"
+			}
+		},
+		{
+			"name": "Mind Tear",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/106_Mind Tear.png"
+			}
+		},
+		{
+			"name": "End of the Line",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/94_End of the Line.png"
+			}
+		},
+		{
+			"name": "Midnight Raid",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/105_Midnight Raid.png"
+			}
+		},
+		{
+			"name": "Recruit the Drowned",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/113_Recruit the Drowned.png"
+			}
+		},
+		{
+			"name": "Overwhelming Rot",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Instant",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/108_Overwhelming Rot.png"
+			}
+		},
+		{
+			"name": "Wave Ripper",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Shark",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/163_Wave Ripper.png"
+			}
+		},
+		{
+			"name": "Finned Raider",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Merfolk Pirate",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/134_Finned Raider.png"
+			}
+		},
+		{
+			"name": "Greedy Plunderer",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elf Pirate",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/138_Greedy Plunderer.png"
+			}
+		},
+		{
+			"name": "Ripjaw Bruiser",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Shark Warrior",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/153_Ripjaw Bruiser.png"
+			}
+		},
+		{
+			"name": "Dockside Charger",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Shark Pirate",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/125_Dockside Charger.png"
+			}
+		},
+		{
+			"name": "Lurking Bloodfin",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Shark",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/145_Lurking Bloodfin.png"
+			}
+		},
+		{
+			"name": "Finfeather Adventurer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Azra Pirate",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/132_Finfeather Adventurer.png"
+			}
+		},
+		{
+			"name": "Great Snapjaw",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Crocodile",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/137_Great Snapjaw.png"
+			}
+		},
+		{
+			"name": "Shellclaw Supplier",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Crab Warrior",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/155_Shellclaw Supplier.png"
+			}
+		},
+		{
+			"name": "Hellrim Guardian",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Hellion Serpent",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/139_Hellrim Guardian.png"
+			}
+		},
+		{
+			"name": "Magmatic Crash",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/147_Magmatic Crash.png"
+			}
+		},
+		{
+			"name": "Spitfire",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/158_Spitfire.png"
+			}
+		},
+		{
+			"name": "Threatening Ransom",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/162_Threatening Ransom.png"
+			}
+		},
+		{
+			"name": "Molten Blades",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/148_Molten Blades.png"
+			}
+		},
+		{
+			"name": "Chance of Fate",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/122_Chance of Fate.png"
+			}
+		},
+		{
+			"name": "Down With the Ship",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/127_Down With the Ship.png"
+			}
+		},
+		{
+			"name": "Shargon Spawning",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/154_Shargon Spawning.png"
+			}
+		},
+		{
+			"name": "Dockside Frenzy",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/126_Dockside Frenzy.png"
+			}
+		},
+		{
+			"name": "Hydrobreath",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Instant",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/143_Hydrobreath.png"
+			}
+		},
+		{
+			"name": "Toxic Jellyfish",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Jellyfish",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/203_Toxic Jellyfish.png"
+			}
+		},
+		{
+			"name": "Chromashell Druid",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Merfolk Druid",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/169_Chromashell Druid.png"
+			}
+		},
+		{
+			"name": "Fincaller",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Merfolk Druid",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/178_Fincaller.png"
+			}
+		},
+		{
+			"name": "Deepwater Scrounger",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Kraken",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/175_Deepwater Scrounger.png"
+			}
+		},
+		{
+			"name": "Hidden Huntress",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Merfolk Warrior",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/180_Hidden Huntress.png"
+			}
+		},
+		{
+			"name": "Predator of the Depths",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Lobster Kraken",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/193_Predator of the Depths.png"
+			}
+		},
+		{
+			"name": "Axolotl Tamer",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Merfolk Druid",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/166_Axolotl Tamer.png"
+			}
+		},
+		{
+			"name": "Mountainous Coiler",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Serpent",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/191_Mountainous Coiler.png"
+			}
+		},
+		{
+			"name": "Crustacean Enforcer",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Lobster Soldier",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/173_Crustacean Enforcer.png"
+			}
+		},
+		{
+			"name": "Legion Breaker",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Serpent",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/183_Legion Breaker.png"
+			}
+		},
+		{
+			"name": "Deepsea Leviathan",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Leviathan",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/174_Deepsea Leviathan.png"
+			}
+		},
+		{
+			"name": "Flourishing Life",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/179_Flourishing Life.png"
+			}
+		},
+		{
+			"name": "Seabound",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/196_Seabound.png"
+			}
+		},
+		{
+			"name": "Always a Bigger Fish",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/164_Always a Bigger Fish.png"
+			}
+		},
+		{
+			"name": "Surge of Power",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/199_Surge of Power.png"
+			}
+		},
+		{
+			"name": "Tossed into the Ocean",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/202_Tossed into the Ocean.png"
+			}
+		},
+		{
+			"name": "Unknown Discovery",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/204_Unknown Discovery.png"
+			}
+		},
+		{
+			"name": "Cloud the Waters",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/170_Cloud the Waters.png"
+			}
+		},
+		{
+			"name": "Luminescent Camoflage",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/186_Luminescent Camoflage.png"
+			}
+		},
+		{
+			"name": "Constricting Gloomfin",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Fish",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/9_Constricting Gloomfin.png"
+			}
+		},
+		{
+			"name": "Siltanta Wayfinder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Merfolk Scout",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/33_Siltanta Wayfinder.png"
+			}
+		},
+		{
+			"name": "Siltanta Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Merfolk Soldier",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/31_Siltanta Guardian.png"
+			}
+		},
+		{
+			"name": "Inspiring Lyrist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Merfolk Bard",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/18_Inspiring Lyrist.png"
+			}
+		},
+		{
+			"name": "Twinblade Deckguard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/38_Twinblade Deckguard.png"
+			}
+		},
+		{
+			"name": "Aven Songmaster",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Bard",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/3_Aven Songmaster.png"
+			}
+		},
+		{
+			"name": "Vibrant Axolotl",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Salamander",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/39_Vibrant Axolotl.png"
+			}
+		},
+		{
+			"name": "Fleeting Apparition",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/15_Fleeting Apparition.png"
+			}
+		},
+		{
+			"name": "Evacuate the Ship",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/13_Evacuate the Ship.png"
+			}
+		},
+		{
+			"name": "Spectral Overwhelm",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/35_Spectral Overwhelm.png"
+			}
+		},
+		{
+			"name": "Scale of Balance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/27_Scale of Balance.png"
+			}
+		},
+		{
+			"name": "Tiny Swarmfish",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Fish",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/77_Tiny Swarmfish.png"
+			}
+		},
+		{
+			"name": "Ghostblade Deckhand",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/60_Ghostblade Deckhand.png"
+			}
+		},
+		{
+			"name": "Witch of the Depths",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/81_Witch of the Depths.png"
+			}
+		},
+		{
+			"name": "Casting Corsair",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Zombie Pirate Wizard",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/46_Casting Corsair.png"
+			}
+		},
+		{
+			"name": "Gemback Turtle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Turtle",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/58_Gemback Turtle.png"
+			}
+		},
+		{
+			"name": "Longbeak",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/64_Longbeak.png"
+			}
+		},
+		{
+			"name": "Restless Raider",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/72_Restless Raider.png"
+			}
+		},
+		{
+			"name": "Swift Negation",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/75_Swift Negation.png"
+			}
+		},
+		{
+			"name": "Research the Ruins",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/71_Research the Ruins.png"
+			}
+		},
+		{
+			"name": "Tricky Transformation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/78_Tricky Transformation.png"
+			}
+		},
+		{
+			"name": "Lingering Influence",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/62_Lingering Influence.png"
+			}
+		},
+		{
+			"name": "Rattlebones Raider",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/112_Rattlebones Raider.png"
+			}
+		},
+		{
+			"name": "Giant Bloodsucker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Bat",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/96_Giant Bloodsucker.png"
+			}
+		},
+		{
+			"name": "Returned Predator",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Shark",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/114_Returned Predator.png"
+			}
+		},
+		{
+			"name": "Ghastly Ripjaw",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Fish",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/95_Ghastly Ripjaw.png"
+			}
+		},
+		{
+			"name": "Wandering Vampire",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/121_Wandering Vampire.png"
+			}
+		},
+		{
+			"name": "Abyss Sage",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Cephalid Warlock",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/82_Abyss Sage.png"
+			}
+		},
+		{
+			"name": "Deeplight Oracle",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Merfolk Warlock",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/90_Deeplight Oracle.png"
+			}
+		},
+		{
+			"name": "Dark Glare",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/88_Dark Glare.png"
+			}
+		},
+		{
+			"name": "Dread Plunder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/92_Dread Plunder.png"
+			}
+		},
+		{
+			"name": "Grave Strength",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/98_Grave Strength.png"
+			}
+		},
+		{
+			"name": "Chilling Presence",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/86_Chilling Presence.png"
+			}
+		},
+		{
+			"name": "Magma Frog",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Elemental Frog",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/146_Magma Frog.png"
+			}
+		},
+		{
+			"name": "Mysterious Merchant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Merfolk Pirate",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/149_Mysterious Merchant.png"
+			}
+		},
+		{
+			"name": "Plundering Blademaster",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/150_Plundering Blademaster.png"
+			}
+		},
+		{
+			"name": "Finned Mercenary",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Merfolk Pirate",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/133_Finned Mercenary.png"
+			}
+		},
+		{
+			"name": "Shipwreck Cutthroat",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Merfolk Rogue",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/156_Shipwreck Cutthroat.png"
+			}
+		},
+		{
+			"name": "Relaxed Quickshot",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/151_Relaxed Quickshot.png"
+			}
+		},
+		{
+			"name": "Enraged Dragonhorse",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Dragon Serpent",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/130_Enraged Dragonhorse.png"
+			}
+		},
+		{
+			"name": "Daggers in the Deep",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/123_Daggers in the Deep.png"
+			}
+		},
+		{
+			"name": "Frenzied Strike",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/135_Frenzied Strike.png"
+			}
+		},
+		{
+			"name": "Relentless Impulse",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/152_Relentless Impulse.png"
+			}
+		},
+		{
+			"name": "Dreadmaw Ship",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Kindred Artifact — Vehicle Leviathan",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/129_Dreadmaw Ship.png"
+			}
+		},
+		{
+			"name": "Eyeless Lobster",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Lobster",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/177_Eyeless Lobster.png"
+			}
+		},
+		{
+			"name": "Luminescent Vanguard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Jellyfish Soldier",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/188_Luminescent Vanguard.png"
+			}
+		},
+		{
+			"name": "Depths Scavenger",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Merfolk Scout",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/176_Depths Scavenger.png"
+			}
+		},
+		{
+			"name": "Colossal Crab",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Crab",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/171_Colossal Crab.png"
+			}
+		},
+		{
+			"name": "Kraken Fledgling",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Kraken",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/182_Kraken Fledgling.png"
+			}
+		},
+		{
+			"name": "Augur of the Deep",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Merfolk Druid",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/165_Augur of the Deep.png"
+			}
+		},
+		{
+			"name": "Siltanta Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Merfolk Soldier",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/197_Siltanta Hunter.png"
+			}
+		},
+		{
+			"name": "Titanic Scourge",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Creature — Kraken",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/201_Titanic Scourge.png"
+			}
+		},
+		{
+			"name": "Protection of the Deep",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/194_Protection of the Deep.png"
+			}
+		},
+		{
+			"name": "Luminescent Journey",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/187_Luminescent Journey.png"
+			}
+		},
+		{
+			"name": "Binding Tentacles",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/167_Binding Tentacles.png"
+			}
+		},
+		{
+			"name": "Jarset, Siltanta King",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Merfolk Noble",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/19_Jarset, Siltanta King.png"
+			}
+		},
+		{
+			"name": "Aven Shantysinger",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Bird Bard",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/2_Aven Shantysinger.png"
+			}
+		},
+		{
+			"name": "Siltanta Noble",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Merfolk Noble",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/32_Siltanta Noble.png"
+			}
+		},
+		{
+			"name": "Mounted Currentrider",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Merfolk Cleric",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/23_Mounted Currentrider.png"
+			}
+		},
+		{
+			"name": "Pawed Plunderer",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Cat Pirate",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/24_Pawed Plunderer.png"
+			}
+		},
+		{
+			"name": "Bubble Prison",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/7_Bubble Prison.png"
+			}
+		},
+		{
+			"name": "Mutated Angler",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Fish Mutant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/66_Mutated Angler.png"
+			}
+		},
+		{
+			"name": "Liri, the Current Breaker",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Faerie Wizard",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/63_Liri, the Current Breaker.png"
+			}
+		},
+		{
+			"name": "Entomed Buccaneer",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/53_Entomed Buccaneer.png"
+			}
+		},
+		{
+			"name": "Faithful Recall",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/54_Faithful Recall.png"
+			}
+		},
+		{
+			"name": "Unyielding Wave",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Enchantment",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/79_Unyielding Wave.png"
+			}
+		},
+		{
+			"name": "Battle of Riches",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/43_Battle of Riches.png"
+			}
+		},
+		{
+			"name": "Rattlebones Giant",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/110_Rattlebones Giant.png"
+			}
+		},
+		{
+			"name": "Grim Robber",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Pirate",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/100_Grim Robber.png"
+			}
+		},
+		{
+			"name": "Tatters, Terrifying Imitator",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Artifact Creature — Scarecrow",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/119_Tatters, Terrifying Imitator.png"
+			}
+		},
+		{
+			"name": "Dark Drain",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}{B}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/87_Dark Drain.png"
+			}
+		},
+		{
+			"name": "Icalidar's Eye",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Artifact",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/102_Icalidar's Eye.png"
+			}
+		},
+		{
+			"name": "Rotschool Feast",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/116_Rotschool Feast.png"
+			}
+		},
+		{
+			"name": "Kraken Breaker",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/144_Kraken Breaker.png"
+			}
+		},
+		{
+			"name": "Dreadeye, Merciless Captain",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Human Pirate",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/128_Dreadeye, Merciless Captain.png"
+			}
+		},
+		{
+			"name": "Hellrim Phoenix",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Phoenix",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/141_Hellrim Phoenix.png"
+			}
+		},
+		{
+			"name": "Grab Crab",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Crab",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/136_Grab Crab.png"
+			}
+		},
+		{
+			"name": "Hellrim Moltenwing",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon Elemental",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/140_Hellrim Moltenwing.png"
+			}
+		},
+		{
+			"name": "Supply Line",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Enchantment",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/159_Supply Line.png"
+			}
+		},
+		{
+			"name": "Corselle, Devotee of Despair",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Legendary Creature — Merfolk Warlock",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/172_Corselle, Devotee of Despair.png"
+			}
+		},
+		{
+			"name": "Nerotomean Hydra",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}",
+			"type": "Creature — Leviathan Hydra",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/192_Nerotomean Hydra.png"
+			}
+		},
+		{
+			"name": "Leyglobe Researcher",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Merfolk Druid",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/185_Leyglobe Researcher.png"
+			}
+		},
+		{
+			"name": "Bubblefish",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Fish",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/168_Bubblefish.png"
+			}
+		},
+		{
+			"name": "Leviathan of Paradise",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Leviathan",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/184_Leviathan of Paradise.png"
+			}
+		},
+		{
+			"name": "Icalidar's Awakening",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/181_Icalidar's Awakening.png"
+			}
+		},
+		{
+			"name": "Tidewing Drake",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Drake",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/237_Tidewing Drake.png"
+			}
+		},
+		{
+			"name": "Drowned First Mate",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — Zombie Spirit Pirate",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/214_Drowned First Mate.png"
+			}
+		},
+		{
+			"name": "Deepwater Behemoth",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{G}",
+			"type": "Creature — Kraken",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/212_Deepwater Behemoth.png"
+			}
+		},
+		{
+			"name": "Coral Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Creature — Dragon",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/210_Coral Dragon.png"
+			}
+		},
+		{
+			"name": "Grave Marking",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/216_Grave Marking.png"
+			}
+		},
+		{
+			"name": "Ghostblade Quartermaster",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Pirate Wizard",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/215_Ghostblade Quartermaster.png"
+			}
+		},
+		{
+			"name": "Shipbreaker Serpent",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Creature — Serpent",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/232_Shipbreaker Serpent.png"
+			}
+		},
+		{
+			"name": "Merchant Sailor",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{W}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/226_Merchant Sailor.png"
+			}
+		},
+		{
+			"name": "Colossal Lobster",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Creature — Lobster",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/209_Colossal Lobster.png"
+			}
+		},
+		{
+			"name": "Shifting Shores",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/231_Shifting Shores.png"
+			}
+		},
+		{
+			"name": "Ruby, Spectral Captain",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Legendary Creature — Zombie Spirit Pirate",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/230_Ruby, Spectral Captain.png"
+			}
+		},
+		{
+			"name": "Cruel Reversal",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Instant",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/211_Cruel Reversal.png"
+			}
+		},
+		{
+			"name": "Irontooth Beckoner",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Shark Berserker",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/221_Irontooth Beckoner.png"
+			}
+		},
+		{
+			"name": "Replicating Seaweed",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Elemental Plant",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/229_Replicating Seaweed.png"
+			}
+		},
+		{
+			"name": "Adella, Branded by Death",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Human Warlock Pirate",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/205_Adella, Branded by Death.png"
+			}
+		},
+		{
+			"name": "Artes, Mechanical Maniac",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Artifact Creature — Turtle Pirate",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/206_Artes, Mechanical Maniac.png"
+			}
+		},
+		{
+			"name": "Titanic Emergence",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/238_Titanic Emergence.png"
+			}
+		},
+		{
+			"name": "Investigator Anna",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/220_Investigator Anna.png"
+			}
+		},
+		{
+			"name": "Syza, Light of the Abyss",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Jellyfish",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/234_Syza, Light of the Abyss.png"
+			}
+		},
+		{
+			"name": "Kella, Crashing Tide",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Merfolk Wizard",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/222_Kella, Crashing Tide.png"
+			}
+		},
+		{
+			"name": "Into the Maw of the Abyss",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/219_Into the Maw of the Abyss.png"
+			}
+		},
+		{
+			"name": "Imelia, Moon's Blade",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Human Pirate",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/218_Imelia, Moon's Blade.png"
+			}
+		},
+		{
+			"name": "Krotysh, the Final Wave",
+			"rarity": "rare",
+			"mana_cost": "{6}{R}{G}",
+			"type": "Legendary Creature — Kraken",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/223_Krotysh, the Final Wave.png"
+			}
+		},
+		{
+			"name": "The Lobster Queen",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Lobster Noble",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/224_The Lobster Queen.png"
+			}
+		},
+		{
+			"name": "Spectral Tattoos",
+			"rarity": "rare",
+			"mana_cost": "{W/B}",
+			"type": "Sorcery",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/240_Spectral Tattoos.png"
+			}
+		},
+		{
+			"name": "Baffling Buccaneer",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Pirate Wizard",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/207_Baffling Buccaneer.png"
+			}
+		},
+		{
+			"name": "Xila, Nightmarish Evolution",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Mutant Kraken Horror",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/239_Xila, Nightmarish Evolution.png"
+			}
+		},
+		{
+			"name": "Dockside Ambush",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/213_Dockside Ambush.png"
+			}
+		},
+		{
+			"name": "Magus of the Rising Tide",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/225_Magus of the Rising Tide.png"
+			}
+		},
+		{
+			"name": "Master Duelist",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/21_Master Duelist.png"
+			}
+		},
+		{
+			"name": "Guardian of Paradise",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Merfolk",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/17_Guardian of Paradise.png"
+			}
+		},
+		{
+			"name": "Board the Docks",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/6_Board the Docks.png"
+			}
+		},
+		{
+			"name": "Whirling Current",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/80_Whirling Current.png"
+			}
+		},
+		{
+			"name": "Looming Wave",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Sorcery",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/103_Looming Wave.png"
+			}
+		},
+		{
+			"name": "Hunting Party",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/142_Hunting Party.png"
+			}
+		},
+		{
+			"name": "Monstrous Rebirth",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/190_Monstrous Rebirth.png"
+			}
+		},
+		{
+			"name": "Morning Flock",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/22_Morning Flock.png"
+			}
+		},
+		{
+			"name": "Allure of the Deep",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/42_Allure of the Deep.png"
+			}
+		},
+		{
+			"name": "Anguished Revelation",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/83_Anguished Revelation.png"
+			}
+		},
+		{
+			"name": "Devastating Whirlpool",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/124_Devastating Whirlpool.png"
+			}
+		},
+		{
+			"name": "Surprising Strike",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/200_Surprising Strike.png"
+			}
+		},
+		{
+			"name": "Fishing Season",
+			"rarity": "mythic",
+			"mana_cost": "{6}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/14_Fishing Season.png"
+			}
+		},
+		{
+			"name": "Finnoa, Bejeweled",
+			"rarity": "mythic",
+			"mana_cost": "{U}",
+			"type": "Legendary Creature — Fish",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/56_Finnoa, Bejeweled.png"
+			}
+		},
+		{
+			"name": "Ghastly Reflection",
+			"rarity": "mythic",
+			"mana_cost": "{7}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/59_Ghastly Reflection.png"
+			}
+		},
+		{
+			"name": "Niro, Drowned Scholar",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Zombie Wizard",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/107_Niro, Drowned Scholar.png"
+			}
+		},
+		{
+			"name": "Drowned Hope",
+			"rarity": "mythic",
+			"mana_cost": "{6}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/93_Drowned Hope.png"
+			}
+		},
+		{
+			"name": "Supply Scavenger",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Pirate",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/160_Supply Scavenger.png"
+			}
+		},
+		{
+			"name": "Erupting Impulse",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/131_Erupting Impulse.png"
+			}
+		},
+		{
+			"name": "Tempestuous Wrath",
+			"rarity": "mythic",
+			"mana_cost": "{6}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/161_Tempestuous Wrath.png"
+			}
+		},
+		{
+			"name": "Snap-Speed Serpent",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Serpent",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/198_Snap-Speed Serpent.png"
+			}
+		},
+		{
+			"name": "Luring Light",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/189_Luring Light.png"
+			}
+		},
+		{
+			"name": "School Swarming",
+			"rarity": "mythic",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/195_School Swarming.png"
+			}
+		},
+		{
+			"name": "Sorin, Truth Seeker",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Planeswalker — Sorin",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/233_Sorin, Truth Seeker.png"
+			}
+		},
+		{
+			"name": "Claire, Returning Home",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Planeswalker — Claire",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/208_Claire, Returning Home.png"
+			}
+		},
+		{
+			"name": "Nyle, First to Drown",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Planeswalker — Nyle",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/228_Nyle, First to Drown.png"
+			}
+		},
+		{
+			"name": "Icalidar, Catalyst of Despair",
+			"rarity": "mythic",
+			"mana_cost": "{6}{B}{G}{U}",
+			"type": "Legendary Creature — Kraken God",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/217_Icalidar, Catalyst of Despair.png"
+			}
+		},
+		{
+			"name": "Tempestuous Dragon",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/235_Tempestuous Dragon.png"
+			}
+		},
+		{
+			"name": "Buccaneer Hook",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/241_Buccaneer Hook.png"
+			}
+		},
+		{
+			"name": "Charming Puzzle",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/242_Charming Puzzle.png"
+			}
+		},
+		{
+			"name": "Drop of Hope",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/243_Drop of Hope.png"
+			}
+		},
+		{
+			"name": "Gleaming Hoard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/248_Gleaming Hoard.png"
+			}
+		},
+		{
+			"name": "Scouting Glider",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/252_Scouting Glider.png"
+			}
+		},
+		{
+			"name": "Throwing Anchor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/253_Throwing Anchor.png"
+			}
+		},
+		{
+			"name": "Empowered Leyglobe",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/245_Empowered Leyglobe.png"
+			}
+		},
+		{
+			"name": "Explosive Idol",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/246_Explosive Idol.png"
+			}
+		},
+		{
+			"name": "Gleaming Golems",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Treasure Golem",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/247_Gleaming Golems.png"
+			}
+		},
+		{
+			"name": "Duskshrouded Flagship",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/244_Duskshrouded Flagship.png"
+			}
+		},
+		{
+			"name": "Golden Lobster",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Lobster",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/249_Golden Lobster.png"
+			}
+		},
+		{
+			"name": "Plundering Fleet",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/251_Plundering Fleet.png"
+			}
+		},
+		{
+			"name": "Maotrox, Nautical Juggernaut",
+			"rarity": "rare",
+			"mana_cost": "{6}",
+			"type": "Legendary Artifact Creature — Golem",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/250_Maotrox, Nautical Juggernaut.png"
+			}
+		},
+		{
+			"name": "Evolving Wilds",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/255_Evolving Wilds.png"
+			}
+		},
+		{
+			"name": "Siltanta Outskirts",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/261_Siltanta Outskirts.png"
+			}
+		},
+		{
+			"name": "Gloomy Rift",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/256_Gloomy Rift.png"
+			}
+		},
+		{
+			"name": "Plunder Storehouse",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/260_Plunder Storehouse.png"
+			}
+		},
+		{
+			"name": "Luminescent Garden",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/257_Luminescent Garden.png"
+			}
+		},
+		{
+			"name": "Sunny Port",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/263_Sunny Port.png"
+			}
+		},
+		{
+			"name": "Volcanic Temple",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/265_Volcanic Temple.png"
+			}
+		},
+		{
+			"name": "Ominous Temple",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/259_Ominous Temple.png"
+			}
+		},
+		{
+			"name": "Dockside Market",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/254_Dockside Market.png"
+			}
+		},
+		{
+			"name": "Undersea Cavern",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/264_Undersea Cavern.png"
+			}
+		},
+		{
+			"name": "Sunken Shipwreck",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/262_Sunken Shipwreck.png"
+			}
+		},
+		{
+			"name": "Mistrea, Sea of Simulation",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/258_Mistrea, Sea of Simulation.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/266_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/267_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/268_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/269_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/270_Forest.png"
+			}
+		},
+		{
+			"name": "Moonlit Ambush",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/227_Moonlit Ambush.png"
+			}
+		},
+		{
+			"name": "Simulated Supplies",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/NTM-files/img/157_Simulated Supplies.png"
+			}
+		}
+	]
+
+[rare(1)]
+	5 Tibarro, Loan Shark
+	5 Jarset, Siltanta King
+	5 Aven Shantysinger
+	5 Siltanta Noble
+	5 Mounted Currentrider
+	5 Pawed Plunderer
+	5 Bubble Prison
+	5 Mutated Angler
+	5 Liri, the Current Breaker
+	5 Entomed Buccaneer
+	5 Faithful Recall
+	5 Unyielding Wave
+	5 Battle of Riches
+	5 Rattlebones Giant
+	5 Grim Robber
+	5 Tatters, Terrifying Imitator
+	5 Dark Drain
+	5 Icalidar's Eye
+	5 Rotschool Feast
+	5 Kraken Breaker
+	5 Dreadeye, Merciless Captain
+	5 Hellrim Phoenix
+	5 Grab Crab
+	5 Hellrim Moltenwing
+	5 Supply Line
+	5 Corselle, Devotee of Despair
+	5 Nerotomean Hydra
+	5 Leyglobe Researcher
+	5 Bubblefish
+	5 Leviathan of Paradise
+	5 Icalidar's Awakening
+	5 Shifting Shores
+	5 Ruby, Spectral Captain
+	5 Cruel Reversal
+	5 Irontooth Beckoner
+	5 Replicating Seaweed
+	5 Adella, Branded by Death
+	5 Artes, Mechanical Maniac
+	5 Titanic Emergence
+	5 Investigator Anna
+	5 Syza, Light of the Abyss
+	5 Kella, Crashing Tide
+	5 Into the Maw of the Abyss
+	5 Imelia, Moon's Blade
+	5 Krotysh, the Final Wave
+	5 The Lobster Queen
+	5 Spectral Tattoos
+	5 Baffling Buccaneer
+	5 Xila, Nightmarish Evolution
+	5 Dockside Ambush
+	5 Magus of the Rising Tide
+	5 Master Duelist
+	5 Guardian of Paradise
+	5 Fishing Season
+	5 Finnoa, Bejeweled
+	5 Ghastly Reflection
+	5 Niro, Drowned Scholar
+	5 Drowned Hope
+	5 Supply Scavenger
+	5 Erupting Impulse
+	5 Tempestuous Wrath
+	5 Snap-Speed Serpent
+	5 Luring Light
+	5 School Swarming
+	5 Sorin, Truth Seeker
+	5 Claire, Returning Home
+	5 Nyle, First to Drown
+	5 Icalidar, Catalyst of Despair
+	5 Tempestuous Dragon
+	5 Drop of Hope
+	5 Explosive Idol
+	5 Maotrox, Nautical Juggernaut
+	5 Mistrea, Sea of Simulation
+[uncommon(3)]
+	5 Back to Back
+	5 Constricting Gloomfin
+	5 Siltanta Wayfinder
+	5 Siltanta Guardian
+	5 Inspiring Lyrist
+	5 Twinblade Deckguard
+	5 Aven Songmaster
+	5 Vibrant Axolotl
+	5 Fleeting Apparition
+	5 Evacuate the Ship
+	5 Spectral Overwhelm
+	5 Scale of Balance
+	5 Tiny Swarmfish
+	5 Ghostblade Deckhand
+	5 Witch of the Depths
+	5 Casting Corsair
+	5 Gemback Turtle
+	5 Longbeak
+	5 Restless Raider
+	5 Swift Negation
+	5 Research the Ruins
+	5 Tricky Transformation
+	5 Lingering Influence
+	5 Rattlebones Raider
+	5 Giant Bloodsucker
+	5 Returned Predator
+	5 Ghastly Ripjaw
+	5 Wandering Vampire
+	5 Abyss Sage
+	5 Deeplight Oracle
+	5 Dark Glare
+	5 Dread Plunder
+	5 Grave Strength
+	5 Chilling Presence
+	5 Magma Frog
+	5 Mysterious Merchant
+	5 Plundering Blademaster
+	5 Finned Mercenary
+	5 Shipwreck Cutthroat
+	5 Relaxed Quickshot
+	5 Enraged Dragonhorse
+	5 Daggers in the Deep
+	5 Frenzied Strike
+	5 Relentless Impulse
+	5 Dreadmaw Ship
+	5 Eyeless Lobster
+	5 Luminescent Vanguard
+	5 Depths Scavenger
+	5 Colossal Crab
+	5 Kraken Fledgling
+	5 Augur of the Deep
+	5 Siltanta Hunter
+	5 Titanic Scourge
+	5 Protection of the Deep
+	5 Luminescent Journey
+	5 Binding Tentacles
+	5 Tidewing Drake
+	5 Drowned First Mate
+	5 Deepwater Behemoth
+	5 Coral Dragon
+	5 Grave Marking
+	5 Ghostblade Quartermaster
+	5 Shipbreaker Serpent
+	5 Merchant Sailor
+	5 Colossal Lobster
+	5 Board the Docks
+	5 Whirling Current
+	5 Looming Wave
+	5 Hunting Party
+	5 Monstrous Rebirth
+	5 Allure of the Deep
+	5 Anguished Revelation
+	5 Devastating Whirlpool
+	5 Surprising Strike
+	5 Charming Puzzle
+	5 Gleaming Hoard
+	5 Throwing Anchor
+	5 Gleaming Golems
+	5 Plundering Fleet
+	5 Siltanta Outskirts
+	5 Gloomy Rift
+	5 Plunder Storehouse
+	5 Luminescent Garden
+	5 Sunny Port
+	5 Volcanic Temple
+	5 Ominous Temple
+	5 Dockside Market
+	5 Undersea Cavern
+	5 Sunken Shipwreck
+	5 Moonlit Ambush
+	5 Simulated Supplies
+[common(10)]
+	5 Dreaming Mystic
+	5 Fluttering Finwing
+	5 Coral Reef Knight
+	5 Marked Sailor
+	5 Voyaging Deckhand
+	5 Deepwater Defender
+	5 Stormdrake Rider
+	5 Wielder of Currents
+	5 Sea Horse
+	5 Shellmount Cavalry
+	5 Behemoth Hunter
+	5 Sea Dogs
+	5 Soldier's Trident
+	5 Swim as One
+	5 Reclaiming Strike
+	5 Peaceful Trance
+	5 Anchor of the Heavens
+	5 Cleansing Light
+	5 Elusive Droplet
+	5 Razor-Shell Bruiser
+	5 Sail-Line Ambusher
+	5 Current Breaker's Icebird
+	5 Finned Dockhand
+	5 Coral Reef Cutthroat
+	5 Drowned Crew
+	5 Captain's Drake
+	5 Tidal Terror
+	5 Coral Coating
+	5 Navigate
+	5 Surge of Knowledge
+	5 Freeze Over
+	5 Pull into the Depths
+	5 Reality Dam
+	5 Gone Fishing
+	5 Lurk in the Deep
+	5 Bubble Barrier
+	5 Drowning Frost
+	5 Rotblade Assailant
+	5 Blooodwater Predator
+	5 Darktide Angler
+	5 Hoarding Parrot
+	5 Luminescent Familiar
+	5 Possessed Plunderer
+	5 Gloomshore Scuttler
+	5 Rattlebones Marauder
+	5 Grim Hunters
+	5 Bleakshimmer Leviathan
+	5 Surge of Vengeance
+	5 Deepwater Rebirth
+	5 Silent Takedown
+	5 Terrifying Vision
+	5 Mind Tear
+	5 End of the Line
+	5 Midnight Raid
+	5 Recruit the Drowned
+	5 Overwhelming Rot
+	5 Wave Ripper
+	5 Finned Raider
+	5 Greedy Plunderer
+	5 Ripjaw Bruiser
+	5 Dockside Charger
+	5 Lurking Bloodfin
+	5 Finfeather Adventurer
+	5 Great Snapjaw
+	5 Shellclaw Supplier
+	5 Hellrim Guardian
+	5 Magmatic Crash
+	5 Spitfire
+	5 Threatening Ransom
+	5 Molten Blades
+	5 Chance of Fate
+	5 Down With the Ship
+	5 Shargon Spawning
+	5 Dockside Frenzy
+	5 Hydrobreath
+	5 Toxic Jellyfish
+	5 Chromashell Druid
+	5 Fincaller
+	5 Deepwater Scrounger
+	5 Hidden Huntress
+	5 Predator of the Depths
+	5 Axolotl Tamer
+	5 Mountainous Coiler
+	5 Crustacean Enforcer
+	5 Legion Breaker
+	5 Deepsea Leviathan
+	5 Flourishing Life
+	5 Seabound
+	5 Always a Bigger Fish
+	5 Surge of Power
+	5 Tossed into the Ocean
+	5 Unknown Discovery
+	5 Cloud the Waters
+	5 Luminescent Camoflage
+	5 Morning Flock
+	5 Buccaneer Hook
+	5 Scouting Glider
+	5 Empowered Leyglobe
+	5 Duskshrouded Flagship
+	5 Golden Lobster
+	5 Evolving Wilds

@@ -1,0 +1,1813 @@
+﻿[
+    {
+        "card_name": "Fishing Season",
+        "number": 14,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Finnoa, Bejeweled",
+        "number": 56,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Drowned Hope",
+        "number": 93,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Erupting Impulse",
+        "number": 131,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Luring Light",
+        "number": 189,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Guardian of Paradise",
+        "number": 17,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Ghastly Reflection",
+        "number": 59,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Niro, Drowned Scholar",
+        "number": 107,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Supply Scavenger",
+        "number": 160,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "School Swarming",
+        "number": 195,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Master Duelist",
+        "number": 21,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Battle of Riches",
+        "number": 43,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dark Drain",
+        "number": 87,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Tempestuous Wrath",
+        "number": 161,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Snap-Speed Serpent",
+        "number": 198,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Aven Shantysinger",
+        "number": 2,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Entomed Buccaneer",
+        "number": 53,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Grim Robber",
+        "number": 100,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dreadeye, Merciless Captain",
+        "number": 128,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Bubblefish",
+        "number": 168,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Bubble Prison",
+        "number": 7,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Faithful Recall",
+        "number": 54,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Icalidar's Eye",
+        "number": 102,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Grab Crab",
+        "number": 136,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Corselle, Devotee of Despair",
+        "number": 172,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Jarset, Siltanta King",
+        "number": 19,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Liri, the Current Breaker",
+        "number": 63,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Rattlebones Giant",
+        "number": 110,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Hellrim Moltenwing",
+        "number": 140,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Icalidar's Awakening",
+        "number": 181,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Mounted Currentrider",
+        "number": 23,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Mutated Angler",
+        "number": 66,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Rotschool Feast",
+        "number": 116,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Hellrim Phoenix",
+        "number": 141,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Leviathan of Paradise",
+        "number": 184,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Pawed Plunderer",
+        "number": 24,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Unyielding Wave",
+        "number": 79,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Tatters, Terrifying Imitator",
+        "number": 119,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Kraken Breaker",
+        "number": 144,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Leyglobe Researcher",
+        "number": 185,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Siltanta Noble",
+        "number": 32,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Allure of the Deep",
+        "number": 42,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Abyss Sage",
+        "number": 82,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Supply Line",
+        "number": 159,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Nerotomean Hydra",
+        "number": 192,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Aven Songmaster",
+        "number": 3,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Casting Corsair",
+        "number": 46,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Anguished Revelation",
+        "number": 83,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Daggers in the Deep",
+        "number": 123,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Augur of the Deep",
+        "number": 165,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Back to Back",
+        "number": 4,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Gemback Turtle",
+        "number": 58,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Chilling Presence",
+        "number": 86,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Devastating Whirlpool",
+        "number": 124,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Binding Tentacles",
+        "number": 167,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Board the Docks",
+        "number": 6,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Ghostblade Deckhand",
+        "number": 60,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dark Glare",
+        "number": 88,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dreadmaw Ship",
+        "number": 129,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Colossal Crab",
+        "number": 171,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Constricting Gloomfin",
+        "number": 9,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Lingering Influence",
+        "number": 62,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Deeplight Oracle",
+        "number": 90,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Enraged Dragonhorse",
+        "number": 130,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Depths Scavenger",
+        "number": 176,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Evacuate the Ship",
+        "number": 13,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Longbeak",
+        "number": 64,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dread Plunder",
+        "number": 92,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Finned Mercenary",
+        "number": 133,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Eyeless Lobster",
+        "number": 177,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Fleeting Apparition",
+        "number": 15,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Research the Ruins",
+        "number": 71,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Ghastly Ripjaw",
+        "number": 95,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Frenzied Strike",
+        "number": 135,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Kraken Fledgling",
+        "number": 182,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Inspiring Lyrist",
+        "number": 18,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Restless Raider",
+        "number": 72,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Giant Bloodsucker",
+        "number": 96,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Hunting Party",
+        "number": 142,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Luminescent Journey",
+        "number": 187,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Scale of Balance",
+        "number": 27,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Swift Negation",
+        "number": 75,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Grave Strength",
+        "number": 98,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Magma Frog",
+        "number": 146,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Luminescent Vanguard",
+        "number": 188,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Siltanta Guardian",
+        "number": 31,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Tiny Swarmfish",
+        "number": 77,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Looming Wave",
+        "number": 103,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Mysterious Merchant",
+        "number": 149,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Monstrous Rebirth",
+        "number": 190,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Siltanta Wayfinder",
+        "number": 33,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Tricky Transformation",
+        "number": 78,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Rattlebones Raider",
+        "number": 112,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Plundering Blademaster",
+        "number": 150,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Protection of the Deep",
+        "number": 194,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Spectral Overwhelm",
+        "number": 35,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Whirling Current",
+        "number": 80,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Returned Predator",
+        "number": 114,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Relaxed Quickshot",
+        "number": 151,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Siltanta Hunter",
+        "number": 197,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Twinblade Deckguard",
+        "number": 38,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Witch of the Depths",
+        "number": 81,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Wandering Vampire",
+        "number": 121,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Relentless Impulse",
+        "number": 152,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Surprising Strike",
+        "number": 200,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Vibrant Axolotl",
+        "number": 39,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Bubble Barrier",
+        "number": 44,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Bleakshimmer Leviathan",
+        "number": 84,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Shipwreck Cutthroat",
+        "number": 156,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Titanic Scourge",
+        "number": 201,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Anchor of the Heavens",
+        "number": 1,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Captain's Drake",
+        "number": 45,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Blooodwater Predator",
+        "number": 85,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Simulated Supplies",
+        "number": 157,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Always a Bigger Fish",
+        "number": 164,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Behemoth Hunter",
+        "number": 5,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Coral Coating",
+        "number": 47,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Darktide Angler",
+        "number": 89,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Chance of Fate",
+        "number": 122,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Axolotl Tamer",
+        "number": 166,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Cleansing Light",
+        "number": 8,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Coral Reef Cutthroat",
+        "number": 48,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Deepwater Rebirth",
+        "number": 91,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dockside Charger",
+        "number": 125,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Chromashell Druid",
+        "number": 169,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Coral Reef Knight",
+        "number": 10,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Current Breaker's Icebird",
+        "number": 49,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "End of the Line",
+        "number": 94,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dockside Frenzy",
+        "number": 126,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Cloud the Waters",
+        "number": 170,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Deepwater Defender",
+        "number": 11,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Drowned Crew",
+        "number": 50,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Gloomshore Scuttler",
+        "number": 97,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Down With the Ship",
+        "number": 127,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Crustacean Enforcer",
+        "number": 173,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dreaming Mystic",
+        "number": 12,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Drowning Frost",
+        "number": 51,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Grim Hunters",
+        "number": 99,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Finfeather Adventurer",
+        "number": 132,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Deepsea Leviathan",
+        "number": 174,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Fluttering Finwing",
+        "number": 16,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Elusive Droplet",
+        "number": 52,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Hoarding Parrot",
+        "number": 101,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Finned Raider",
+        "number": 134,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Deepwater Scrounger",
+        "number": 175,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Marked Sailor",
+        "number": 20,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Finned Dockhand",
+        "number": 55,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Luminescent Familiar",
+        "number": 104,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Great Snapjaw",
+        "number": 137,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Fincaller",
+        "number": 178,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Morning Flock",
+        "number": 22,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Freeze Over",
+        "number": 57,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Midnight Raid",
+        "number": 105,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Greedy Plunderer",
+        "number": 138,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Flourishing Life",
+        "number": 179,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Peaceful Trance",
+        "number": 25,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Gone Fishing",
+        "number": 61,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Mind Tear",
+        "number": 106,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Hellrim Guardian",
+        "number": 139,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Hidden Huntress",
+        "number": 180,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Reclaiming Strike",
+        "number": 26,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Lurk in the Deep",
+        "number": 65,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Overwhelming Rot",
+        "number": 108,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Hydrobreath",
+        "number": 143,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Legion Breaker",
+        "number": 183,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Sea Dogs",
+        "number": 28,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Navigate",
+        "number": 67,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Possessed Plunderer",
+        "number": 109,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Lurking Bloodfin",
+        "number": 145,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Luminescent Camoflage",
+        "number": 186,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Sea Horse",
+        "number": 29,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Pull into the Depths",
+        "number": 68,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Rattlebones Marauder",
+        "number": 111,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Magmatic Crash",
+        "number": 147,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Mountainous Coiler",
+        "number": 191,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Shellmount Cavalry",
+        "number": 30,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Razor-Shell Bruiser",
+        "number": 69,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Recruit the Drowned",
+        "number": 113,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Molten Blades",
+        "number": 148,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Predator of the Depths",
+        "number": 193,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Soldier's Trident",
+        "number": 34,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Reality Dam",
+        "number": 70,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Rotblade Assailant",
+        "number": 115,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Ripjaw Bruiser",
+        "number": 153,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Seabound",
+        "number": 196,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Stormdrake Rider",
+        "number": 36,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Sail-Line Ambusher",
+        "number": 73,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Silent Takedown",
+        "number": 117,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Shargon Spawning",
+        "number": 154,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Surge of Power",
+        "number": 199,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Swim as One",
+        "number": 37,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Surge of Knowledge",
+        "number": 74,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Surge of Vengeance",
+        "number": 118,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Shellclaw Supplier",
+        "number": 155,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Tossed into the Ocean",
+        "number": 202,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Voyaging Deckhand",
+        "number": 40,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Tidal Terror",
+        "number": 76,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Terrifying Vision",
+        "number": 120,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Spitfire",
+        "number": 158,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Toxic Jellyfish",
+        "number": 203,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Wielder of Currents",
+        "number": 41,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Threatening Ransom",
+        "number": 162,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Unknown Discovery",
+        "number": 204,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Wave Ripper",
+        "number": 163,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Claire, Returning Home",
+        "number": 208,
+        "shape": "planeswalker",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Nyle, First to Drown",
+        "number": 228,
+        "shape": "planeswalker",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Cruel Reversal",
+        "number": 211,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Tibarro, Loan Shark",
+        "number": 236,
+        "shape": "planeswalker",
+        "set": "NTM"
+    },
+    {
+        "card_name": "The Lobster Queen",
+        "number": 224,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Kella, Crashing Tide",
+        "number": 222,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Into the Maw of the Abyss",
+        "number": 219,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Imelia, Moon's Blade",
+        "number": 218,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Irontooth Beckoner",
+        "number": 221,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Replicating Seaweed",
+        "number": 229,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Shifting Shores",
+        "number": 231,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Ruby, Spectral Captain",
+        "number": 230,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Moonlit Ambush",
+        "number": 227,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Krotysh, the Final Wave",
+        "number": 223,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Coral Dragon",
+        "number": 210,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Tidewing Drake",
+        "number": 237,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Drowned First Mate",
+        "number": 214,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Deepwater Behemoth",
+        "number": 212,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Sorin, Truth Seeker",
+        "number": 233,
+        "shape": "planeswalker",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Tempestuous Dragon",
+        "number": 235,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Titanic Emergence",
+        "number": 238,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dockside Ambush",
+        "number": 213,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Magus of the Rising Tide",
+        "number": 225,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Adella, Branded by Death",
+        "number": 205,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Artes, Mechanical Maniac",
+        "number": 206,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Xila, Nightmarish Evolution",
+        "number": 239,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Investigator Anna",
+        "number": 220,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Syza, Light of the Abyss",
+        "number": 234,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Spectral Tattoos",
+        "number": 240,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Baffling Buccaneer",
+        "number": 207,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Shipbreaker Serpent",
+        "number": 232,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Merchant Sailor",
+        "number": 226,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Colossal Lobster",
+        "number": 209,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Grave Marking",
+        "number": 216,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Ghostblade Quartermaster",
+        "number": 215,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Icalidar, Catalyst of Despair",
+        "number": 217,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Drop of Hope",
+        "number": 243,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Explosive Idol",
+        "number": 246,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Maotrox, Nautical Juggernaut",
+        "number": 250,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Charming Puzzle",
+        "number": 242,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Gleaming Golems",
+        "number": 247,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Gleaming Hoard",
+        "number": 248,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Plundering Fleet",
+        "number": 251,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Throwing Anchor",
+        "number": 253,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Buccaneer Hook",
+        "number": 241,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Duskshrouded Flagship",
+        "number": 244,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Empowered Leyglobe",
+        "number": 245,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Golden Lobster",
+        "number": 249,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Scouting Glider",
+        "number": 252,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Siltanta Outskirts",
+        "number": 261,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Sunken Shipwreck",
+        "number": 262,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Dockside Market",
+        "number": 254,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Volcanic Temple",
+        "number": 265,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Luminescent Garden",
+        "number": 257,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plunder Storehouse",
+        "number": 260,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Undersea Cavern",
+        "number": 264,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Ominous Temple",
+        "number": 259,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Sunny Port",
+        "number": 263,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Gloomy Rift",
+        "number": 256,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Mistrea, Sea of Simulation",
+        "number": 258,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Evolving Wilds",
+        "number": 255,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plains",
+        "number": 266,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Island",
+        "number": 267,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 268,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 269,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "Forest",
+        "number": 270,
+        "shape": "normal",
+        "set": "NTM"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/NTM-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>NTM visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/NTM-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ASM-files/icon.png" />
+		<img class="preload-hidden" src="/sets/NTM-files/icon.png" />
+		<img class="preload-hidden" src="/sets/RTG-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="NTM"><img src="/sets/NTM-files/icon.png">Nerotomea</a>
+	
+		<a class="set-bar inactive" href="ASM"><img src="/sets/ASM-files/icon.png">Athria: Stage of the Multiverse</a>
+	
+		<a class="set-bar inactive" href="RTG"><img src="/sets/RTG-files/icon.png">Retrogrid</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/NTM-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img alt="/sets\NTM-files\img\14_Fishing Season.png" id="14_Fishing Season" data-flag="@X" onclick="openSidebar('14_Fishing Season',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\56_Finnoa, Bejeweled.png" id="56_Finnoa, Bejeweled" data-flag="@X" onclick="openSidebar('56_Finnoa, Bejeweled',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\93_Drowned Hope.png" id="93_Drowned Hope" data-flag="@X" onclick="openSidebar('93_Drowned Hope',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\131_Erupting Impulse.png" id="131_Erupting Impulse" data-flag="@X" onclick="openSidebar('131_Erupting Impulse',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\189_Luring Light.png" id="189_Luring Light" data-flag="@X" onclick="openSidebar('189_Luring Light',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\17_Guardian of Paradise.png" id="17_Guardian of Paradise" data-flag="@X" onclick="openSidebar('17_Guardian of Paradise',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\59_Ghastly Reflection.png" id="59_Ghastly Reflection" data-flag="@X" onclick="openSidebar('59_Ghastly Reflection',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\107_Niro, Drowned Scholar.png" id="107_Niro, Drowned Scholar" data-flag="@X" onclick="openSidebar('107_Niro, Drowned Scholar',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\160_Supply Scavenger.png" id="160_Supply Scavenger" data-flag="@X" onclick="openSidebar('160_Supply Scavenger',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\195_School Swarming.png" id="195_School Swarming" data-flag="@X" onclick="openSidebar('195_School Swarming',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\21_Master Duelist.png" id="21_Master Duelist" data-flag="@X" onclick="openSidebar('21_Master Duelist',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\43_Battle of Riches.png" id="43_Battle of Riches" data-flag="@X" onclick="openSidebar('43_Battle of Riches',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\87_Dark Drain.png" id="87_Dark Drain" data-flag="@X" onclick="openSidebar('87_Dark Drain',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\161_Tempestuous Wrath.png" id="161_Tempestuous Wrath" data-flag="@X" onclick="openSidebar('161_Tempestuous Wrath',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\198_Snap-Speed Serpent.png" id="198_Snap-Speed Serpent" data-flag="@X" onclick="openSidebar('198_Snap-Speed Serpent',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\2_Aven Shantysinger.png" id="2_Aven Shantysinger" data-flag="@X" onclick="openSidebar('2_Aven Shantysinger',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\53_Entomed Buccaneer.png" id="53_Entomed Buccaneer" data-flag="@X" onclick="openSidebar('53_Entomed Buccaneer',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\100_Grim Robber.png" id="100_Grim Robber" data-flag="@X" onclick="openSidebar('100_Grim Robber',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\128_Dreadeye, Merciless Captain.png" id="128_Dreadeye, Merciless Captain" data-flag="@X" onclick="openSidebar('128_Dreadeye, Merciless Captain',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\168_Bubblefish.png" id="168_Bubblefish" data-flag="@X" onclick="openSidebar('168_Bubblefish',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\7_Bubble Prison.png" id="7_Bubble Prison" data-flag="@X" onclick="openSidebar('7_Bubble Prison',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\54_Faithful Recall.png" id="54_Faithful Recall" data-flag="@X" onclick="openSidebar('54_Faithful Recall',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\102_Icalidar's Eye.png" id="102_Icalidars Eye" data-flag="@X" onclick="openSidebar('102_Icalidars Eye',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\136_Grab Crab.png" id="136_Grab Crab" data-flag="@X" onclick="openSidebar('136_Grab Crab',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\172_Corselle, Devotee of Despair.png" id="172_Corselle, Devotee of Despair" data-flag="@X" onclick="openSidebar('172_Corselle, Devotee of Despair',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\19_Jarset, Siltanta King.png" id="19_Jarset, Siltanta King" data-flag="@X" onclick="openSidebar('19_Jarset, Siltanta King',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\63_Liri, the Current Breaker.png" id="63_Liri, the Current Breaker" data-flag="@X" onclick="openSidebar('63_Liri, the Current Breaker',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\110_Rattlebones Giant.png" id="110_Rattlebones Giant" data-flag="@X" onclick="openSidebar('110_Rattlebones Giant',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\140_Hellrim Moltenwing.png" id="140_Hellrim Moltenwing" data-flag="@X" onclick="openSidebar('140_Hellrim Moltenwing',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\181_Icalidar's Awakening.png" id="181_Icalidars Awakening" data-flag="@X" onclick="openSidebar('181_Icalidars Awakening',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\23_Mounted Currentrider.png" id="23_Mounted Currentrider" data-flag="@X" onclick="openSidebar('23_Mounted Currentrider',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\66_Mutated Angler.png" id="66_Mutated Angler" data-flag="@X" onclick="openSidebar('66_Mutated Angler',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\116_Rotschool Feast.png" id="116_Rotschool Feast" data-flag="@X" onclick="openSidebar('116_Rotschool Feast',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\141_Hellrim Phoenix.png" id="141_Hellrim Phoenix" data-flag="@X" onclick="openSidebar('141_Hellrim Phoenix',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\184_Leviathan of Paradise.png" id="184_Leviathan of Paradise" data-flag="@X" onclick="openSidebar('184_Leviathan of Paradise',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\24_Pawed Plunderer.png" id="24_Pawed Plunderer" data-flag="@X" onclick="openSidebar('24_Pawed Plunderer',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\79_Unyielding Wave.png" id="79_Unyielding Wave" data-flag="@X" onclick="openSidebar('79_Unyielding Wave',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\119_Tatters, Terrifying Imitator.png" id="119_Tatters, Terrifying Imitator" data-flag="@X" onclick="openSidebar('119_Tatters, Terrifying Imitator',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\144_Kraken Breaker.png" id="144_Kraken Breaker" data-flag="@X" onclick="openSidebar('144_Kraken Breaker',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\185_Leyglobe Researcher.png" id="185_Leyglobe Researcher" data-flag="@X" onclick="openSidebar('185_Leyglobe Researcher',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\32_Siltanta Noble.png" id="32_Siltanta Noble" data-flag="@X" onclick="openSidebar('32_Siltanta Noble',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\42_Allure of the Deep.png" id="42_Allure of the Deep" data-flag="@X" onclick="openSidebar('42_Allure of the Deep',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\82_Abyss Sage.png" id="82_Abyss Sage" data-flag="@X" onclick="openSidebar('82_Abyss Sage',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\159_Supply Line.png" id="159_Supply Line" data-flag="@X" onclick="openSidebar('159_Supply Line',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\192_Nerotomean Hydra.png" id="192_Nerotomean Hydra" data-flag="@X" onclick="openSidebar('192_Nerotomean Hydra',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\3_Aven Songmaster.png" id="3_Aven Songmaster" data-flag="@X" onclick="openSidebar('3_Aven Songmaster',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\46_Casting Corsair.png" id="46_Casting Corsair" data-flag="@X" onclick="openSidebar('46_Casting Corsair',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\83_Anguished Revelation.png" id="83_Anguished Revelation" data-flag="@X" onclick="openSidebar('83_Anguished Revelation',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\123_Daggers in the Deep.png" id="123_Daggers in the Deep" data-flag="@X" onclick="openSidebar('123_Daggers in the Deep',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\165_Augur of the Deep.png" id="165_Augur of the Deep" data-flag="@X" onclick="openSidebar('165_Augur of the Deep',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\4_Back to Back.png" id="4_Back to Back" data-flag="@X" onclick="openSidebar('4_Back to Back',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\58_Gemback Turtle.png" id="58_Gemback Turtle" data-flag="@X" onclick="openSidebar('58_Gemback Turtle',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\86_Chilling Presence.png" id="86_Chilling Presence" data-flag="@X" onclick="openSidebar('86_Chilling Presence',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\124_Devastating Whirlpool.png" id="124_Devastating Whirlpool" data-flag="@X" onclick="openSidebar('124_Devastating Whirlpool',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\167_Binding Tentacles.png" id="167_Binding Tentacles" data-flag="@X" onclick="openSidebar('167_Binding Tentacles',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\6_Board the Docks.png" id="6_Board the Docks" data-flag="@X" onclick="openSidebar('6_Board the Docks',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\60_Ghostblade Deckhand.png" id="60_Ghostblade Deckhand" data-flag="@X" onclick="openSidebar('60_Ghostblade Deckhand',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\88_Dark Glare.png" id="88_Dark Glare" data-flag="@X" onclick="openSidebar('88_Dark Glare',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\129_Dreadmaw Ship.png" id="129_Dreadmaw Ship" data-flag="@X" onclick="openSidebar('129_Dreadmaw Ship',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\171_Colossal Crab.png" id="171_Colossal Crab" data-flag="@X" onclick="openSidebar('171_Colossal Crab',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\9_Constricting Gloomfin.png" id="9_Constricting Gloomfin" data-flag="@X" onclick="openSidebar('9_Constricting Gloomfin',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\62_Lingering Influence.png" id="62_Lingering Influence" data-flag="@X" onclick="openSidebar('62_Lingering Influence',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\90_Deeplight Oracle.png" id="90_Deeplight Oracle" data-flag="@X" onclick="openSidebar('90_Deeplight Oracle',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\130_Enraged Dragonhorse.png" id="130_Enraged Dragonhorse" data-flag="@X" onclick="openSidebar('130_Enraged Dragonhorse',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\176_Depths Scavenger.png" id="176_Depths Scavenger" data-flag="@X" onclick="openSidebar('176_Depths Scavenger',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\13_Evacuate the Ship.png" id="13_Evacuate the Ship" data-flag="@X" onclick="openSidebar('13_Evacuate the Ship',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\64_Longbeak.png" id="64_Longbeak" data-flag="@X" onclick="openSidebar('64_Longbeak',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\92_Dread Plunder.png" id="92_Dread Plunder" data-flag="@X" onclick="openSidebar('92_Dread Plunder',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\133_Finned Mercenary.png" id="133_Finned Mercenary" data-flag="@X" onclick="openSidebar('133_Finned Mercenary',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\177_Eyeless Lobster.png" id="177_Eyeless Lobster" data-flag="@X" onclick="openSidebar('177_Eyeless Lobster',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\15_Fleeting Apparition.png" id="15_Fleeting Apparition" data-flag="@X" onclick="openSidebar('15_Fleeting Apparition',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\71_Research the Ruins.png" id="71_Research the Ruins" data-flag="@X" onclick="openSidebar('71_Research the Ruins',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\95_Ghastly Ripjaw.png" id="95_Ghastly Ripjaw" data-flag="@X" onclick="openSidebar('95_Ghastly Ripjaw',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\135_Frenzied Strike.png" id="135_Frenzied Strike" data-flag="@X" onclick="openSidebar('135_Frenzied Strike',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\182_Kraken Fledgling.png" id="182_Kraken Fledgling" data-flag="@X" onclick="openSidebar('182_Kraken Fledgling',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\18_Inspiring Lyrist.png" id="18_Inspiring Lyrist" data-flag="@X" onclick="openSidebar('18_Inspiring Lyrist',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\72_Restless Raider.png" id="72_Restless Raider" data-flag="@X" onclick="openSidebar('72_Restless Raider',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\96_Giant Bloodsucker.png" id="96_Giant Bloodsucker" data-flag="@X" onclick="openSidebar('96_Giant Bloodsucker',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\142_Hunting Party.png" id="142_Hunting Party" data-flag="@X" onclick="openSidebar('142_Hunting Party',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\187_Luminescent Journey.png" id="187_Luminescent Journey" data-flag="@X" onclick="openSidebar('187_Luminescent Journey',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\27_Scale of Balance.png" id="27_Scale of Balance" data-flag="@X" onclick="openSidebar('27_Scale of Balance',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\75_Swift Negation.png" id="75_Swift Negation" data-flag="@X" onclick="openSidebar('75_Swift Negation',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\98_Grave Strength.png" id="98_Grave Strength" data-flag="@X" onclick="openSidebar('98_Grave Strength',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\146_Magma Frog.png" id="146_Magma Frog" data-flag="@X" onclick="openSidebar('146_Magma Frog',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\188_Luminescent Vanguard.png" id="188_Luminescent Vanguard" data-flag="@X" onclick="openSidebar('188_Luminescent Vanguard',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\31_Siltanta Guardian.png" id="31_Siltanta Guardian" data-flag="@X" onclick="openSidebar('31_Siltanta Guardian',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\77_Tiny Swarmfish.png" id="77_Tiny Swarmfish" data-flag="@X" onclick="openSidebar('77_Tiny Swarmfish',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\103_Looming Wave.png" id="103_Looming Wave" data-flag="@X" onclick="openSidebar('103_Looming Wave',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\149_Mysterious Merchant.png" id="149_Mysterious Merchant" data-flag="@X" onclick="openSidebar('149_Mysterious Merchant',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\190_Monstrous Rebirth.png" id="190_Monstrous Rebirth" data-flag="@X" onclick="openSidebar('190_Monstrous Rebirth',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\33_Siltanta Wayfinder.png" id="33_Siltanta Wayfinder" data-flag="@X" onclick="openSidebar('33_Siltanta Wayfinder',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\78_Tricky Transformation.png" id="78_Tricky Transformation" data-flag="@X" onclick="openSidebar('78_Tricky Transformation',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\112_Rattlebones Raider.png" id="112_Rattlebones Raider" data-flag="@X" onclick="openSidebar('112_Rattlebones Raider',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\150_Plundering Blademaster.png" id="150_Plundering Blademaster" data-flag="@X" onclick="openSidebar('150_Plundering Blademaster',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\194_Protection of the Deep.png" id="194_Protection of the Deep" data-flag="@X" onclick="openSidebar('194_Protection of the Deep',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\35_Spectral Overwhelm.png" id="35_Spectral Overwhelm" data-flag="@X" onclick="openSidebar('35_Spectral Overwhelm',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\80_Whirling Current.png" id="80_Whirling Current" data-flag="@X" onclick="openSidebar('80_Whirling Current',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\114_Returned Predator.png" id="114_Returned Predator" data-flag="@X" onclick="openSidebar('114_Returned Predator',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\151_Relaxed Quickshot.png" id="151_Relaxed Quickshot" data-flag="@X" onclick="openSidebar('151_Relaxed Quickshot',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\197_Siltanta Hunter.png" id="197_Siltanta Hunter" data-flag="@X" onclick="openSidebar('197_Siltanta Hunter',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\38_Twinblade Deckguard.png" id="38_Twinblade Deckguard" data-flag="@X" onclick="openSidebar('38_Twinblade Deckguard',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\81_Witch of the Depths.png" id="81_Witch of the Depths" data-flag="@X" onclick="openSidebar('81_Witch of the Depths',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\121_Wandering Vampire.png" id="121_Wandering Vampire" data-flag="@X" onclick="openSidebar('121_Wandering Vampire',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\152_Relentless Impulse.png" id="152_Relentless Impulse" data-flag="@X" onclick="openSidebar('152_Relentless Impulse',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\200_Surprising Strike.png" id="200_Surprising Strike" data-flag="@X" onclick="openSidebar('200_Surprising Strike',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\39_Vibrant Axolotl.png" id="39_Vibrant Axolotl" data-flag="@X" onclick="openSidebar('39_Vibrant Axolotl',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\44_Bubble Barrier.png" id="44_Bubble Barrier" data-flag="@X" onclick="openSidebar('44_Bubble Barrier',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\84_Bleakshimmer Leviathan.png" id="84_Bleakshimmer Leviathan" data-flag="@X" onclick="openSidebar('84_Bleakshimmer Leviathan',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\156_Shipwreck Cutthroat.png" id="156_Shipwreck Cutthroat" data-flag="@X" onclick="openSidebar('156_Shipwreck Cutthroat',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\201_Titanic Scourge.png" id="201_Titanic Scourge" data-flag="@X" onclick="openSidebar('201_Titanic Scourge',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\1_Anchor of the Heavens.png" id="1_Anchor of the Heavens" data-flag="@X" onclick="openSidebar('1_Anchor of the Heavens',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\45_Captain's Drake.png" id="45_Captains Drake" data-flag="@X" onclick="openSidebar('45_Captains Drake',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\85_Blooodwater Predator.png" id="85_Blooodwater Predator" data-flag="@X" onclick="openSidebar('85_Blooodwater Predator',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\157_Simulated Supplies.png" id="157_Simulated Supplies" data-flag="@X" onclick="openSidebar('157_Simulated Supplies',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\164_Always a Bigger Fish.png" id="164_Always a Bigger Fish" data-flag="@X" onclick="openSidebar('164_Always a Bigger Fish',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\5_Behemoth Hunter.png" id="5_Behemoth Hunter" data-flag="@X" onclick="openSidebar('5_Behemoth Hunter',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\47_Coral Coating.png" id="47_Coral Coating" data-flag="@X" onclick="openSidebar('47_Coral Coating',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\89_Darktide Angler.png" id="89_Darktide Angler" data-flag="@X" onclick="openSidebar('89_Darktide Angler',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\122_Chance of Fate.png" id="122_Chance of Fate" data-flag="@X" onclick="openSidebar('122_Chance of Fate',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\166_Axolotl Tamer.png" id="166_Axolotl Tamer" data-flag="@X" onclick="openSidebar('166_Axolotl Tamer',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\8_Cleansing Light.png" id="8_Cleansing Light" data-flag="@X" onclick="openSidebar('8_Cleansing Light',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\48_Coral Reef Cutthroat.png" id="48_Coral Reef Cutthroat" data-flag="@X" onclick="openSidebar('48_Coral Reef Cutthroat',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\91_Deepwater Rebirth.png" id="91_Deepwater Rebirth" data-flag="@X" onclick="openSidebar('91_Deepwater Rebirth',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\125_Dockside Charger.png" id="125_Dockside Charger" data-flag="@X" onclick="openSidebar('125_Dockside Charger',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\169_Chromashell Druid.png" id="169_Chromashell Druid" data-flag="@X" onclick="openSidebar('169_Chromashell Druid',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\10_Coral Reef Knight.png" id="10_Coral Reef Knight" data-flag="@X" onclick="openSidebar('10_Coral Reef Knight',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\49_Current Breaker's Icebird.png" id="49_Current Breakers Icebird" data-flag="@X" onclick="openSidebar('49_Current Breakers Icebird',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\94_End of the Line.png" id="94_End of the Line" data-flag="@X" onclick="openSidebar('94_End of the Line',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\126_Dockside Frenzy.png" id="126_Dockside Frenzy" data-flag="@X" onclick="openSidebar('126_Dockside Frenzy',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\170_Cloud the Waters.png" id="170_Cloud the Waters" data-flag="@X" onclick="openSidebar('170_Cloud the Waters',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\11_Deepwater Defender.png" id="11_Deepwater Defender" data-flag="@X" onclick="openSidebar('11_Deepwater Defender',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\50_Drowned Crew.png" id="50_Drowned Crew" data-flag="@X" onclick="openSidebar('50_Drowned Crew',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\97_Gloomshore Scuttler.png" id="97_Gloomshore Scuttler" data-flag="@X" onclick="openSidebar('97_Gloomshore Scuttler',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\127_Down With the Ship.png" id="127_Down With the Ship" data-flag="@X" onclick="openSidebar('127_Down With the Ship',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\173_Crustacean Enforcer.png" id="173_Crustacean Enforcer" data-flag="@X" onclick="openSidebar('173_Crustacean Enforcer',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\12_Dreaming Mystic.png" id="12_Dreaming Mystic" data-flag="@X" onclick="openSidebar('12_Dreaming Mystic',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\51_Drowning Frost.png" id="51_Drowning Frost" data-flag="@X" onclick="openSidebar('51_Drowning Frost',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\99_Grim Hunters.png" id="99_Grim Hunters" data-flag="@X" onclick="openSidebar('99_Grim Hunters',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\132_Finfeather Adventurer.png" id="132_Finfeather Adventurer" data-flag="@X" onclick="openSidebar('132_Finfeather Adventurer',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\174_Deepsea Leviathan.png" id="174_Deepsea Leviathan" data-flag="@X" onclick="openSidebar('174_Deepsea Leviathan',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\16_Fluttering Finwing.png" id="16_Fluttering Finwing" data-flag="@X" onclick="openSidebar('16_Fluttering Finwing',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\52_Elusive Droplet.png" id="52_Elusive Droplet" data-flag="@X" onclick="openSidebar('52_Elusive Droplet',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\101_Hoarding Parrot.png" id="101_Hoarding Parrot" data-flag="@X" onclick="openSidebar('101_Hoarding Parrot',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\134_Finned Raider.png" id="134_Finned Raider" data-flag="@X" onclick="openSidebar('134_Finned Raider',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\175_Deepwater Scrounger.png" id="175_Deepwater Scrounger" data-flag="@X" onclick="openSidebar('175_Deepwater Scrounger',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\20_Marked Sailor.png" id="20_Marked Sailor" data-flag="@X" onclick="openSidebar('20_Marked Sailor',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\55_Finned Dockhand.png" id="55_Finned Dockhand" data-flag="@X" onclick="openSidebar('55_Finned Dockhand',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\104_Luminescent Familiar.png" id="104_Luminescent Familiar" data-flag="@X" onclick="openSidebar('104_Luminescent Familiar',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\137_Great Snapjaw.png" id="137_Great Snapjaw" data-flag="@X" onclick="openSidebar('137_Great Snapjaw',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\178_Fincaller.png" id="178_Fincaller" data-flag="@X" onclick="openSidebar('178_Fincaller',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\22_Morning Flock.png" id="22_Morning Flock" data-flag="@X" onclick="openSidebar('22_Morning Flock',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\57_Freeze Over.png" id="57_Freeze Over" data-flag="@X" onclick="openSidebar('57_Freeze Over',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\105_Midnight Raid.png" id="105_Midnight Raid" data-flag="@X" onclick="openSidebar('105_Midnight Raid',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\138_Greedy Plunderer.png" id="138_Greedy Plunderer" data-flag="@X" onclick="openSidebar('138_Greedy Plunderer',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\179_Flourishing Life.png" id="179_Flourishing Life" data-flag="@X" onclick="openSidebar('179_Flourishing Life',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\25_Peaceful Trance.png" id="25_Peaceful Trance" data-flag="@X" onclick="openSidebar('25_Peaceful Trance',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\61_Gone Fishing.png" id="61_Gone Fishing" data-flag="@X" onclick="openSidebar('61_Gone Fishing',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\106_Mind Tear.png" id="106_Mind Tear" data-flag="@X" onclick="openSidebar('106_Mind Tear',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\139_Hellrim Guardian.png" id="139_Hellrim Guardian" data-flag="@X" onclick="openSidebar('139_Hellrim Guardian',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\180_Hidden Huntress.png" id="180_Hidden Huntress" data-flag="@X" onclick="openSidebar('180_Hidden Huntress',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\26_Reclaiming Strike.png" id="26_Reclaiming Strike" data-flag="@X" onclick="openSidebar('26_Reclaiming Strike',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\65_Lurk in the Deep.png" id="65_Lurk in the Deep" data-flag="@X" onclick="openSidebar('65_Lurk in the Deep',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\108_Overwhelming Rot.png" id="108_Overwhelming Rot" data-flag="@X" onclick="openSidebar('108_Overwhelming Rot',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\143_Hydrobreath.png" id="143_Hydrobreath" data-flag="@X" onclick="openSidebar('143_Hydrobreath',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\183_Legion Breaker.png" id="183_Legion Breaker" data-flag="@X" onclick="openSidebar('183_Legion Breaker',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\28_Sea Dogs.png" id="28_Sea Dogs" data-flag="@X" onclick="openSidebar('28_Sea Dogs',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\67_Navigate.png" id="67_Navigate" data-flag="@X" onclick="openSidebar('67_Navigate',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\109_Possessed Plunderer.png" id="109_Possessed Plunderer" data-flag="@X" onclick="openSidebar('109_Possessed Plunderer',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\145_Lurking Bloodfin.png" id="145_Lurking Bloodfin" data-flag="@X" onclick="openSidebar('145_Lurking Bloodfin',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\186_Luminescent Camoflage.png" id="186_Luminescent Camoflage" data-flag="@X" onclick="openSidebar('186_Luminescent Camoflage',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\29_Sea Horse.png" id="29_Sea Horse" data-flag="@X" onclick="openSidebar('29_Sea Horse',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\68_Pull into the Depths.png" id="68_Pull into the Depths" data-flag="@X" onclick="openSidebar('68_Pull into the Depths',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\111_Rattlebones Marauder.png" id="111_Rattlebones Marauder" data-flag="@X" onclick="openSidebar('111_Rattlebones Marauder',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\147_Magmatic Crash.png" id="147_Magmatic Crash" data-flag="@X" onclick="openSidebar('147_Magmatic Crash',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\191_Mountainous Coiler.png" id="191_Mountainous Coiler" data-flag="@X" onclick="openSidebar('191_Mountainous Coiler',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\30_Shellmount Cavalry.png" id="30_Shellmount Cavalry" data-flag="@X" onclick="openSidebar('30_Shellmount Cavalry',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\69_Razor-Shell Bruiser.png" id="69_Razor-Shell Bruiser" data-flag="@X" onclick="openSidebar('69_Razor-Shell Bruiser',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\113_Recruit the Drowned.png" id="113_Recruit the Drowned" data-flag="@X" onclick="openSidebar('113_Recruit the Drowned',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\148_Molten Blades.png" id="148_Molten Blades" data-flag="@X" onclick="openSidebar('148_Molten Blades',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\193_Predator of the Depths.png" id="193_Predator of the Depths" data-flag="@X" onclick="openSidebar('193_Predator of the Depths',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\34_Soldier's Trident.png" id="34_Soldiers Trident" data-flag="@X" onclick="openSidebar('34_Soldiers Trident',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\70_Reality Dam.png" id="70_Reality Dam" data-flag="@X" onclick="openSidebar('70_Reality Dam',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\115_Rotblade Assailant.png" id="115_Rotblade Assailant" data-flag="@X" onclick="openSidebar('115_Rotblade Assailant',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\153_Ripjaw Bruiser.png" id="153_Ripjaw Bruiser" data-flag="@X" onclick="openSidebar('153_Ripjaw Bruiser',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\196_Seabound.png" id="196_Seabound" data-flag="@X" onclick="openSidebar('196_Seabound',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\36_Stormdrake Rider.png" id="36_Stormdrake Rider" data-flag="@X" onclick="openSidebar('36_Stormdrake Rider',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\73_Sail-Line Ambusher.png" id="73_Sail-Line Ambusher" data-flag="@X" onclick="openSidebar('73_Sail-Line Ambusher',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\117_Silent Takedown.png" id="117_Silent Takedown" data-flag="@X" onclick="openSidebar('117_Silent Takedown',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\154_Shargon Spawning.png" id="154_Shargon Spawning" data-flag="@X" onclick="openSidebar('154_Shargon Spawning',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\199_Surge of Power.png" id="199_Surge of Power" data-flag="@X" onclick="openSidebar('199_Surge of Power',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\37_Swim as One.png" id="37_Swim as One" data-flag="@X" onclick="openSidebar('37_Swim as One',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\74_Surge of Knowledge.png" id="74_Surge of Knowledge" data-flag="@X" onclick="openSidebar('74_Surge of Knowledge',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\118_Surge of Vengeance.png" id="118_Surge of Vengeance" data-flag="@X" onclick="openSidebar('118_Surge of Vengeance',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\155_Shellclaw Supplier.png" id="155_Shellclaw Supplier" data-flag="@X" onclick="openSidebar('155_Shellclaw Supplier',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\202_Tossed into the Ocean.png" id="202_Tossed into the Ocean" data-flag="@X" onclick="openSidebar('202_Tossed into the Ocean',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\40_Voyaging Deckhand.png" id="40_Voyaging Deckhand" data-flag="@X" onclick="openSidebar('40_Voyaging Deckhand',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\76_Tidal Terror.png" id="76_Tidal Terror" data-flag="@X" onclick="openSidebar('76_Tidal Terror',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\120_Terrifying Vision.png" id="120_Terrifying Vision" data-flag="@X" onclick="openSidebar('120_Terrifying Vision',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\158_Spitfire.png" id="158_Spitfire" data-flag="@X" onclick="openSidebar('158_Spitfire',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\203_Toxic Jellyfish.png" id="203_Toxic Jellyfish" data-flag="@X" onclick="openSidebar('203_Toxic Jellyfish',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\41_Wielder of Currents.png" id="41_Wielder of Currents" data-flag="@X" onclick="openSidebar('41_Wielder of Currents',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\162_Threatening Ransom.png" id="162_Threatening Ransom" data-flag="@X" onclick="openSidebar('162_Threatening Ransom',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\204_Unknown Discovery.png" id="204_Unknown Discovery" data-flag="@X" onclick="openSidebar('204_Unknown Discovery',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\163_Wave Ripper.png" id="163_Wave Ripper" data-flag="@X" onclick="openSidebar('163_Wave Ripper',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\208_Claire, Returning Home.png" id="208_Claire, Returning Home" data-flag="@X" onclick="openSidebar('208_Claire, Returning Home',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\228_Nyle, First to Drown.png" id="228_Nyle, First to Drown" data-flag="@X" onclick="openSidebar('228_Nyle, First to Drown',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\211_Cruel Reversal.png" id="211_Cruel Reversal" data-flag="@X" onclick="openSidebar('211_Cruel Reversal',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\236_Tibarro, Loan Shark.png" id="236_Tibarro, Loan Shark" data-flag="@X" onclick="openSidebar('236_Tibarro, Loan Shark',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\224_The Lobster Queen.png" id="224_The Lobster Queen" data-flag="@X" onclick="openSidebar('224_The Lobster Queen',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\222_Kella, Crashing Tide.png" id="222_Kella, Crashing Tide" data-flag="@X" onclick="openSidebar('222_Kella, Crashing Tide',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\219_Into the Maw of the Abyss.png" id="219_Into the Maw of the Abyss" data-flag="@X" onclick="openSidebar('219_Into the Maw of the Abyss',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\218_Imelia, Moon's Blade.png" id="218_Imelia, Moons Blade" data-flag="@X" onclick="openSidebar('218_Imelia, Moons Blade',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\221_Irontooth Beckoner.png" id="221_Irontooth Beckoner" data-flag="@X" onclick="openSidebar('221_Irontooth Beckoner',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\229_Replicating Seaweed.png" id="229_Replicating Seaweed" data-flag="@X" onclick="openSidebar('229_Replicating Seaweed',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\231_Shifting Shores.png" id="231_Shifting Shores" data-flag="@X" onclick="openSidebar('231_Shifting Shores',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\230_Ruby, Spectral Captain.png" id="230_Ruby, Spectral Captain" data-flag="@X" onclick="openSidebar('230_Ruby, Spectral Captain',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\227_Moonlit Ambush.png" id="227_Moonlit Ambush" data-flag="@X" onclick="openSidebar('227_Moonlit Ambush',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\223_Krotysh, the Final Wave.png" id="223_Krotysh, the Final Wave" data-flag="@X" onclick="openSidebar('223_Krotysh, the Final Wave',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\210_Coral Dragon.png" id="210_Coral Dragon" data-flag="@X" onclick="openSidebar('210_Coral Dragon',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\237_Tidewing Drake.png" id="237_Tidewing Drake" data-flag="@X" onclick="openSidebar('237_Tidewing Drake',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\214_Drowned First Mate.png" id="214_Drowned First Mate" data-flag="@X" onclick="openSidebar('214_Drowned First Mate',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\212_Deepwater Behemoth.png" id="212_Deepwater Behemoth" data-flag="@X" onclick="openSidebar('212_Deepwater Behemoth',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\233_Sorin, Truth Seeker.png" id="233_Sorin, Truth Seeker" data-flag="@X" onclick="openSidebar('233_Sorin, Truth Seeker',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\235_Tempestuous Dragon.png" id="235_Tempestuous Dragon" data-flag="@X" onclick="openSidebar('235_Tempestuous Dragon',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\238_Titanic Emergence.png" id="238_Titanic Emergence" data-flag="@X" onclick="openSidebar('238_Titanic Emergence',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\213_Dockside Ambush.png" id="213_Dockside Ambush" data-flag="@X" onclick="openSidebar('213_Dockside Ambush',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\225_Magus of the Rising Tide.png" id="225_Magus of the Rising Tide" data-flag="@X" onclick="openSidebar('225_Magus of the Rising Tide',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\205_Adella, Branded by Death.png" id="205_Adella, Branded by Death" data-flag="@X" onclick="openSidebar('205_Adella, Branded by Death',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\206_Artes, Mechanical Maniac.png" id="206_Artes, Mechanical Maniac" data-flag="@X" onclick="openSidebar('206_Artes, Mechanical Maniac',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\239_Xila, Nightmarish Evolution.png" id="239_Xila, Nightmarish Evolution" data-flag="@X" onclick="openSidebar('239_Xila, Nightmarish Evolution',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\220_Investigator Anna.png" id="220_Investigator Anna" data-flag="@X" onclick="openSidebar('220_Investigator Anna',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\234_Syza, Light of the Abyss.png" id="234_Syza, Light of the Abyss" data-flag="@X" onclick="openSidebar('234_Syza, Light of the Abyss',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\240_Spectral Tattoos.png" id="240_Spectral Tattoos" data-flag="@X" onclick="openSidebar('240_Spectral Tattoos',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\207_Baffling Buccaneer.png" id="207_Baffling Buccaneer" data-flag="@X" onclick="openSidebar('207_Baffling Buccaneer',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\232_Shipbreaker Serpent.png" id="232_Shipbreaker Serpent" data-flag="@X" onclick="openSidebar('232_Shipbreaker Serpent',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\226_Merchant Sailor.png" id="226_Merchant Sailor" data-flag="@X" onclick="openSidebar('226_Merchant Sailor',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\209_Colossal Lobster.png" id="209_Colossal Lobster" data-flag="@X" onclick="openSidebar('209_Colossal Lobster',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\216_Grave Marking.png" id="216_Grave Marking" data-flag="@X" onclick="openSidebar('216_Grave Marking',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\215_Ghostblade Quartermaster.png" id="215_Ghostblade Quartermaster" data-flag="@X" onclick="openSidebar('215_Ghostblade Quartermaster',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\217_Icalidar, Catalyst of Despair.png" id="217_Icalidar, Catalyst of Despair" data-flag="@X" onclick="openSidebar('217_Icalidar, Catalyst of Despair',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\243_Drop of Hope.png" id="243_Drop of Hope" data-flag="@X" onclick="openSidebar('243_Drop of Hope',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\246_Explosive Idol.png" id="246_Explosive Idol" data-flag="@X" onclick="openSidebar('246_Explosive Idol',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\250_Maotrox, Nautical Juggernaut.png" id="250_Maotrox, Nautical Juggernaut" data-flag="@X" onclick="openSidebar('250_Maotrox, Nautical Juggernaut',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\242_Charming Puzzle.png" id="242_Charming Puzzle" data-flag="@X" onclick="openSidebar('242_Charming Puzzle',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\247_Gleaming Golems.png" id="247_Gleaming Golems" data-flag="@X" onclick="openSidebar('247_Gleaming Golems',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\248_Gleaming Hoard.png" id="248_Gleaming Hoard" data-flag="@X" onclick="openSidebar('248_Gleaming Hoard',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\251_Plundering Fleet.png" id="251_Plundering Fleet" data-flag="@X" onclick="openSidebar('251_Plundering Fleet',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\253_Throwing Anchor.png" id="253_Throwing Anchor" data-flag="@X" onclick="openSidebar('253_Throwing Anchor',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\241_Buccaneer Hook.png" id="241_Buccaneer Hook" data-flag="@X" onclick="openSidebar('241_Buccaneer Hook',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\244_Duskshrouded Flagship.png" id="244_Duskshrouded Flagship" data-flag="@X" onclick="openSidebar('244_Duskshrouded Flagship',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\245_Empowered Leyglobe.png" id="245_Empowered Leyglobe" data-flag="@X" onclick="openSidebar('245_Empowered Leyglobe',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\249_Golden Lobster.png" id="249_Golden Lobster" data-flag="@X" onclick="openSidebar('249_Golden Lobster',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\252_Scouting Glider.png" id="252_Scouting Glider" data-flag="@X" onclick="openSidebar('252_Scouting Glider',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\261_Siltanta Outskirts.png" id="261_Siltanta Outskirts" data-flag="@X" onclick="openSidebar('261_Siltanta Outskirts',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\262_Sunken Shipwreck.png" id="262_Sunken Shipwreck" data-flag="@X" onclick="openSidebar('262_Sunken Shipwreck',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\254_Dockside Market.png" id="254_Dockside Market" data-flag="@X" onclick="openSidebar('254_Dockside Market',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\265_Volcanic Temple.png" id="265_Volcanic Temple" data-flag="@X" onclick="openSidebar('265_Volcanic Temple',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\257_Luminescent Garden.png" id="257_Luminescent Garden" data-flag="@X" onclick="openSidebar('257_Luminescent Garden',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\260_Plunder Storehouse.png" id="260_Plunder Storehouse" data-flag="@X" onclick="openSidebar('260_Plunder Storehouse',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\264_Undersea Cavern.png" id="264_Undersea Cavern" data-flag="@X" onclick="openSidebar('264_Undersea Cavern',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\259_Ominous Temple.png" id="259_Ominous Temple" data-flag="@X" onclick="openSidebar('259_Ominous Temple',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\263_Sunny Port.png" id="263_Sunny Port" data-flag="@X" onclick="openSidebar('263_Sunny Port',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\256_Gloomy Rift.png" id="256_Gloomy Rift" data-flag="@X" onclick="openSidebar('256_Gloomy Rift',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\258_Mistrea, Sea of Simulation.png" id="258_Mistrea, Sea of Simulation" data-flag="@X" onclick="openSidebar('258_Mistrea, Sea of Simulation',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\255_Evolving Wilds.png" id="255_Evolving Wilds" data-flag="@X" onclick="openSidebar('255_Evolving Wilds',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\266_Plains.png" id="266_Plains" data-flag="@X" onclick="openSidebar('266_Plains',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\267_Island.png" id="267_Island" data-flag="@X" onclick="openSidebar('267_Island',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\268_Swamp.png" id="268_Swamp" data-flag="@X" onclick="openSidebar('268_Swamp',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\269_Mountain.png" id="269_Mountain" data-flag="@X" onclick="openSidebar('269_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\NTM-files\img\270_Forest.png" id="270_Forest" data-flag="@X" onclick="openSidebar('270_Forest',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
