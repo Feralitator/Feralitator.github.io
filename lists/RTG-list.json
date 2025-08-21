@@ -1,0 +1,1886 @@
+﻿[
+    {
+        "card_name": "Cyberwing Protector",
+        "number": 16,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Mind Control Diva",
+        "number": 73,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "___, Secret Boss",
+        "number": 88,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Chrome Invader",
+        "number": 136,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "City Razer",
+        "number": 176,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Sudden Reversal",
+        "number": 39,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Written Into Reality",
+        "number": 86,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Build-A-Boss",
+        "number": 91,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Serin, Master Brawler",
+        "number": 163,
+        "shape": "planeswalker",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rumbling Tyrant",
+        "number": 203,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Corruption Defender",
+        "number": 12,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Data Dissolver",
+        "number": 53,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Brutal Assailant",
+        "number": 90,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Titan-Form Challenger",
+        "number": 170,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Chem-Brute Researcher",
+        "number": 175,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Corruption Propagator",
+        "number": 13,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Data-Drain Specialist",
+        "number": 57,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cryptoghast",
+        "number": 94,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Artistic Defiance",
+        "number": 130,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "City-Wide Rampager",
+        "number": 177,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "D1v4, Dancefloor DJ",
+        "number": 17,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Flow Mastery",
+        "number": 64,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Dance to Death",
+        "number": 97,
+        "shape": "normal split",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Bonus Round",
+        "number": 132,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cyberwood Stalker",
+        "number": 179,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Flash Kick",
+        "number": 22,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Hard Reset",
+        "number": 65,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Digital Torment",
+        "number": 102,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cheat Code",
+        "number": 135,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Databeast Shaman",
+        "number": 180,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Harmonizing Monk",
+        "number": 29,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Holo-Squad Captain",
+        "number": 68,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Doomspark Invader",
+        "number": 103,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Code Cloning",
+        "number": 137,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Frog Crossing",
+        "number": 189,
+        "shape": "normal split",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Human After All",
+        "number": 30,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Memory Breach",
+        "number": 72,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Soul-Infused Butcher",
+        "number": 123,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Draconic Invasion",
+        "number": 145,
+        "shape": "normal split",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Living Landslide",
+        "number": 195,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "In Another Castle",
+        "number": 31,
+        "shape": "normal split",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Puzzle Quest",
+        "number": 74,
+        "shape": "normal split",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Tatters, Mechanical Menace",
+        "number": 125,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Hunted Bounty Hunter",
+        "number": 150,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Natural Savagery",
+        "number": 198,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Inspiring Rebellion",
+        "number": 32,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Violent Winds",
+        "number": 85,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Technoscythe Reaper",
+        "number": 126,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Morok, King of Skyscrapers",
+        "number": 156,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rae, Neon Artist",
+        "number": 200,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Tag In",
+        "number": 42,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Zephyr, Data Thief",
+        "number": 87,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Virtual Insanity",
+        "number": 129,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Overcharge",
+        "number": 158,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Silent Hero",
+        "number": 207,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Aerial Frontliner",
+        "number": 4,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Augmented Faerie",
+        "number": 47,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Backstreet Blaster",
+        "number": 89,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Realm of Greatness",
+        "number": 161,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Altered Beast",
+        "number": 173,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Beat Drop",
+        "number": 8,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cryptic Sphinx",
+        "number": 51,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Corrupt Researcher",
+        "number": 92,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Ascended Renegade",
+        "number": 131,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Deadly Marksman",
+        "number": 181,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Charged Defender",
+        "number": 9,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Data Diver",
+        "number": 54,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Creator's Folly",
+        "number": 93,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Burst Through",
+        "number": 133,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Digital Haze",
+        "number": 184,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Club VIP",
+        "number": 11,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Data Surge",
+        "number": 56,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cyberclaw Nighthawk",
+        "number": 95,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Concealed Carry",
+        "number": 138,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Extinction Crawler",
+        "number": 187,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cybernetic Resurrection",
+        "number": 14,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Depths Debugger",
+        "number": 59,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cyberclaw Stalkers",
+        "number": 96,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Contracted Mercenary",
+        "number": 139,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Floral Celebrity",
+        "number": 188,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Dancefloor Brawler",
+        "number": 18,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Factory Replica",
+        "number": 62,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Glitched Edict",
+        "number": 110,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cyberclaw Renegade",
+        "number": 140,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Mechanized Mantis",
+        "number": 197,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Ghostly Recon",
+        "number": 24,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Hidden Strings",
+        "number": 66,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Grand Return",
+        "number": 112,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Mad Blaster",
+        "number": 153,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rumbling Progenitor",
+        "number": 202,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Glowcop Lieutenant",
+        "number": 28,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Intelligence Broker",
+        "number": 70,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Intimidating Vigilante",
+        "number": 115,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Quick-Shot Breacher",
+        "number": 160,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Salvage Remains",
+        "number": 204,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rebellious End",
+        "number": 35,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Redownload Memory",
+        "number": 77,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Killing Streak",
+        "number": 116,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Run and Gun",
+        "number": 162,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Squeaking Pilot",
+        "number": 208,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rhythm Control",
+        "number": 37,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Reprogrammed Proportions",
+        "number": 78,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Mad Brawler",
+        "number": 117,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Spin the Wheel",
+        "number": 165,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Strider Colossus",
+        "number": 211,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Surestrike Lancer",
+        "number": 40,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Startup Crash",
+        "number": 80,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Malicious Malfunction",
+        "number": 118,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Static Blaster",
+        "number": 166,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Titanic Naturalization",
+        "number": 212,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Symphony Synthesizer",
+        "number": 41,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Terror of the Slopes",
+        "number": 83,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rotcleaver Behemoth",
+        "number": 122,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Swift Sharpshooter",
+        "number": 169,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Triumph of the Alliance",
+        "number": 214,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Airborn Glowcop",
+        "number": 5,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Alien Abduction",
+        "number": 46,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Dashing Bladedancer",
+        "number": 98,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Virtual Jacket",
+        "number": 172,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Beastclaw Brawler",
+        "number": 174,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Ancient Invader",
+        "number": 6,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Chaos Disruptor",
+        "number": 48,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Deathblade Asssassin",
+        "number": 99,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Charge Forward",
+        "number": 134,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Colossal Battle",
+        "number": 178,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Armor Break",
+        "number": 7,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Corrupt Salesman",
+        "number": 49,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Deathly Deal",
+        "number": 100,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Data Transferer",
+        "number": 141,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Deathbloom Simulator",
+        "number": 182,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Clip Out",
+        "number": 10,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cryotank",
+        "number": 50,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Derezzed",
+        "number": 101,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Datamine",
+        "number": 142,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Delta-Dweller Serpent",
+        "number": 183,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Cyberwing Angel",
+        "number": 15,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Data Barrier",
+        "number": 52,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Download Virus",
+        "number": 104,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Decimator of Architecture",
+        "number": 143,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Enhanced Prowler",
+        "number": 185,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Defense Upgrade",
+        "number": 19,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Data Recoverer",
+        "number": 55,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Ego's Hired Blade",
+        "number": 105,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Decoded Revelation",
+        "number": 144,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Enter the Arena",
+        "number": 186,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Digital Eye",
+        "number": 20,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Debug",
+        "number": 58,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Extra Life",
+        "number": 106,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Firewall Breach",
+        "number": 146,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Generate Terrain",
+        "number": 190,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Dimensional Scout",
+        "number": 21,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Download Knowledge",
+        "number": 60,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Fatality",
+        "number": 107,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Firewall Breaker",
+        "number": 147,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Glowcop Strongarm",
+        "number": 191,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Flashy Duelist",
+        "number": 23,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Elusive Infiltrator",
+        "number": 61,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Fear Upgrade",
+        "number": 108,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "The Game Has Changed",
+        "number": 148,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Holo-Soldier",
+        "number": 192,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Glassfaced Duelist",
+        "number": 25,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Flight Upgrade",
+        "number": 63,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Ghostly Strike",
+        "number": 109,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Hotheaded Adventurer",
+        "number": 149,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Intense Adrenaline",
+        "number": 193,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Glowbird",
+        "number": 26,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Hired Infiltrator",
+        "number": 67,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Glitched Taunter",
+        "number": 111,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Incinerating Invader",
+        "number": 151,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Lethal Operator",
+        "number": 194,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Glowcop Enforcer",
+        "number": 27,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Hypnotic Denial",
+        "number": 69,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Grotuesque Invader",
+        "number": 113,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Javelin Thrower",
+        "number": 152,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Loambacker",
+        "number": 196,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Lightblade Renegade",
+        "number": 33,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Late-Night Tinkering",
+        "number": 71,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Headhunter Virus",
+        "number": 114,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Mind Control Malware",
+        "number": 154,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Prepare For Battle",
+        "number": 199,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Nullifying Veil",
+        "number": 34,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Reality Breaker",
+        "number": 75,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Respawn",
+        "number": 119,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Monstrous Flamefist",
+        "number": 155,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Revitalizing Tree",
+        "number": 201,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Repel the Invaders",
+        "number": 36,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Reality Crash",
+        "number": 76,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Resynchronizing Skeleton",
+        "number": 120,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Neon Duelist",
+        "number": 157,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Sewer Flytrap",
+        "number": 205,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Sleeper Soldier",
+        "number": 38,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Scrapyard Sprite",
+        "number": 79,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rhythm Repeater",
+        "number": 121,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Power Shot",
+        "number": 159,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Shoot Out of the Sky",
+        "number": 206,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Take By Surprise",
+        "number": 43,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Technocrow",
+        "number": 81,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Taskforce Manager",
+        "number": 124,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Speed Upgrade",
+        "number": 164,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Stampeding Frenzy",
+        "number": 209,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Tigerclaw Brawler",
+        "number": 44,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Telekinetic Invader",
+        "number": 82,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Vengeant Score-Settler",
+        "number": 127,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Street Fight",
+        "number": 167,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Strength Upgrade",
+        "number": 210,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Trained Spearmaster",
+        "number": 45,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Tethered Data Sifter",
+        "number": 84,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Viral Antivirus",
+        "number": 128,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Surestrike Samurai",
+        "number": 168,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Trampling Invader",
+        "number": 213,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Unseen Quillbeast",
+        "number": 171,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Ledrano, Brutal Glowcop",
+        "number": 231,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Nyle, Digital Revenant",
+        "number": 232,
+        "shape": "planeswalker",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Slash and Burn",
+        "number": 237,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Gladius, Arena Champion",
+        "number": 225,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Chelar, Chrome Steed",
+        "number": 217,
+        "shape": "planeswalker",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Dimensional Sharpshooter",
+        "number": 220,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Corrupt Avenger",
+        "number": 218,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Gladiator of Vengeance",
+        "number": 224,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Barreling Boar",
+        "number": 216,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Xeni, Geo-Runner",
+        "number": 239,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Termination Program",
+        "number": 238,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Holo-Squad",
+        "number": 228,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Dylec, Ghostly Lich",
+        "number": 221,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Program Masterminds",
+        "number": 233,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Grist, Invading Swarm",
+        "number": 226,
+        "shape": "planeswalker",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Item Merchant",
+        "number": 230,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Reitai, Loot Master",
+        "number": 234,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Dancefloor Hunter",
+        "number": 219,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Back-End Infiltrator",
+        "number": 215,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Herald of the Invasion",
+        "number": 227,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Showy Luchador",
+        "number": 236,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Sabotaging Raid",
+        "number": 235,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hybridized Invader",
+        "number": 229,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Elusive Trickster",
+        "number": 223,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Ego, the Castor",
+        "number": 222,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "The Creator",
+        "number": 1,
+        "shape": "planeswalker",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Technocolor Palette",
+        "number": 257,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Evolving Hatchling",
+        "number": 2,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Digital Blaster",
+        "number": 244,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Power Ball",
+        "number": 251,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "The Sword of Legend",
+        "number": 256,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Unstoppable Mecha",
+        "number": 258,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Data Drive",
+        "number": 242,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Decorated Automaton",
+        "number": 243,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Enhanced Eyes",
+        "number": 245,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Insanity Matrix",
+        "number": 246,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Invader Repulsor",
+        "number": 247,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Malignant Ether",
+        "number": 248,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Paint Bomb",
+        "number": 250,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Power Flower",
+        "number": 252,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Super Star",
+        "number": 254,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Surveillance Drone",
+        "number": 255,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Palette Swap",
+        "number": 3,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Artistic Canvas",
+        "number": 240,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Aspiring DJs",
+        "number": 241,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Neon Swords",
+        "number": 249,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Score Hunter",
+        "number": 253,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Flying Fortress",
+        "number": 259,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rapid River",
+        "number": 263,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Lost Tomb",
+        "number": 262,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Streets of Rage",
+        "number": 274,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Forest of Magic",
+        "number": 260,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Rendering Skyrise",
+        "number": 271,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rendering Reef",
+        "number": 270,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rendering Outskirts",
+        "number": 269,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rendering Arena",
+        "number": 265,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rendering Street",
+        "number": 272,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Rendering Alleyway",
+        "number": 264,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rendering Marketplace",
+        "number": 268,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rendering Undercity",
+        "number": 273,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rendering Highway",
+        "number": 267,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Rendering Delta",
+        "number": 266,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Line's End VIP Club",
+        "number": 261,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Terramorphic Expanse",
+        "number": 275,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plains",
+        "number": 276,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Island",
+        "number": 277,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 278,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 279,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "Forest",
+        "number": 280,
+        "shape": "normal",
+        "set": "RTG"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

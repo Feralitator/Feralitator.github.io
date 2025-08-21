@@ -1,0 +1,3082 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Dimensional Sharpshooter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Creature — Avatar Ranger",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/220_Dimensional Sharpshooter.png"
+			}
+		},
+		{
+			"name": "Dancefloor Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Avatar Assassin",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/219_Dancefloor Hunter.png"
+			}
+		},
+		{
+			"name": "Showy Luchador",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Avatar Warrior",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/236_Showy Luchador.png"
+			}
+		},
+		{
+			"name": "Holo-Squad",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/228_Holo-Squad.png"
+			}
+		},
+		{
+			"name": "Termination Program",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Enchantment",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/238_Termination Program.png"
+			}
+		},
+		{
+			"name": "Back-End Infiltrator",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Avatar Rogue",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/215_Back-End Infiltrator.png"
+			}
+		},
+		{
+			"name": "Slash and Burn",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Instant",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/237_Slash and Burn.png"
+			}
+		},
+		{
+			"name": "Hybridized Invader",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{G}",
+			"type": "Creature — Insect Beast Alien",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/229_Hybridized Invader.png"
+			}
+		},
+		{
+			"name": "Barreling Boar",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Boar",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/216_Barreling Boar.png"
+			}
+		},
+		{
+			"name": "Sleeper Soldier",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Avatar Ranger",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/38_Sleeper Soldier.png"
+			}
+		},
+		{
+			"name": "Glowbird",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Bird",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/26_Glowbird.png"
+			}
+		},
+		{
+			"name": "Lightblade Renegade",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/33_Lightblade Renegade.png"
+			}
+		},
+		{
+			"name": "Tigerclaw Brawler",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Avatar Warrior",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/44_Tigerclaw Brawler.png"
+			}
+		},
+		{
+			"name": "Glowcop Enforcer",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/27_Glowcop Enforcer.png"
+			}
+		},
+		{
+			"name": "Airborn Glowcop",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/5_Airborn Glowcop.png"
+			}
+		},
+		{
+			"name": "Flashy Duelist",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/23_Flashy Duelist.png"
+			}
+		},
+		{
+			"name": "Glassfaced Duelist",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/25_Glassfaced Duelist.png"
+			}
+		},
+		{
+			"name": "Dimensional Scout",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Avatar Scout",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/21_Dimensional Scout.png"
+			}
+		},
+		{
+			"name": "Trained Spearmaster",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Avatar Warrior",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/45_Trained Spearmaster.png"
+			}
+		},
+		{
+			"name": "Cyberwing Angel",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Angel Avatar",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/15_Cyberwing Angel.png"
+			}
+		},
+		{
+			"name": "Glowcop Lieutenant",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/28_Glowcop Lieutenant.png"
+			}
+		},
+		{
+			"name": "Take By Surprise",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/43_Take By Surprise.png"
+			}
+		},
+		{
+			"name": "Clip Out",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/10_Clip Out.png"
+			}
+		},
+		{
+			"name": "Repel the Invaders",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/36_Repel the Invaders.png"
+			}
+		},
+		{
+			"name": "Nullifying Veil",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/34_Nullifying Veil.png"
+			}
+		},
+		{
+			"name": "Defense Upgrade",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/19_Defense Upgrade.png"
+			}
+		},
+		{
+			"name": "Armor Break",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/7_Armor Break.png"
+			}
+		},
+		{
+			"name": "Technocrow",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Artifact Creature — Construct Bird",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/81_Technocrow.png"
+			}
+		},
+		{
+			"name": "Chaos Disruptor",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Avatar Wizard",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/48_Chaos Disruptor.png"
+			}
+		},
+		{
+			"name": "Corrupt Salesman",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Avatar",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/49_Corrupt Salesman.png"
+			}
+		},
+		{
+			"name": "Data Recoverer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Elf Avatar Rogue",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/55_Data Recoverer.png"
+			}
+		},
+		{
+			"name": "Scrapyard Sprite",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Faerie",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/79_Scrapyard Sprite.png"
+			}
+		},
+		{
+			"name": "Tethered Data Sifter",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Avatar",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/84_Tethered Data Sifter.png"
+			}
+		},
+		{
+			"name": "Telekinetic Invader",
+			"rarity": "common",
+			"mana_cost": "{6}{U}",
+			"type": "Creature — Alien",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/82_Telekinetic Invader.png"
+			}
+		},
+		{
+			"name": "Hired Infiltrator",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Avatar Rogue",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/67_Hired Infiltrator.png"
+			}
+		},
+		{
+			"name": "Hypnotic Denial",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/69_Hypnotic Denial.png"
+			}
+		},
+		{
+			"name": "Data Barrier",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/52_Data Barrier.png"
+			}
+		},
+		{
+			"name": "Cryotank",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/50_Cryotank.png"
+			}
+		},
+		{
+			"name": "Late-Night Tinkering",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/71_Late-Night Tinkering.png"
+			}
+		},
+		{
+			"name": "Alien Abduction",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/46_Alien Abduction.png"
+			}
+		},
+		{
+			"name": "Flight Upgrade",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/63_Flight Upgrade.png"
+			}
+		},
+		{
+			"name": "Debug",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/58_Debug.png"
+			}
+		},
+		{
+			"name": "Deathblade Asssassin",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Avatar Assassin",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/99_Deathblade Asssassin.png"
+			}
+		},
+		{
+			"name": "Resynchronizing Skeleton",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Construct Skeleton",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/120_Resynchronizing Skeleton.png"
+			}
+		},
+		{
+			"name": "Glitched Taunter",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Avatar",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/111_Glitched Taunter.png"
+			}
+		},
+		{
+			"name": "Ego's Hired Blade",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Avatar Samurai Mercenary",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/105_Ego's Hired Blade.png"
+			}
+		},
+		{
+			"name": "Taskforce Manager",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/124_Taskforce Manager.png"
+			}
+		},
+		{
+			"name": "Dashing Bladedancer",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/98_Dashing Bladedancer.png"
+			}
+		},
+		{
+			"name": "Vengeant Score-Settler",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact Creature — Construct Assassin",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/127_Vengeant Score-Settler.png"
+			}
+		},
+		{
+			"name": "Rhythm Repeater",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Avatar Rogue",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/121_Rhythm Repeater.png"
+			}
+		},
+		{
+			"name": "Headhunter Virus",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Avatar Illusion",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/114_Headhunter Virus.png"
+			}
+		},
+		{
+			"name": "Grotuesque Invader",
+			"rarity": "common",
+			"mana_cost": "{6}{B}",
+			"type": "Creature — Zombie Alien",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/113_Grotuesque Invader.png"
+			}
+		},
+		{
+			"name": "Derezzed",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/101_Derezzed.png"
+			}
+		},
+		{
+			"name": "Download Virus",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/104_Download Virus.png"
+			}
+		},
+		{
+			"name": "Glitched Edict",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/110_Glitched Edict.png"
+			}
+		},
+		{
+			"name": "Deathly Deal",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/100_Deathly Deal.png"
+			}
+		},
+		{
+			"name": "Respawn",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/119_Respawn.png"
+			}
+		},
+		{
+			"name": "Fear Upgrade",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/108_Fear Upgrade.png"
+			}
+		},
+		{
+			"name": "Extra Life",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/106_Extra Life.png"
+			}
+		},
+		{
+			"name": "Hotheaded Adventurer",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Avatar Scout",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/149_Hotheaded Adventurer.png"
+			}
+		},
+		{
+			"name": "Unseen Quillbeast",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Hedgehog Mutant",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/171_Unseen Quillbeast.png"
+			}
+		},
+		{
+			"name": "Firewall Breaker",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Avatar Rogue",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/147_Firewall Breaker.png"
+			}
+		},
+		{
+			"name": "Neon Duelist",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/157_Neon Duelist.png"
+			}
+		},
+		{
+			"name": "Decimator of Architecture",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Demon Berserker",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/143_Decimator of Architecture.png"
+			}
+		},
+		{
+			"name": "Surestrike Samurai",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Avatar Samurai",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/168_Surestrike Samurai.png"
+			}
+		},
+		{
+			"name": "Monstrous Flamefist",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Avatar Warrior",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/155_Monstrous Flamefist.png"
+			}
+		},
+		{
+			"name": "Javelin Thrower",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/152_Javelin Thrower.png"
+			}
+		},
+		{
+			"name": "Incinerating Invader",
+			"rarity": "common",
+			"mana_cost": "{6}{R}",
+			"type": "Creature — Elemental Alien",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/151_Incinerating Invader.png"
+			}
+		},
+		{
+			"name": "Power Shot",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/159_Power Shot.png"
+			}
+		},
+		{
+			"name": "Charge Forward",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/134_Charge Forward.png"
+			}
+		},
+		{
+			"name": "Mind Control Malware",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/154_Mind Control Malware.png"
+			}
+		},
+		{
+			"name": "The Game Has Changed",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/148_The Game Has Changed.png"
+			}
+		},
+		{
+			"name": "Datamine",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/142_Datamine.png"
+			}
+		},
+		{
+			"name": "Speed Upgrade",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/164_Speed Upgrade.png"
+			}
+		},
+		{
+			"name": "Street Fight",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/167_Street Fight.png"
+			}
+		},
+		{
+			"name": "Firewall Breach",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/146_Firewall Breach.png"
+			}
+		},
+		{
+			"name": "Decoded Revelation",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/144_Decoded Revelation.png"
+			}
+		},
+		{
+			"name": "Revitalizing Tree",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Plant",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/201_Revitalizing Tree.png"
+			}
+		},
+		{
+			"name": "Loambacker",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elemental",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/196_Loambacker.png"
+			}
+		},
+		{
+			"name": "Beastclaw Brawler",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Avatar Warrior",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/174_Beastclaw Brawler.png"
+			}
+		},
+		{
+			"name": "Deathbloom Simulator",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact Creature — Construct Druid",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/182_Deathbloom Simulator.png"
+			}
+		},
+		{
+			"name": "Sewer Flytrap",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Plant",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/205_Sewer Flytrap.png"
+			}
+		},
+		{
+			"name": "Glowcop Strongarm",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Avatar Warrior",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/191_Glowcop Strongarm.png"
+			}
+		},
+		{
+			"name": "Enhanced Prowler",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Cat",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/185_Enhanced Prowler.png"
+			}
+		},
+		{
+			"name": "Holo-Soldier",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/192_Holo-Soldier.png"
+			}
+		},
+		{
+			"name": "Extinction Crawler",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Artifact Creature — Construct Insect",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/187_Extinction Crawler.png"
+			}
+		},
+		{
+			"name": "Delta-Dweller Serpent",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Serpent Alien",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/183_Delta-Dweller Serpent.png"
+			}
+		},
+		{
+			"name": "Trampling Invader",
+			"rarity": "common",
+			"mana_cost": "{6}{G}",
+			"type": "Creature — Dinosaur Alien",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/213_Trampling Invader.png"
+			}
+		},
+		{
+			"name": "Colossal Battle",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/178_Colossal Battle.png"
+			}
+		},
+		{
+			"name": "Prepare For Battle",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/199_Prepare For Battle.png"
+			}
+		},
+		{
+			"name": "Stampeding Frenzy",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/209_Stampeding Frenzy.png"
+			}
+		},
+		{
+			"name": "Enter the Arena",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/186_Enter the Arena.png"
+			}
+		},
+		{
+			"name": "Strength Upgrade",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/210_Strength Upgrade.png"
+			}
+		},
+		{
+			"name": "Shoot Out of the Sky",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/206_Shoot Out of the Sky.png"
+			}
+		},
+		{
+			"name": "Generate Terrain",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/190_Generate Terrain.png"
+			}
+		},
+		{
+			"name": "Intense Adrenaline",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/193_Intense Adrenaline.png"
+			}
+		},
+		{
+			"name": "Aspiring DJs",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/241_Aspiring DJs.png"
+			}
+		},
+		{
+			"name": "Score Hunter",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/253_Score Hunter.png"
+			}
+		},
+		{
+			"name": "Neon Swords",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/249_Neon Swords.png"
+			}
+		},
+		{
+			"name": "Terramorphic Expanse",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/275_Terramorphic Expanse.png"
+			}
+		},
+		{
+			"name": "Artistic Canvas",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/240_Artistic Canvas.png"
+			}
+		},
+		{
+			"name": "Charged Defender",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/9_Charged Defender.png"
+			}
+		},
+		{
+			"name": "Surestrike Lancer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/40_Surestrike Lancer.png"
+			}
+		},
+		{
+			"name": "Club VIP",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Avatar Noble",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/11_Club VIP.png"
+			}
+		},
+		{
+			"name": "Ghostly Recon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/24_Ghostly Recon.png"
+			}
+		},
+		{
+			"name": "Aerial Frontliner",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/4_Aerial Frontliner.png"
+			}
+		},
+		{
+			"name": "Symphony Synthesizer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Avatar Bard",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/41_Symphony Synthesizer.png"
+			}
+		},
+		{
+			"name": "Ancient Invader",
+			"rarity": "common",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Dinosaur Alien",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/6_Ancient Invader.png"
+			}
+		},
+		{
+			"name": "Rebellious End",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/35_Rebellious End.png"
+			}
+		},
+		{
+			"name": "Rhythm Control",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/37_Rhythm Control.png"
+			}
+		},
+		{
+			"name": "Cybernetic Resurrection",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/14_Cybernetic Resurrection.png"
+			}
+		},
+		{
+			"name": "Intelligence Broker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Avatar Rogue",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/70_Intelligence Broker.png"
+			}
+		},
+		{
+			"name": "Depths Debugger",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Merfolk Construct",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/59_Depths Debugger.png"
+			}
+		},
+		{
+			"name": "Cryptic Sphinx",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Sphinx",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/51_Cryptic Sphinx.png"
+			}
+		},
+		{
+			"name": "Terror of the Slopes",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Giant Elemental",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/83_Terror of the Slopes.png"
+			}
+		},
+		{
+			"name": "Augmented Faerie",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Faerie",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/47_Augmented Faerie.png"
+			}
+		},
+		{
+			"name": "Data Surge",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/56_Data Surge.png"
+			}
+		},
+		{
+			"name": "Startup Crash",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/80_Startup Crash.png"
+			}
+		},
+		{
+			"name": "Redownload Memory",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/77_Redownload Memory.png"
+			}
+		},
+		{
+			"name": "Backstreet Blaster",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Rat Rogue",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/89_Backstreet Blaster.png"
+			}
+		},
+		{
+			"name": "Intimidating Vigilante",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/115_Intimidating Vigilante.png"
+			}
+		},
+		{
+			"name": "Cyberclaw Nighthawk",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Avatar",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/95_Cyberclaw Nighthawk.png"
+			}
+		},
+		{
+			"name": "Cyberclaw Stalkers",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Vampire Avatar",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/96_Cyberclaw Stalkers.png"
+			}
+		},
+		{
+			"name": "Rotcleaver Behemoth",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Zombie Alien",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/122_Rotcleaver Behemoth.png"
+			}
+		},
+		{
+			"name": "Corrupt Researcher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Avatar",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/92_Corrupt Researcher.png"
+			}
+		},
+		{
+			"name": "Mad Brawler",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Avatar Warrior",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/117_Mad Brawler.png"
+			}
+		},
+		{
+			"name": "Killing Streak",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/116_Killing Streak.png"
+			}
+		},
+		{
+			"name": "Grand Return",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/112_Grand Return.png"
+			}
+		},
+		{
+			"name": "Creator's Folly",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/93_Creator's Folly.png"
+			}
+		},
+		{
+			"name": "Ghostly Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/109_Ghostly Strike.png"
+			}
+		},
+		{
+			"name": "Static Blaster",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Avatar",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/166_Static Blaster.png"
+			}
+		},
+		{
+			"name": "Gladiator of Vengeance",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Artifact Creature — Construct Soldier",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/224_Gladiator of Vengeance.png"
+			}
+		},
+		{
+			"name": "Cyberclaw Renegade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Vampire Avatar Rebel",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/140_Cyberclaw Renegade.png"
+			}
+		},
+		{
+			"name": "Swift Sharpshooter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Avatar Ranger",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/169_Swift Sharpshooter.png"
+			}
+		},
+		{
+			"name": "Ascended Renegade",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Avatar Rebel",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/131_Ascended Renegade.png"
+			}
+		},
+		{
+			"name": "Contracted Mercenary",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Avatar Mercenary",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/139_Contracted Mercenary.png"
+			}
+		},
+		{
+			"name": "Quick-Shot Breacher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Construct Rogue",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/160_Quick-Shot Breacher.png"
+			}
+		},
+		{
+			"name": "Concealed Carry",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/138_Concealed Carry.png"
+			}
+		},
+		{
+			"name": "Run and Gun",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/162_Run and Gun.png"
+			}
+		},
+		{
+			"name": "Burst Through",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/133_Burst Through.png"
+			}
+		},
+		{
+			"name": "Spin the Wheel",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/165_Spin the Wheel.png"
+			}
+		},
+		{
+			"name": "Mechanized Mantis",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Artifact Creature — Insect",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/197_Mechanized Mantis.png"
+			}
+		},
+		{
+			"name": "Lethal Operator",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact Creature — Avatar Spider",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/194_Lethal Operator.png"
+			}
+		},
+		{
+			"name": "Squeaking Pilot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Mouse Pilot",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/208_Squeaking Pilot.png"
+			}
+		},
+		{
+			"name": "Altered Beast",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Artifact Creature — Construct Werewolf",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/173_Altered Beast.png"
+			}
+		},
+		{
+			"name": "Floral Celebrity",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Avatar Noble",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/188_Floral Celebrity.png"
+			}
+		},
+		{
+			"name": "Rumbling Progenitor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast Alien",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/202_Rumbling Progenitor.png"
+			}
+		},
+		{
+			"name": "Deadly Marksman",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Avatar Archer",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/181_Deadly Marksman.png"
+			}
+		},
+		{
+			"name": "Strider Colossus",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Creature — Beast Alien",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/211_Strider Colossus.png"
+			}
+		},
+		{
+			"name": "Titanic Naturalization",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/212_Titanic Naturalization.png"
+			}
+		},
+		{
+			"name": "Digital Haze",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Instant",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/184_Digital Haze.png"
+			}
+		},
+		{
+			"name": "Triumph of the Alliance",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/214_Triumph of the Alliance.png"
+			}
+		},
+		{
+			"name": "Digital Eye",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/20_Digital Eye.png"
+			}
+		},
+		{
+			"name": "Reprogrammed Proportions",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/78_Reprogrammed Proportions.png"
+			}
+		},
+		{
+			"name": "Malicious Malfunction",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/118_Malicious Malfunction.png"
+			}
+		},
+		{
+			"name": "Virtual Jacket",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/172_Virtual Jacket.png"
+			}
+		},
+		{
+			"name": "Salvage Remains",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/204_Salvage Remains.png"
+			}
+		},
+		{
+			"name": "Super Star",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/254_Super Star.png"
+			}
+		},
+		{
+			"name": "Enhanced Eyes",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/245_Enhanced Eyes.png"
+			}
+		},
+		{
+			"name": "Malignant Ether",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/248_Malignant Ether.png"
+			}
+		},
+		{
+			"name": "Paint Bomb",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/250_Paint Bomb.png"
+			}
+		},
+		{
+			"name": "Power Flower",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/252_Power Flower.png"
+			}
+		},
+		{
+			"name": "Decorated Automaton",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/243_Decorated Automaton.png"
+			}
+		},
+		{
+			"name": "Surveillance Drone",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Drone",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/255_Surveillance Drone.png"
+			}
+		},
+		{
+			"name": "Invader Repulsor",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/247_Invader Repulsor.png"
+			}
+		},
+		{
+			"name": "In Another Castle",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Battle",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/31_In Another Castle.png"
+			}
+		},
+		{
+			"name": "D1v4, Dancefloor DJ",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Artifact Creature — Angel Construct",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/17_D1v4, Dancefloor DJ.png"
+			}
+		},
+		{
+			"name": "Sudden Reversal",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Instant",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/39_Sudden Reversal.png"
+			}
+		},
+		{
+			"name": "Corruption Defender",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/12_Corruption Defender.png"
+			}
+		},
+		{
+			"name": "Corruption Propagator",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/13_Corruption Propagator.png"
+			}
+		},
+		{
+			"name": "Inspiring Rebellion",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/32_Inspiring Rebellion.png"
+			}
+		},
+		{
+			"name": "Human After All",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/30_Human After All.png"
+			}
+		},
+		{
+			"name": "Puzzle Quest",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Battle",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/74_Puzzle Quest.png"
+			}
+		},
+		{
+			"name": "Data-Drain Specialist",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Avatar Rogue",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/57_Data-Drain Specialist.png"
+			}
+		},
+		{
+			"name": "Hard Reset",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/65_Hard Reset.png"
+			}
+		},
+		{
+			"name": "Violent Winds",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/85_Violent Winds.png"
+			}
+		},
+		{
+			"name": "Memory Breach",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/72_Memory Breach.png"
+			}
+		},
+		{
+			"name": "Cryptoghast",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Spirit Avatar",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/94_Cryptoghast.png"
+			}
+		},
+		{
+			"name": "Doomspark Invader",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Alien Elemental",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/103_Doomspark Invader.png"
+			}
+		},
+		{
+			"name": "Digital Torment",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/102_Digital Torment.png"
+			}
+		},
+		{
+			"name": "Virtual Insanity",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/129_Virtual Insanity.png"
+			}
+		},
+		{
+			"name": "Brutal Assailant",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/90_Brutal Assailant.png"
+			}
+		},
+		{
+			"name": "Soul-Infused Butcher",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Artifact Creature — Demon Construct",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/123_Soul-Infused Butcher.png"
+			}
+		},
+		{
+			"name": "Morok, King of Skyscrapers",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Legendary Creature — Ape Alien",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/156_Morok, King of Skyscrapers.png"
+			}
+		},
+		{
+			"name": "Artistic Defiance",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/130_Artistic Defiance.png"
+			}
+		},
+		{
+			"name": "Code Cloning",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/137_Code Cloning.png"
+			}
+		},
+		{
+			"name": "Chem-Brute Researcher",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Avatar",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/175_Chem-Brute Researcher.png"
+			}
+		},
+		{
+			"name": "Silent Hero",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Avatar Samurai",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/207_Silent Hero.png"
+			}
+		},
+		{
+			"name": "Rae, Neon Artist",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Legendary Creature — Avatar Rogue",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/200_Rae, Neon Artist.png"
+			}
+		},
+		{
+			"name": "Living Landslide",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/195_Living Landslide.png"
+			}
+		},
+		{
+			"name": "Natural Savagery",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/198_Natural Savagery.png"
+			}
+		},
+		{
+			"name": "Databeast Shaman",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Avatar Shaman",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/180_Databeast Shaman.png"
+			}
+		},
+		{
+			"name": "Flash Kick",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/22_Flash Kick.png"
+			}
+		},
+		{
+			"name": "Data Dissolver",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Avatar",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/53_Data Dissolver.png"
+			}
+		},
+		{
+			"name": "Technoscythe Reaper",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Artifact Creature — Avatar Assassin",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/126_Technoscythe Reaper.png"
+			}
+		},
+		{
+			"name": "Overcharge",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/158_Overcharge.png"
+			}
+		},
+		{
+			"name": "Cyberwood Stalker",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Avatar Assassin",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/179_Cyberwood Stalker.png"
+			}
+		},
+		{
+			"name": "Flow Mastery",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/64_Flow Mastery.png"
+			}
+		},
+		{
+			"name": "Tatters, Mechanical Menace",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Artifact Creature — Scarecrow",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/125_Tatters, Mechanical Menace.png"
+			}
+		},
+		{
+			"name": "The Sword of Legend",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/256_The Sword of Legend.png"
+			}
+		},
+		{
+			"name": "Unstoppable Mecha",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/258_Unstoppable Mecha.png"
+			}
+		},
+		{
+			"name": "Evolving Hatchling",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Creature — Alien",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/2_Evolving Hatchling.png"
+			}
+		},
+		{
+			"name": "Digital Blaster",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Construct",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/244_Digital Blaster.png"
+			}
+		},
+		{
+			"name": "Insanity Matrix",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/246_Insanity Matrix.png"
+			}
+		},
+		{
+			"name": "Line's End VIP Club",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/261_Line's End VIP Club.png"
+			}
+		},
+		{
+			"name": "Harmonizing Monk",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Avatar Monk",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/29_Harmonizing Monk.png"
+			}
+		},
+		{
+			"name": "Cyberwing Protector",
+			"rarity": "mythic",
+			"mana_cost": "{4}{W}{W}{W}",
+			"type": "Creature — Angel Avatar",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/16_Cyberwing Protector.png"
+			}
+		},
+		{
+			"name": "Mind Control Diva",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Artifact Creature — Avatar Construct",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/73_Mind Control Diva.png"
+			}
+		},
+		{
+			"name": "Written Into Reality",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/86_Written Into Reality.png"
+			}
+		},
+		{
+			"name": "___, Secret Boss",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Skeleton Horror",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/88____, Secret Boss.png"
+			}
+		},
+		{
+			"name": "Titan-Form Challenger",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Avatar Warrior",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/170_Titan-Form Challenger.png"
+			}
+		},
+		{
+			"name": "Rumbling Tyrant",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Dinosaur Alien",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/203_Rumbling Tyrant.png"
+			}
+		},
+		{
+			"name": "City Razer",
+			"rarity": "mythic",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Beast Alien",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/176_City Razer.png"
+			}
+		},
+		{
+			"name": "The Creator",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Planeswalker — Creator",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/1_The Creator.png"
+			}
+		},
+		{
+			"name": "Palette Swap",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/3_Palette Swap.png"
+			}
+		},
+		{
+			"name": "Mad Blaster",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Avatar Ranger",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/153_Mad Blaster.png"
+			}
+		},
+		{
+			"name": "Gladius, Arena Champion",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "Legendary Creature — Avatar Warrior",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/225_Gladius, Arena Champion.png"
+			}
+		},
+		{
+			"name": "Xeni, Geo-Runner",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Legendary Creature — Avatar Shaman",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/239_Xeni, Geo-Runner.png"
+			}
+		},
+		{
+			"name": "Ego, the Castor",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{W}{B}",
+			"type": "Legendary Creature — Demon Avatar Noble",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/222_Ego, the Castor.png"
+			}
+		},
+		{
+			"name": "Program Masterminds",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{R}",
+			"type": "Creature — Avatar Rogue",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/233_Program Masterminds.png"
+			}
+		},
+		{
+			"name": "Herald of the Invasion",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Avatar Alien",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/227_Herald of the Invasion.png"
+			}
+		},
+		{
+			"name": "Item Merchant",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Avatar",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/230_Item Merchant.png"
+			}
+		},
+		{
+			"name": "Sabotaging Raid",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/235_Sabotaging Raid.png"
+			}
+		},
+		{
+			"name": "Tag In",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/42_Tag In.png"
+			}
+		},
+		{
+			"name": "Elusive Infiltrator",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Avatar Rogue",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/61_Elusive Infiltrator.png"
+			}
+		},
+		{
+			"name": "Data Diver",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Merfolk Rogue",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/54_Data Diver.png"
+			}
+		},
+		{
+			"name": "Fatality",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/107_Fatality.png"
+			}
+		},
+		{
+			"name": "Dance to Death",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Battle",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/97_Dance to Death.png"
+			}
+		},
+		{
+			"name": "Cheat Code",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/135_Cheat Code.png"
+			}
+		},
+		{
+			"name": "Serin, Master Brawler",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Planeswalker — Serin",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/163_Serin, Master Brawler.png"
+			}
+		},
+		{
+			"name": "Frog Crossing",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Battle",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/189_Frog Crossing.png"
+			}
+		},
+		{
+			"name": "Chelar, Chrome Steed",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Planeswalker — Chelar",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/217_Chelar, Chrome Steed.png"
+			}
+		},
+		{
+			"name": "Grist, Invading Swarm",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{G}",
+			"type": "Legendary Planeswalker — Grist",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/226_Grist, Invading Swarm.png"
+			}
+		},
+		{
+			"name": "Dylec, Ghostly Lich",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Creature — Zombie Warlock",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/221_Dylec, Ghostly Lich.png"
+			}
+		},
+		{
+			"name": "Nyle, Digital Revenant",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Planeswalker — Nyle",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/232_Nyle, Digital Revenant.png"
+			}
+		},
+		{
+			"name": "Data Drive",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/242_Data Drive.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/276_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/277_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/278_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/279_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/280_Forest.png"
+			}
+		},
+		{
+			"name": "Rendering Reef",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island Swamp",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/270_Rendering Reef.png"
+			}
+		},
+		{
+			"name": "Rendering Marketplace",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island Mountain",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/268_Rendering Marketplace.png"
+			}
+		},
+		{
+			"name": "Rendering Outskirts",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/269_Rendering Outskirts.png"
+			}
+		},
+		{
+			"name": "Rendering Skyrise",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains Island",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/271_Rendering Skyrise.png"
+			}
+		},
+		{
+			"name": "Rendering Undercity",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/273_Rendering Undercity.png"
+			}
+		},
+		{
+			"name": "Rendering Highway",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/267_Rendering Highway.png"
+			}
+		},
+		{
+			"name": "Rendering Arena",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/265_Rendering Arena.png"
+			}
+		},
+		{
+			"name": "Rendering Street",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest Plains",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/272_Rendering Street.png"
+			}
+		},
+		{
+			"name": "Rendering Delta",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest Island",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/266_Rendering Delta.png"
+			}
+		},
+		{
+			"name": "Rendering Alleyway",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/264_Rendering Alleyway.png"
+			}
+		},
+		{
+			"name": "Download Knowledge",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/60_Download Knowledge.png"
+			}
+		},
+		{
+			"name": "Hidden Strings",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/66_Hidden Strings.png"
+			}
+		},
+		{
+			"name": "Zephyr, Data Thief",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Avatar Rogue",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/87_Zephyr, Data Thief.png"
+			}
+		},
+		{
+			"name": "Beat Drop",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/8_Beat Drop.png"
+			}
+		},
+		{
+			"name": "Reality Crash",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/76_Reality Crash.png"
+			}
+		},
+		{
+			"name": "Dancefloor Brawler",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Avatar",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/18_Dancefloor Brawler.png"
+			}
+		},
+		{
+			"name": "Rapid River",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/263_Rapid River.png"
+			}
+		},
+		{
+			"name": "Lost Tomb",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/262_Lost Tomb.png"
+			}
+		},
+		{
+			"name": "Streets of Rage",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/274_Streets of Rage.png"
+			}
+		},
+		{
+			"name": "Forest of Magic",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/260_Forest of Magic.png"
+			}
+		},
+		{
+			"name": "Flying Fortress",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/259_Flying Fortress.png"
+			}
+		},
+		{
+			"name": "Factory Replica",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Shapeshifter",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/62_Factory Replica.png"
+			}
+		},
+		{
+			"name": "Corrupt Avenger",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/218_Corrupt Avenger.png"
+			}
+		},
+		{
+			"name": "Realm of Greatness",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/161_Realm of Greatness.png"
+			}
+		},
+		{
+			"name": "Viral Antivirus",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/128_Viral Antivirus.png"
+			}
+		},
+		{
+			"name": "Draconic Invasion",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Battle",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/145_Draconic Invasion.png"
+			}
+		},
+		{
+			"name": "Elusive Trickster",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Creature — Avatar Rogue",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/223_Elusive Trickster.png"
+			}
+		},
+		{
+			"name": "City-Wide Rampager",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Hydra Alien",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/177_City-Wide Rampager.png"
+			}
+		},
+		{
+			"name": "Bonus Round",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/132_Bonus Round.png"
+			}
+		},
+		{
+			"name": "Build-A-Boss",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/91_Build-A-Boss.png"
+			}
+		},
+		{
+			"name": "Holo-Squad Captain",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Avatar Soldier",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/68_Holo-Squad Captain.png"
+			}
+		},
+		{
+			"name": "Chrome Invader",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Artifact Creature — Construct Alien",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/136_Chrome Invader.png"
+			}
+		},
+		{
+			"name": "Technocolor Palette",
+			"rarity": "mythic",
+			"mana_cost": "{X}",
+			"type": "Artifact",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/257_Technocolor Palette.png"
+			}
+		},
+		{
+			"name": "Reitai, Loot Master",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Avatar Soldier",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/234_Reitai, Loot Master.png"
+			}
+		},
+		{
+			"name": "Ledrano, Brutal Glowcop",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Avatar Soldier",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/231_Ledrano, Brutal Glowcop.png"
+			}
+		},
+		{
+			"name": "Hunted Bounty Hunter",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Avatar Knight",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/150_Hunted Bounty Hunter.png"
+			}
+		},
+		{
+			"name": "Power Ball",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/251_Power Ball.png"
+			}
+		},
+		{
+			"name": "Reality Breaker",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Avatar Illusion",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/75_Reality Breaker.png"
+			}
+		},
+		{
+			"name": "Data Transferer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Construct Rogue",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/RTG-files/img/141_Data Transferer.png"
+			}
+		}
+	]
+
+[rare(1)]
+	5 Slash and Burn
+	5 In Another Castle
+	5 D1v4, Dancefloor DJ
+	5 Sudden Reversal
+	5 Corruption Defender
+	5 Corruption Propagator
+	5 Inspiring Rebellion
+	5 Human After All
+	5 Puzzle Quest
+	5 Data-Drain Specialist
+	5 Hard Reset
+	5 Violent Winds
+	5 Memory Breach
+	5 Cryptoghast
+	5 Doomspark Invader
+	5 Digital Torment
+	5 Virtual Insanity
+	5 Brutal Assailant
+	5 Soul-Infused Butcher
+	5 Morok, King of Skyscrapers
+	5 Artistic Defiance
+	5 Code Cloning
+	5 Chem-Brute Researcher
+	5 Silent Hero
+	5 Rae, Neon Artist
+	5 Living Landslide
+	5 Natural Savagery
+	5 Databeast Shaman
+	5 Flash Kick
+	5 Data Dissolver
+	5 Technoscythe Reaper
+	5 Overcharge
+	5 Cyberwood Stalker
+	5 Flow Mastery
+	5 Tatters, Mechanical Menace
+	5 The Sword of Legend
+	5 Unstoppable Mecha
+	5 Evolving Hatchling
+	5 Digital Blaster
+	5 Line's End VIP Club
+	5 Harmonizing Monk
+	5 Cyberwing Protector
+	5 Mind Control Diva
+	5 Written Into Reality
+	5 ___, Secret Boss
+	5 Titan-Form Challenger
+	5 Rumbling Tyrant
+	5 City Razer
+	5 The Creator
+	5 Gladius, Arena Champion
+	5 Xeni, Geo-Runner
+	5 Ego, the Castor
+	5 Program Masterminds
+	5 Herald of the Invasion
+	5 Item Merchant
+	5 Sabotaging Raid
+	5 Tag In
+	5 Dance to Death
+	5 Cheat Code
+	5 Serin, Master Brawler
+	5 Frog Crossing
+	5 Chelar, Chrome Steed
+	5 Grist, Invading Swarm
+	5 Dylec, Ghostly Lich
+	5 Nyle, Digital Revenant
+	5 Zephyr, Data Thief
+	5 Corrupt Avenger
+	5 Realm of Greatness
+	5 Draconic Invasion
+	5 City-Wide Rampager
+	5 Bonus Round
+	5 Build-A-Boss
+	5 Holo-Squad Captain
+	5 Chrome Invader
+	5 Technocolor Palette
+	5 Reitai, Loot Master
+	5 Ledrano, Brutal Glowcop
+	5 Hunted Bounty Hunter
+	5 Power Ball
+[uncommon(3)]
+	5 Dimensional Sharpshooter
+	5 Dancefloor Hunter
+	5 Showy Luchador
+	5 Holo-Squad
+	5 Termination Program
+	5 Back-End Infiltrator
+	5 Hybridized Invader
+	5 Barreling Boar
+	5 Glowcop Lieutenant
+	5 Glitched Edict
+	5 Extinction Crawler
+	5 Charged Defender
+	5 Surestrike Lancer
+	5 Club VIP
+	5 Ghostly Recon
+	5 Aerial Frontliner
+	5 Symphony Synthesizer
+	5 Rebellious End
+	5 Rhythm Control
+	5 Cybernetic Resurrection
+	5 Intelligence Broker
+	5 Depths Debugger
+	5 Cryptic Sphinx
+	5 Terror of the Slopes
+	5 Augmented Faerie
+	5 Data Surge
+	5 Startup Crash
+	5 Redownload Memory
+	5 Backstreet Blaster
+	5 Intimidating Vigilante
+	5 Cyberclaw Nighthawk
+	5 Cyberclaw Stalkers
+	5 Rotcleaver Behemoth
+	5 Corrupt Researcher
+	5 Mad Brawler
+	5 Killing Streak
+	5 Grand Return
+	5 Creator's Folly
+	5 Static Blaster
+	5 Gladiator of Vengeance
+	5 Cyberclaw Renegade
+	5 Swift Sharpshooter
+	5 Ascended Renegade
+	5 Contracted Mercenary
+	5 Quick-Shot Breacher
+	5 Concealed Carry
+	5 Run and Gun
+	5 Burst Through
+	5 Spin the Wheel
+	5 Mechanized Mantis
+	5 Squeaking Pilot
+	5 Altered Beast
+	5 Floral Celebrity
+	5 Rumbling Progenitor
+	5 Deadly Marksman
+	5 Strider Colossus
+	5 Titanic Naturalization
+	5 Digital Haze
+	5 Triumph of the Alliance
+	5 Reprogrammed Proportions
+	5 Malicious Malfunction
+	5 Virtual Jacket
+	5 Salvage Remains
+	5 Super Star
+	5 Enhanced Eyes
+	5 Malignant Ether
+	5 Paint Bomb
+	5 Power Flower
+	5 Decorated Automaton
+	5 Surveillance Drone
+	5 Invader Repulsor
+	5 Insanity Matrix
+	5 Mad Blaster
+	5 Data Diver
+	5 Data Drive
+	5 Hidden Strings
+	5 Beat Drop
+	5 Dancefloor Brawler
+	5 Rapid River
+	5 Lost Tomb
+	5 Streets of Rage
+	5 Forest of Magic
+	5 Flying Fortress
+	5 Factory Replica
+	5 Elusive Trickster
+[common(10)]
+	5 Sleeper Soldier
+	5 Glowbird
+	5 Lightblade Renegade
+	5 Tigerclaw Brawler
+	5 Glowcop Enforcer
+	5 Airborn Glowcop
+	5 Flashy Duelist
+	5 Glassfaced Duelist
+	5 Dimensional Scout
+	5 Trained Spearmaster
+	5 Cyberwing Angel
+	5 Take By Surprise
+	5 Clip Out
+	5 Repel the Invaders
+	5 Nullifying Veil
+	5 Defense Upgrade
+	5 Armor Break
+	5 Technocrow
+	5 Chaos Disruptor
+	5 Corrupt Salesman
+	5 Data Recoverer
+	5 Scrapyard Sprite
+	5 Tethered Data Sifter
+	5 Telekinetic Invader
+	5 Hired Infiltrator
+	5 Hypnotic Denial
+	5 Data Barrier
+	5 Cryotank
+	5 Late-Night Tinkering
+	5 Alien Abduction
+	5 Flight Upgrade
+	5 Debug
+	5 Deathblade Asssassin
+	5 Resynchronizing Skeleton
+	5 Glitched Taunter
+	5 Ego's Hired Blade
+	5 Taskforce Manager
+	5 Dashing Bladedancer
+	5 Vengeant Score-Settler
+	5 Rhythm Repeater
+	5 Headhunter Virus
+	5 Grotuesque Invader
+	5 Derezzed
+	5 Download Virus
+	5 Deathly Deal
+	5 Respawn
+	5 Fear Upgrade
+	5 Extra Life
+	5 Hotheaded Adventurer
+	5 Unseen Quillbeast
+	5 Firewall Breaker
+	5 Neon Duelist
+	5 Decimator of Architecture
+	5 Surestrike Samurai
+	5 Monstrous Flamefist
+	5 Javelin Thrower
+	5 Incinerating Invader
+	5 Power Shot
+	5 Charge Forward
+	5 Mind Control Malware
+	5 The Game Has Changed
+	5 Datamine
+	5 Speed Upgrade
+	5 Street Fight
+	5 Firewall Breach
+	5 Decoded Revelation
+	5 Revitalizing Tree
+	5 Loambacker
+	5 Beastclaw Brawler
+	5 Deathbloom Simulator
+	5 Sewer Flytrap
+	5 Glowcop Strongarm
+	5 Enhanced Prowler
+	5 Holo-Soldier
+	5 Delta-Dweller Serpent
+	5 Trampling Invader
+	5 Colossal Battle
+	5 Prepare For Battle
+	5 Stampeding Frenzy
+	5 Enter the Arena
+	5 Strength Upgrade
+	5 Shoot Out of the Sky
+	5 Generate Terrain
+	5 Intense Adrenaline
+	5 Aspiring DJs
+	5 Score Hunter
+	5 Neon Swords
+	5 Terramorphic Expanse
+	5 Artistic Canvas
+	5 Ancient Invader
+	5 Ghostly Strike
+	5 Lethal Operator
+	5 Digital Eye
+	5 Palette Swap
+	5 Elusive Infiltrator
+	5 Fatality
+	5 Rendering Reef
+	5 Rendering Marketplace
+	5 Rendering Outskirts
+	5 Rendering Skyrise
+	5 Rendering Undercity
+	5 Rendering Highway
+	5 Rendering Arena
+	5 Rendering Street
+	5 Rendering Delta
+	5 Rendering Alleyway
+	5 Download Knowledge
+	5 Reality Crash
+	5 Viral Antivirus
+	5 Reality Breaker
+	5 Data Transferer
