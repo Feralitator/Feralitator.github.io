@@ -6,8 +6,18 @@
             "formats": ""
         },
         {
+            "set_code": "MUM",
+            "set_name": "Multiversal Mythos",
+            "formats": ""
+        },
+        {
             "set_code": "NTM",
             "set_name": "Nerotomea",
+            "formats": ""
+        },
+        {
+            "set_code": "POM",
+            "set_name": "Pantheons of the Multiverse",
             "formats": ""
         },
         {

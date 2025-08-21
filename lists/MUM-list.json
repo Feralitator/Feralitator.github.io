@@ -1,0 +1,600 @@
+﻿[
+    {
+        "card_name": "Heliod, Sun-Crowned",
+        "number": 6,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Alrund's Epiphany",
+        "number": 16,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Bontu the Glorified",
+        "number": 31,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Combat Celebrant",
+        "number": 47,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Battle Mammoth",
+        "number": 61,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Oketra the True",
+        "number": 8,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Kefnet the Mindful",
+        "number": 20,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Erebos, Bleak-Hearted",
+        "number": 35,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Purphoros, Bronze-Blooded",
+        "number": 55,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Nylea, Keen-Eyed",
+        "number": 67,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Starnheim Unleashed",
+        "number": 13,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Thassa, Deep-Dwelling",
+        "number": 27,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Haunting Voyage",
+        "number": 37,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Quakebringer",
+        "number": 56,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Rhonas the Indomitable",
+        "number": 69,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Adorned Pouncer",
+        "number": 1,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Cosmos Charger",
+        "number": 17,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Crippling Fear",
+        "number": 32,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Dragonkin Berserker",
+        "number": 49,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Courser of Kruphix",
+        "number": 63,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Approach of the Second Sun",
+        "number": 3,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Nimble Obstructionist",
+        "number": 21,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Dread Wanderer",
+        "number": 33,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Eidolon of the Great Revel",
+        "number": 50,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Honored Hydra",
+        "number": 64,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Doomskar",
+        "number": 4,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Reflections of Littjara",
+        "number": 22,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Dream Devourer",
+        "number": 34,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Glorybringer",
+        "number": 53,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Hydra Broodmaster",
+        "number": 65,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Hero of Iroas",
+        "number": 7,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Swan Song",
+        "number": 26,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "King Macar, the Gold-Cursed",
+        "number": 39,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Hazoret's Undying Fury",
+        "number": 54,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Realmwalker",
+        "number": 68,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Runeforge Champion",
+        "number": 10,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Tromokratis",
+        "number": 29,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Nightmare Shepherd",
+        "number": 41,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Tibalt's Trickery",
+        "number": 58,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Sandwurm Convergence",
+        "number": 72,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Skybind",
+        "number": 12,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Vizier of Many Faces",
+        "number": 30,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Torment of Hailfire",
+        "number": 44,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Underworld Breach",
+        "number": 60,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Toski, Bearer of Secrets",
+        "number": 74,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Alseid of Life's Bounty",
+        "number": 2,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Dakra Mystic",
+        "number": 18,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Gray Merchant of Asphodel",
+        "number": 36,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Ahn-Crop Crasher",
+        "number": 46,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Colossal Heroics",
+        "number": 62,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Ghostblade Eidolon",
+        "number": 5,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Glimpse of Freedom",
+        "number": 19,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Hero's Downfall",
+        "number": 38,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Doomskar Titan",
+        "number": 48,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Nessian Demolok",
+        "number": 66,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Rune of Sustenance",
+        "number": 9,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Rune of Flight",
+        "number": 23,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Lord of the Accursed",
+        "number": 40,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Fanatic of Mogis",
+        "number": 51,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Rootless Yew",
+        "number": 70,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Shepherd of the Cosmos",
+        "number": 11,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Saw It Coming",
+        "number": 24,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Renegade Reaper",
+        "number": 42,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Furious Rise",
+        "number": 52,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Rune of Might",
+        "number": 71,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Trial of Solidarity",
+        "number": 14,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Sinuous Striker",
+        "number": 25,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Rune of Mortality",
+        "number": 43,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Rune of Speed",
+        "number": 57,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Shefet Monitor",
+        "number": 73,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Vizier of Deferment",
+        "number": 15,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Trial of Knowledge",
+        "number": 28,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Trial of Ambition",
+        "number": 45,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Trial of Zeal",
+        "number": 59,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Trial of Strength",
+        "number": 75,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Maskwood Nexus",
+        "number": 84,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Throne of the God-Pharaoh",
+        "number": 88,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Colossus of Akros",
+        "number": 79,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Cosmos Elixir",
+        "number": 80,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "God-Pharaoh's Gift",
+        "number": 83,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Mirage Mirror",
+        "number": 85,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Pyxis of Pandemonium",
+        "number": 86,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Armory of Iroas",
+        "number": 76,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Bloodline Pretender",
+        "number": 77,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Burnished Hart",
+        "number": 78,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Dager of the Worthy",
+        "number": 81,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Embalmer's Tools",
+        "number": 82,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Runed Crown",
+        "number": 87,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Mana Confluence",
+        "number": 89,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "Tyrite Sanctum",
+        "number": 90,
+        "shape": "normal",
+        "set": "MUM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

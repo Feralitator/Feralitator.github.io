@@ -1,0 +1,3951 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Starbound Philosopher",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Enchantment Creature — Spirit Cleric",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/220_Starbound Philosopher.png"
+			}
+		},
+		{
+			"name": "Overseer of Balance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Angel",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/216_Overseer of Balance.png"
+			}
+		},
+		{
+			"name": "Muse of the Gods",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Enchantment Creature — Satyr Bard",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/214_Muse of the Gods.png"
+			}
+		},
+		{
+			"name": "Wandering Draugr",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/225_Wandering Draugr.png"
+			}
+		},
+		{
+			"name": "Stormbringer Giant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Giant",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/221_Stormbringer Giant.png"
+			}
+		},
+		{
+			"name": "Bloodhorn Marauder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Minotaur Berserker",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/206_Bloodhorn Marauder.png"
+			}
+		},
+		{
+			"name": "Swarmcaster",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Zombie Naga",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/222_Swarmcaster.png"
+			}
+		},
+		{
+			"name": "Trek the Deserts",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/224_Trek the Deserts.png"
+			}
+		},
+		{
+			"name": "Explore the Omenpaths",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/209_Explore the Omenpaths.png"
+			}
+		},
+		{
+			"name": "Undying Braggart",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/37_Undying Braggart.png"
+			}
+		},
+		{
+			"name": "Valkyrie Fledgeling",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Angel",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/38_Valkyrie Fledgeling.png"
+			}
+		},
+		{
+			"name": "Fatereader",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/19_Fatereader.png"
+			}
+		},
+		{
+			"name": "Nyxborn Hoplite",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Creature — Human Warrior",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/25_Nyxborn Hoplite.png"
+			}
+		},
+		{
+			"name": "Istfell Guardian",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit Warrior",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/21_Istfell Guardian.png"
+			}
+		},
+		{
+			"name": "Oracle of the Cosmos",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Cleric",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/26_Oracle of the Cosmos.png"
+			}
+		},
+		{
+			"name": "Devoted Dunepike",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/12_Devoted Dunepike.png"
+			}
+		},
+		{
+			"name": "Nyx Prophet",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/23_Nyx Prophet.png"
+			}
+		},
+		{
+			"name": "Vizier of Strength",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/40_Vizier of Strength.png"
+			}
+		},
+		{
+			"name": "Broken-Faith Keeper",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/10_Broken-Faith Keeper.png"
+			}
+		},
+		{
+			"name": "Eidolon of Heroism",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment Creature — Angel Spirit",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/15_Eidolon of Heroism.png"
+			}
+		},
+		{
+			"name": "Enduring Angel",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/17_Enduring Angel.png"
+			}
+		},
+		{
+			"name": "Divine Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/14_Divine Strike.png"
+			}
+		},
+		{
+			"name": "Bow in Majesty",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/8_Bow in Majesty.png"
+			}
+		},
+		{
+			"name": "Triumph of the Mighty",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/36_Triumph of the Mighty.png"
+			}
+		},
+		{
+			"name": "Withstanding Shield",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/42_Withstanding Shield.png"
+			}
+		},
+		{
+			"name": "Rune of Solidarity",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura Cartouche Rune",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/30_Rune of Solidarity.png"
+			}
+		},
+		{
+			"name": "Warhorn Blast",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/41_Warhorn Blast.png"
+			}
+		},
+		{
+			"name": "Shattering Flames",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/33_Shattering Flames.png"
+			}
+		},
+		{
+			"name": "Triton Prophet",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment Creature — Merfolk Wizard",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/79_Triton Prophet.png"
+			}
+		},
+		{
+			"name": "Overseeing Condor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/65_Overseeing Condor.png"
+			}
+		},
+		{
+			"name": "Draugr Frostmage",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Zombie Wizard",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/54_Draugr Frostmage.png"
+			}
+		},
+		{
+			"name": "Tomb Thief",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/77_Tomb Thief.png"
+			}
+		},
+		{
+			"name": "Arcane Reclaimer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/45_Arcane Reclaimer.png"
+			}
+		},
+		{
+			"name": "Hashep Drake",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Drake",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/61_Hashep Drake.png"
+			}
+		},
+		{
+			"name": "Scaled Prophet",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Naga Wizard",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/69_Scaled Prophet.png"
+			}
+		},
+		{
+			"name": "Vizier of Endless Dreams",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Zombie Wizard",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/81_Vizier of Endless Dreams.png"
+			}
+		},
+		{
+			"name": "Fishy Gladiator",
+			"rarity": "common",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Fish Giant Warrior",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/57_Fishy Gladiator.png"
+			}
+		},
+		{
+			"name": "Horizon Protector",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/62_Horizon Protector.png"
+			}
+		},
+		{
+			"name": "Denied Presence",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/48_Denied Presence.png"
+			}
+		},
+		{
+			"name": "Spellweft",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/75_Spellweft.png"
+			}
+		},
+		{
+			"name": "Frozen Fate",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/60_Frozen Fate.png"
+			}
+		},
+		{
+			"name": "Sealed Fortune",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/71_Sealed Fortune.png"
+			}
+		},
+		{
+			"name": "Divine Scheming",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/53_Divine Scheming.png"
+			}
+		},
+		{
+			"name": "Endless Voyage",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/55_Endless Voyage.png"
+			}
+		},
+		{
+			"name": "Rune of Knowledge",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura Cartouche Rune",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/67_Rune of Knowledge.png"
+			}
+		},
+		{
+			"name": "Spectral Shackles",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/73_Spectral Shackles.png"
+			}
+		},
+		{
+			"name": "Disarming Wail",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/50_Disarming Wail.png"
+			}
+		},
+		{
+			"name": "Broken-Horn Berserker",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Minotaur Berserker",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/84_Broken-Horn Berserker.png"
+			}
+		},
+		{
+			"name": "Khenra Shadowblade",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Jackal Warrior",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/98_Khenra Shadowblade.png"
+			}
+		},
+		{
+			"name": "Eternal Sentinel",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/93_Eternal Sentinel.png"
+			}
+		},
+		{
+			"name": "Mogis's Devoted",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment Creature — Minotaur Berserker",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/101_Mogis's Devoted.png"
+			}
+		},
+		{
+			"name": "Dread Valkyrie",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Angel Warrior",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/92_Dread Valkyrie.png"
+			}
+		},
+		{
+			"name": "Restless Draugr",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/107_Restless Draugr.png"
+			}
+		},
+		{
+			"name": "Jarl of Undeath",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Cleric",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/97_Jarl of Undeath.png"
+			}
+		},
+		{
+			"name": "Rotting Grizzly",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Bear",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/109_Rotting Grizzly.png"
+			}
+		},
+		{
+			"name": "Thunderblade Valkyrie",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Angel Warrior",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/118_Thunderblade Valkyrie.png"
+			}
+		},
+		{
+			"name": "Monstrous Titan",
+			"rarity": "common",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Creature — Giant",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/102_Monstrous Titan.png"
+			}
+		},
+		{
+			"name": "Soul Drain",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/114_Soul Drain.png"
+			}
+		},
+		{
+			"name": "Ghostly Shiver",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/95_Ghostly Shiver.png"
+			}
+		},
+		{
+			"name": "Vizier's Edict",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/122_Vizier's Edict.png"
+			}
+		},
+		{
+			"name": "Vanquish the Weak",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/121_Vanquish the Weak.png"
+			}
+		},
+		{
+			"name": "Divinity at Any Cost",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/91_Divinity at Any Cost.png"
+			}
+		},
+		{
+			"name": "Unbury",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/119_Unbury.png"
+			}
+		},
+		{
+			"name": "Haunting Dreams",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/96_Haunting Dreams.png"
+			}
+		},
+		{
+			"name": "Rune of Ambition",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura Cartouche Rune",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/110_Rune of Ambition.png"
+			}
+		},
+		{
+			"name": "Raise the Necropolis",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Sorcery",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/106_Raise the Necropolis.png"
+			}
+		},
+		{
+			"name": "Naga Scrollburner",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Naga Wizard",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/147_Naga Scrollburner.png"
+			}
+		},
+		{
+			"name": "Felhide Berserker",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment Creature — Minotaur Berserker",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/136_Felhide Berserker.png"
+			}
+		},
+		{
+			"name": "Voyaging Protector",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/162_Voyaging Protector.png"
+			}
+		},
+		{
+			"name": "Crocodile Rider",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/131_Crocodile Rider.png"
+			}
+		},
+		{
+			"name": "Reckless Raider",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/153_Reckless Raider.png"
+			}
+		},
+		{
+			"name": "Felhide Rampager",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Minotaur Berserker",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/137_Felhide Rampager.png"
+			}
+		},
+		{
+			"name": "Battleforged Blacksmith",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Dwarf Warrior",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/125_Battleforged Blacksmith.png"
+			}
+		},
+		{
+			"name": "Molten Giant",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment Creature — Giant Warrior",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/145_Molten Giant.png"
+			}
+		},
+		{
+			"name": "Ragehorn Gladiator",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Minotaur Warrior",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/150_Ragehorn Gladiator.png"
+			}
+		},
+		{
+			"name": "Surtland Flame-Cleaver",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Giant Warrior",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/158_Surtland Flame-Cleaver.png"
+			}
+		},
+		{
+			"name": "Thundering Smite",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/160_Thundering Smite.png"
+			}
+		},
+		{
+			"name": "Runebolt",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/156_Runebolt.png"
+			}
+		},
+		{
+			"name": "Treasonous Aggression",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/161_Treasonous Aggression.png"
+			}
+		},
+		{
+			"name": "Rally to Raid",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/152_Rally to Raid.png"
+			}
+		},
+		{
+			"name": "Fleeting Songs",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/139_Fleeting Songs.png"
+			}
+		},
+		{
+			"name": "Rune of Zeal",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura Cartouche Rune",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/155_Rune of Zeal.png"
+			}
+		},
+		{
+			"name": "Blessing of Slaughter",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/128_Blessing of Slaughter.png"
+			}
+		},
+		{
+			"name": "Threatened Plundering",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/159_Threatened Plundering.png"
+			}
+		},
+		{
+			"name": "Cut the Horizon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/132_Cut the Horizon.png"
+			}
+		},
+		{
+			"name": "Slinking Viper",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Snake",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/197_Slinking Viper.png"
+			}
+		},
+		{
+			"name": "Setessan Cultivator",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment Creature — Human Druid",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/193_Setessan Cultivator.png"
+			}
+		},
+		{
+			"name": "Skemfar Ritualist",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Cleric",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/196_Skemfar Ritualist.png"
+			}
+		},
+		{
+			"name": "Aurora Hunter",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Archer",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/163_Aurora Hunter.png"
+			}
+		},
+		{
+			"name": "Satyr Protector",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment Creature — Satyr Warrior",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/192_Satyr Protector.png"
+			}
+		},
+		{
+			"name": "Setessan Enchantress",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/194_Setessan Enchantress.png"
+			}
+		},
+		{
+			"name": "Oasis Harvester",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/186_Oasis Harvester.png"
+			}
+		},
+		{
+			"name": "Gnottvold Terror",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Troll",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/177_Gnottvold Terror.png"
+			}
+		},
+		{
+			"name": "Hungering Sabretooth",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Cat",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/178_Hungering Sabretooth.png"
+			}
+		},
+		{
+			"name": "Nyxborn Titan",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Enchantment Creature — Giant",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/185_Nyxborn Titan.png"
+			}
+		},
+		{
+			"name": "Ramunap Alpha",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Cat Beast",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/188_Ramunap Alpha.png"
+			}
+		},
+		{
+			"name": "Divine Combat",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/169_Divine Combat.png"
+			}
+		},
+		{
+			"name": "Runic Growth",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/191_Runic Growth.png"
+			}
+		},
+		{
+			"name": "Karametra's Protection",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/180_Karametra's Protection.png"
+			}
+		},
+		{
+			"name": "Otherworldly Connections",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/187_Otherworldly Connections.png"
+			}
+		},
+		{
+			"name": "Rune of Strength",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura Cartouche Rune",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/190_Rune of Strength.png"
+			}
+		},
+		{
+			"name": "Dust Storm",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/171_Dust Storm.png"
+			}
+		},
+		{
+			"name": "Rebirth of the World Tree",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/189_Rebirth of the World Tree.png"
+			}
+		},
+		{
+			"name": "Eternal Revel",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/174_Eternal Revel.png"
+			}
+		},
+		{
+			"name": "Stone Legion",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Construct Warrior",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/240_Stone Legion.png"
+			}
+		},
+		{
+			"name": "Greyskin Skald",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Human Warrior",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/233_Greyskin Skald.png"
+			}
+		},
+		{
+			"name": "Necropolis Sentinel",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/237_Necropolis Sentinel.png"
+			}
+		},
+		{
+			"name": "Trained Gladius",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/241_Trained Gladius.png"
+			}
+		},
+		{
+			"name": "Expedition Map",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/230_Expedition Map.png"
+			}
+		},
+		{
+			"name": "Frozen Astrolabe",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/232_Frozen Astrolabe.png"
+			}
+		},
+		{
+			"name": "Eidolon of Protection",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Enchantment Creature — Spirit Soldier",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/16_Eidolon of Protection.png"
+			}
+		},
+		{
+			"name": "Akroan Veteran",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Creature — Human Soldier",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/3_Akroan Veteran.png"
+			}
+		},
+		{
+			"name": "Stone Hoplite",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct Warrior",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/35_Stone Hoplite.png"
+			}
+		},
+		{
+			"name": "Bretagard Duelist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/9_Bretagard Duelist.png"
+			}
+		},
+		{
+			"name": "Angelic Reclaimer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Angel Cleric",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/5_Angelic Reclaimer.png"
+			}
+		},
+		{
+			"name": "Starnheim General",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Angel Warrior",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/34_Starnheim General.png"
+			}
+		},
+		{
+			"name": "Champion of Kaldheim",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/11_Champion of Kaldheim.png"
+			}
+		},
+		{
+			"name": "Battle-Born Shepherd",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Angel Warrior",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/7_Battle-Born Shepherd.png"
+			}
+		},
+		{
+			"name": "Sealing Sarcophagus",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Artifact",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/32_Sealing Sarcophagus.png"
+			}
+		},
+		{
+			"name": "Runeforge",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/31_Runeforge.png"
+			}
+		},
+		{
+			"name": "Reidane's Judgement",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/28_Reidane's Judgement.png"
+			}
+		},
+		{
+			"name": "Runed Watcher",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/68_Runed Watcher.png"
+			}
+		},
+		{
+			"name": "Triton Tidebinder",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Warrior",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/80_Triton Tidebinder.png"
+			}
+		},
+		{
+			"name": "Ammit Hydromancer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Crocodile Wizard",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/44_Ammit Hydromancer.png"
+			}
+		},
+		{
+			"name": "Frostsnap Goliath",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Giant Wizard",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/59_Frostsnap Goliath.png"
+			}
+		},
+		{
+			"name": "Luxa Scourge",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{U}",
+			"type": "Creature — Serpent",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/64_Luxa Scourge.png"
+			}
+		},
+		{
+			"name": "Returned Prophet",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment Creature — Zombie Wizard",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/66_Returned Prophet.png"
+			}
+		},
+		{
+			"name": "Spell Unravel",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/74_Spell Unravel.png"
+			}
+		},
+		{
+			"name": "Witness History",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/82_Witness History.png"
+			}
+		},
+		{
+			"name": "Ephara's Judgement",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/56_Ephara's Judgement.png"
+			}
+		},
+		{
+			"name": "Steward of the Scales",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Enchantment Creature — Human Cleric",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/115_Steward of the Scales.png"
+			}
+		},
+		{
+			"name": "Unchained Mauler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Minotaur",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/120_Unchained Mauler.png"
+			}
+		},
+		{
+			"name": "Skophos Sellsword",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Minotaur Mercenary",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/113_Skophos Sellsword.png"
+			}
+		},
+		{
+			"name": "Swarm of Scarabs",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Insect",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/116_Swarm of Scarabs.png"
+			}
+		},
+		{
+			"name": "Returned Valkyrie",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Angel Warrior",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/108_Returned Valkyrie.png"
+			}
+		},
+		{
+			"name": "Champion of Amonkhet",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/88_Champion of Amonkhet.png"
+			}
+		},
+		{
+			"name": "Leonin Omenspeaker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Cat Cleric",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/99_Leonin Omenspeaker.png"
+			}
+		},
+		{
+			"name": "Blood Siphon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/83_Blood Siphon.png"
+			}
+		},
+		{
+			"name": "Chains of Betrayal",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/87_Chains of Betrayal.png"
+			}
+		},
+		{
+			"name": "March of Endless Dead",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/100_March of Endless Dead.png"
+			}
+		},
+		{
+			"name": "Nekiris' Judgement",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/104_Nekiris' Judgement.png"
+			}
+		},
+		{
+			"name": "Flametail Pilferer",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Squirrel Rogue",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/138_Flametail Pilferer.png"
+			}
+		},
+		{
+			"name": "Plane Raider",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Minotaur Warrior",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/149_Plane Raider.png"
+			}
+		},
+		{
+			"name": "Keranos's Devoted",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Enchantment Creature — Human Wizard",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/141_Keranos's Devoted.png"
+			}
+		},
+		{
+			"name": "Divine Messenger",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment Creature — Human Scout",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/133_Divine Messenger.png"
+			}
+		},
+		{
+			"name": "Battle-Scarred Raider",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/124_Battle-Scarred Raider.png"
+			}
+		},
+		{
+			"name": "Blade Fanatic",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Minotaur Warrior",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/127_Blade Fanatic.png"
+			}
+		},
+		{
+			"name": "Dune-Scourge Manticore",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Manticore",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/135_Dune-Scourge Manticore.png"
+			}
+		},
+		{
+			"name": "Leave Nothing Behind",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/142_Leave Nothing Behind.png"
+			}
+		},
+		{
+			"name": "Crackling Worship",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/129_Crackling Worship.png"
+			}
+		},
+		{
+			"name": "Runed Shatterblades",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/157_Runed Shatterblades.png"
+			}
+		},
+		{
+			"name": "Mogis' Judgement",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/144_Mogis' Judgement.png"
+			}
+		},
+		{
+			"name": "Skemfar Lurker",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Rogue",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/195_Skemfar Lurker.png"
+			}
+		},
+		{
+			"name": "Treetop Reclaimer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment Creature — Dryad Archer",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/200_Treetop Reclaimer.png"
+			}
+		},
+		{
+			"name": "Slithering Greenblade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Naga Warrior",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/198_Slithering Greenblade.png"
+			}
+		},
+		{
+			"name": "Bretagard Brute",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/164_Bretagard Brute.png"
+			}
+		},
+		{
+			"name": "Giant Dune Beetle",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/176_Giant Dune Beetle.png"
+			}
+		},
+		{
+			"name": "Ceaseless Hydra",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}",
+			"type": "Enchantment Creature — Hydra",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/166_Ceaseless Hydra.png"
+			}
+		},
+		{
+			"name": "Champion of Theros",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment Creature — Centaur Druid",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/167_Champion of Theros.png"
+			}
+		},
+		{
+			"name": "Naga Leyweaver",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Snake Shaman",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/183_Naga Leyweaver.png"
+			}
+		},
+		{
+			"name": "Bretagard Reclaimed",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/165_Bretagard Reclaimed.png"
+			}
+		},
+		{
+			"name": "World Tree's Blessing",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/202_World Tree's Blessing.png"
+			}
+		},
+		{
+			"name": "Esika's Judgement",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/173_Esika's Judgement.png"
+			}
+		},
+		{
+			"name": "Eternal Strength",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/18_Eternal Strength.png"
+			}
+		},
+		{
+			"name": "Flickering Existence",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/58_Flickering Existence.png"
+			}
+		},
+		{
+			"name": "Divine Poison",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/90_Divine Poison.png"
+			}
+		},
+		{
+			"name": "Raider's Axe",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/151_Raider's Axe.png"
+			}
+		},
+		{
+			"name": "Snakebite Gift",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/199_Snakebite Gift.png"
+			}
+		},
+		{
+			"name": "Dead Sands",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Enchantment",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/1_Dead Sands.png"
+			}
+		},
+		{
+			"name": "Littjara Skullshaper",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Shapeshifter",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/236_Littjara Skullshaper.png"
+			}
+		},
+		{
+			"name": "Labyrinth Kopis",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/235_Labyrinth Kopis.png"
+			}
+		},
+		{
+			"name": "Eroding Tomb",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Desert",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/244_Eroding Tomb.png"
+			}
+		},
+		{
+			"name": "Atunra, God of Rebirth",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Bird God",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/6_Atunra, God of Rebirth.png"
+			}
+		},
+		{
+			"name": "Reidane, Wings of Justice",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Angel God",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/27_Reidane, Wings of Justice.png"
+			}
+		},
+		{
+			"name": "Rune of Protection",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura Rune",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/29_Rune of Protection.png"
+			}
+		},
+		{
+			"name": "Mistcut",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/22_Mistcut.png"
+			}
+		},
+		{
+			"name": "Valor Horn",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/39_Valor Horn.png"
+			}
+		},
+		{
+			"name": "Divine Enchantress",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Angel Cleric",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/13_Divine Enchantress.png"
+			}
+		},
+		{
+			"name": "Senrakh, God of Order",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — God",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/72_Senrakh, God of Order.png"
+			}
+		},
+		{
+			"name": "Cosima, Multiverse Voyager",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — God",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/47_Cosima, Multiverse Voyager.png"
+			}
+		},
+		{
+			"name": "Karfell Iceborn",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/63_Karfell Iceborn.png"
+			}
+		},
+		{
+			"name": "Divine Illusionist",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/52_Divine Illusionist.png"
+			}
+		},
+		{
+			"name": "Surtland Snowstorm",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/76_Surtland Snowstorm.png"
+			}
+		},
+		{
+			"name": "Tergrid, Shrouded in Shadows",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — God",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/117_Tergrid, Shrouded in Shadows.png"
+			}
+		},
+		{
+			"name": "Nekiris, God of the Unseen",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Jackal God",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/103_Nekiris, God of the Unseen.png"
+			}
+		},
+		{
+			"name": "Sarulf, Devouring Apex",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Wolf",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/111_Sarulf, Devouring Apex.png"
+			}
+		},
+		{
+			"name": "One With Nyx",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/105_One With Nyx.png"
+			}
+		},
+		{
+			"name": "Felhide Rampage",
+			"rarity": "rare",
+			"mana_cost": "{X}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/94_Felhide Rampage.png"
+			}
+		},
+		{
+			"name": "Divine Cryptbreaker",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Zombie Assassin",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/89_Divine Cryptbreaker.png"
+			}
+		},
+		{
+			"name": "Birgi, Calamity Storyteller",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — God",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/126_Birgi, Calamity Storyteller.png"
+			}
+		},
+		{
+			"name": "Mountainside Gorger",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/146_Mountainside Gorger.png"
+			}
+		},
+		{
+			"name": "Divine Stormsinger",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/134_Divine Stormsinger.png"
+			}
+		},
+		{
+			"name": "Nikena, Expanse Sprinter",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Enchantment Creature — Centaur",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/184_Nikena, Expanse Sprinter.png"
+			}
+		},
+		{
+			"name": "Mowoli, God of Tradition",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Legendary Creature — Hippo God",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/182_Mowoli, God of Tradition.png"
+			}
+		},
+		{
+			"name": "Kolvori, Family to Strangers",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — God",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/181_Kolvori, Family to Strangers.png"
+			}
+		},
+		{
+			"name": "Disciple of Affliction",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment Creature — Human",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/168_Disciple of Affliction.png"
+			}
+		},
+		{
+			"name": "Interplanar Emergence",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/179_Interplanar Emergence.png"
+			}
+		},
+		{
+			"name": "Divine Druid",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Centaur Druid",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/170_Divine Druid.png"
+			}
+		},
+		{
+			"name": "Divine Disaster",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/51_Divine Disaster.png"
+			}
+		},
+		{
+			"name": "Anger of the Gods",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/123_Anger of the Gods.png"
+			}
+		},
+		{
+			"name": "Axgard Runestone",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Artifact — Equipment",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/227_Axgard Runestone.png"
+			}
+		},
+		{
+			"name": "Burial Ruins",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/228_Burial Ruins.png"
+			}
+		},
+		{
+			"name": "Buried Axe",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/229_Buried Axe.png"
+			}
+		},
+		{
+			"name": "Puzzling Cartouche",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Enchantment — Cartouche",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/239_Puzzling Cartouche.png"
+			}
+		},
+		{
+			"name": "Fate-Treader Boots",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/231_Fate-Treader Boots.png"
+			}
+		},
+		{
+			"name": "The Omenkeel, Planar Karve",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/238_The Omenkeel, Planar Karve.png"
+			}
+		},
+		{
+			"name": "The Great Necropolis",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/247_The Great Necropolis.png"
+			}
+		},
+		{
+			"name": "Alexos, Protector of Heroes",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/4_Alexos, Protector of Heroes.png"
+			}
+		},
+		{
+			"name": "Nyxborn Guardian",
+			"rarity": "mythic",
+			"mana_cost": "{6}{W}{W}",
+			"type": "Enchantment Creature — Giant",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/24_Nyxborn Guardian.png"
+			}
+		},
+		{
+			"name": "Alrund, the Wise",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — God",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/43_Alrund, the Wise.png"
+			}
+		},
+		{
+			"name": "Aven Sandscribe",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Bird Advisor",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/46_Aven Sandscribe.png"
+			}
+		},
+		{
+			"name": "Cacophony, Nightmare Reborn",
+			"rarity": "mythic",
+			"mana_cost": "{6}{B}{B}",
+			"type": "Legendary Enchantment Creature — Nightmare God",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/86_Cacophony, Nightmare Reborn.png"
+			}
+		},
+		{
+			"name": "Brutal Reaper",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Angel Warrior",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/85_Brutal Reaper.png"
+			}
+		},
+		{
+			"name": "Hazoret, the Zealous",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — God",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/140_Hazoret, the Zealous.png"
+			}
+		},
+		{
+			"name": "Reveling Courser",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Centaur Warrior",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/154_Reveling Courser.png"
+			}
+		},
+		{
+			"name": "Esika, Protector of the World Tree",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — God",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/172_Esika, Protector of the World Tree.png"
+			}
+		},
+		{
+			"name": "Tyvar, Glory Seeker",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Creature — Elf Warrior",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/201_Tyvar, Glory Seeker.png"
+			}
+		},
+		{
+			"name": "Guardian of the Gods",
+			"rarity": "mythic",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/234_Guardian of the Gods.png"
+			}
+		},
+		{
+			"name": "Littjara Worldwalker",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/2_Littjara Worldwalker.png"
+			}
+		},
+		{
+			"name": "Watcher of the Necropolis",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Creature — Sphinx Zombie",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/226_Watcher of the Necropolis.png"
+			}
+		},
+		{
+			"name": "Retired Raider",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/218_Retired Raider.png"
+			}
+		},
+		{
+			"name": "Niko, Defier of Fate",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Planeswalker — Niko",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/215_Niko, Defier of Fate.png"
+			}
+		},
+		{
+			"name": "Pharika, Deadly Apothecary",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Enchantment Creature — Gorgon God",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/217_Pharika, Deadly Apothecary.png"
+			}
+		},
+		{
+			"name": "The Scarab God, Eternal General",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{B}",
+			"type": "Legendary Creature — Insect God",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/219_The Scarab God, Eternal General.png"
+			}
+		},
+		{
+			"name": "Kruphix, Secret Keeper",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/211_Kruphix, Secret Keeper.png"
+			}
+		},
+		{
+			"name": "Karametra, Bountiful Harvester",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/210_Karametra, Bountiful Harvester.png"
+			}
+		},
+		{
+			"name": "Toralf, Furious Challenger",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — God Warrior",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/223_Toralf, Furious Challenger.png"
+			}
+		},
+		{
+			"name": "Arngeir, Realm Raider",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Enchantment Creature — God Warrior",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/204_Arngeir, Realm Raider.png"
+			}
+		},
+		{
+			"name": "Athreos, Underworld Ferryman",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/205_Athreos, Underworld Ferryman.png"
+			}
+		},
+		{
+			"name": "Mogis, Brutal Massacre",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{R}",
+			"type": "Legendary Enchantment Creature — Minotaur God",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/213_Mogis, Brutal Massacre.png"
+			}
+		},
+		{
+			"name": "Ephara, Rebuilding Architect",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/208_Ephara, Rebuilding Architect.png"
+			}
+		},
+		{
+			"name": "The Locust God, Cunning Swarmlord",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Legendary Creature — Insect God",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/212_The Locust God, Cunning Swarmlord.png"
+			}
+		},
+		{
+			"name": "Crimkhet, God of Chaos",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Legendary Creature — Lizard God",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/130_Crimkhet, God of Chaos.png"
+			}
+		},
+		{
+			"name": "Garruk, Mythos Hunter",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Planeswalker — Garruk",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/175_Garruk, Mythos Hunter.png"
+			}
+		},
+		{
+			"name": "Firja, Reaping Shepherd",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Angel",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/20_Firja, Reaping Shepherd.png"
+			}
+		},
+		{
+			"name": "Champion of the Realms",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/207_Champion of the Realms.png"
+			}
+		},
+		{
+			"name": "Photia, Unextinguishable Flame",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Legendary Creature — Giant",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/148_Photia, Unextinguishable Flame.png"
+			}
+		},
+		{
+			"name": "Idyllic Beachfront",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains Island",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/249_Idyllic Beachfront.png"
+			}
+		},
+		{
+			"name": "Sunlit Marsh",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/258_Sunlit Marsh.png"
+			}
+		},
+		{
+			"name": "Contaminated Aquifer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island Swamp",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/242_Contaminated Aquifer.png"
+			}
+		},
+		{
+			"name": "Molten Tributary",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island Mountain",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/250_Molten Tributary.png"
+			}
+		},
+		{
+			"name": "Geothermal Bog",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/246_Geothermal Bog.png"
+			}
+		},
+		{
+			"name": "Haunted Mire",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/248_Haunted Mire.png"
+			}
+		},
+		{
+			"name": "Wooded Ridgeline",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/261_Wooded Ridgeline.png"
+			}
+		},
+		{
+			"name": "Sacred Peaks",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/257_Sacred Peaks.png"
+			}
+		},
+		{
+			"name": "Radiant Grove",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest Plains",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/254_Radiant Grove.png"
+			}
+		},
+		{
+			"name": "Tangled Islet",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest Island",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/259_Tangled Islet.png"
+			}
+		},
+		{
+			"name": "The World Tree Reborn",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/262_The World Tree Reborn.png"
+			}
+		},
+		{
+			"name": "Ramunap Excavation Site",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Desert",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/256_Ramunap Excavation Site.png"
+			}
+		},
+		{
+			"name": "Terramorphic Expanse",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/260_Terramorphic Expanse.png"
+			}
+		},
+		{
+			"name": "Raging Seas",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/255_Raging Seas.png"
+			}
+		},
+		{
+			"name": "Ominous Shrine",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/252_Ominous Shrine.png"
+			}
+		},
+		{
+			"name": "Eroded Bluff",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/243_Eroded Bluff.png"
+			}
+		},
+		{
+			"name": "Overgrown Sanctum",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/253_Overgrown Sanctum.png"
+			}
+		},
+		{
+			"name": "Frozen Fortress",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/245_Frozen Fortress.png"
+			}
+		},
+		{
+			"name": "Nykthos, Divine Gate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/251_Nykthos, Divine Gate.png"
+			}
+		},
+		{
+			"name": "Trek the Realms",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/78_Trek the Realms.png"
+			}
+		},
+		{
+			"name": "Devoted Mindblade",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/49_Devoted Mindblade.png"
+			}
+		},
+		{
+			"name": "Angrath, Interplanar Raider",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Planeswalker — Angrath",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/203_Angrath, Interplanar Raider.png"
+			}
+		},
+		{
+			"name": "Locust's Wrath",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — God-Pharaoh Saga",
+			"collector_number": "143",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Feralitator.github.io/sets/POM-files/img/143_Locust's Wrath_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/143_Locust's Wrath_front.png"
+			}
+		},
+		{
+			"name": "Scorpion's Torment",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — God-Pharaoh Saga",
+			"collector_number": "112",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Feralitator.github.io/sets/POM-files/img/112_Scorpion's Torment_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/112_Scorpion's Torment_front.png"
+			}
+		},
+		{
+			"name": "Scarab's Will",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — God-Pharaoh Saga",
+			"collector_number": "70",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Feralitator.github.io/sets/POM-files/img/70_Scarab's Will_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/70_Scarab's Will_front.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/263_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/264_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/265_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/266_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/POM-files/img/267_Forest.png"
+			}
+		},
+		{
+			"name": "Bontu the Glorified",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — God",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/31_Bontu the Glorified.png"
+			}
+		},
+		{
+			"name": "Starnheim Unleashed",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/13_Starnheim Unleashed.png"
+			}
+		},
+		{
+			"name": "Nylea, Keen-Eyed",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/67_Nylea, Keen-Eyed.png"
+			}
+		},
+		{
+			"name": "Haunting Voyage",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/37_Haunting Voyage.png"
+			}
+		},
+		{
+			"name": "Quakebringer",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Giant Warrior",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/56_Quakebringer.png"
+			}
+		},
+		{
+			"name": "Battle Mammoth",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Elephant",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/61_Battle Mammoth.png"
+			}
+		},
+		{
+			"name": "Oketra the True",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — God",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/8_Oketra the True.png"
+			}
+		},
+		{
+			"name": "Adorned Pouncer",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Cat",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/1_Adorned Pouncer.png"
+			}
+		},
+		{
+			"name": "Rhonas the Indomitable",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — God",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/69_Rhonas the Indomitable.png"
+			}
+		},
+		{
+			"name": "Combat Celebrant",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/47_Combat Celebrant.png"
+			}
+		},
+		{
+			"name": "Kefnet the Mindful",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — God",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/20_Kefnet the Mindful.png"
+			}
+		},
+		{
+			"name": "Nimble Obstructionist",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Bird Wizard",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/21_Nimble Obstructionist.png"
+			}
+		},
+		{
+			"name": "Vizier of Many Faces",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Shapeshifter Cleric",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/30_Vizier of Many Faces.png"
+			}
+		},
+		{
+			"name": "Torment of Hailfire",
+			"rarity": "rare",
+			"mana_cost": "{X}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/44_Torment of Hailfire.png"
+			}
+		},
+		{
+			"name": "Dread Wanderer",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie Jackal",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/33_Dread Wanderer.png"
+			}
+		},
+		{
+			"name": "Hazoret's Undying Fury",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/54_Hazoret's Undying Fury.png"
+			}
+		},
+		{
+			"name": "Glorybringer",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/53_Glorybringer.png"
+			}
+		},
+		{
+			"name": "Honored Hydra",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Snake Hydra",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/64_Honored Hydra.png"
+			}
+		},
+		{
+			"name": "Sandwurm Convergence",
+			"rarity": "rare",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/72_Sandwurm Convergence.png"
+			}
+		},
+		{
+			"name": "Approach of the Second Sun",
+			"rarity": "rare",
+			"mana_cost": "{6}{W}",
+			"type": "Sorcery",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/3_Approach of the Second Sun.png"
+			}
+		},
+		{
+			"name": "Vizier of Deferment",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/15_Vizier of Deferment.png"
+			}
+		},
+		{
+			"name": "Trial of Solidarity",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/14_Trial of Solidarity.png"
+			}
+		},
+		{
+			"name": "Trial of Knowledge",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/28_Trial of Knowledge.png"
+			}
+		},
+		{
+			"name": "Sinuous Striker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Naga Warrior",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/25_Sinuous Striker.png"
+			}
+		},
+		{
+			"name": "Lord of the Accursed",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/40_Lord of the Accursed.png"
+			}
+		},
+		{
+			"name": "Trial of Ambition",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/45_Trial of Ambition.png"
+			}
+		},
+		{
+			"name": "Ahn-Crop Crasher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Minotaur Warrior",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/46_Ahn-Crop Crasher.png"
+			}
+		},
+		{
+			"name": "Trial of Zeal",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/59_Trial of Zeal.png"
+			}
+		},
+		{
+			"name": "Shefet Monitor",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Lizard",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/73_Shefet Monitor.png"
+			}
+		},
+		{
+			"name": "Trial of Strength",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/75_Trial of Strength.png"
+			}
+		},
+		{
+			"name": "Cosmos Charger",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Horse Spirit",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/17_Cosmos Charger.png"
+			}
+		},
+		{
+			"name": "Runeforge Champion",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Dwarf Warrior",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/10_Runeforge Champion.png"
+			}
+		},
+		{
+			"name": "Rune of Sustenance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura Rune",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/9_Rune of Sustenance.png"
+			}
+		},
+		{
+			"name": "Saw It Coming",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/24_Saw It Coming.png"
+			}
+		},
+		{
+			"name": "Crippling Fear",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/32_Crippling Fear.png"
+			}
+		},
+		{
+			"name": "Dream Devourer",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Demon Cleric",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/34_Dream Devourer.png"
+			}
+		},
+		{
+			"name": "Doomskar",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/4_Doomskar.png"
+			}
+		},
+		{
+			"name": "Dragonkin Berserker",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/49_Dragonkin Berserker.png"
+			}
+		},
+		{
+			"name": "Tibalt's Trickery",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/58_Tibalt's Trickery.png"
+			}
+		},
+		{
+			"name": "Toski, Bearer of Secrets",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Creature — Squirrel",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/74_Toski, Bearer of Secrets.png"
+			}
+		},
+		{
+			"name": "Realmwalker",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/68_Realmwalker.png"
+			}
+		},
+		{
+			"name": "Reflections of Littjara",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Enchantment",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/22_Reflections of Littjara.png"
+			}
+		},
+		{
+			"name": "Renegade Reaper",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Angel Berserker",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/42_Renegade Reaper.png"
+			}
+		},
+		{
+			"name": "Rune of Mortality",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura Rune",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/43_Rune of Mortality.png"
+			}
+		},
+		{
+			"name": "Rune of Speed",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura Rune",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/57_Rune of Speed.png"
+			}
+		},
+		{
+			"name": "Doomskar Titan",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Giant Berserker",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/48_Doomskar Titan.png"
+			}
+		},
+		{
+			"name": "Rune of Might",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura Rune",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/71_Rune of Might.png"
+			}
+		},
+		{
+			"name": "Rootless Yew",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Treefolk",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/70_Rootless Yew.png"
+			}
+		},
+		{
+			"name": "Rune of Flight",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura Rune",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/23_Rune of Flight.png"
+			}
+		},
+		{
+			"name": "Shepherd of the Cosmos",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Angel Warrior",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/11_Shepherd of the Cosmos.png"
+			}
+		},
+		{
+			"name": "Erebos, Bleak-Hearted",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/35_Erebos, Bleak-Hearted.png"
+			}
+		},
+		{
+			"name": "Gray Merchant of Asphodel",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/36_Gray Merchant of Asphodel.png"
+			}
+		},
+		{
+			"name": "Heliod, Sun-Crowned",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/6_Heliod, Sun-Crowned.png"
+			}
+		},
+		{
+			"name": "Purphoros, Bronze-Blooded",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/55_Purphoros, Bronze-Blooded.png"
+			}
+		},
+		{
+			"name": "King Macar, the Gold-Cursed",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/39_King Macar, the Gold-Cursed.png"
+			}
+		},
+		{
+			"name": "Tromokratis",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Legendary Creature — Kraken",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/29_Tromokratis.png"
+			}
+		},
+		{
+			"name": "Hydra Broodmaster",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Hydra",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/65_Hydra Broodmaster.png"
+			}
+		},
+		{
+			"name": "Courser of Kruphix",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment Creature — Centaur",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/63_Courser of Kruphix.png"
+			}
+		},
+		{
+			"name": "Underworld Breach",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/60_Underworld Breach.png"
+			}
+		},
+		{
+			"name": "Nightmare Shepherd",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment Creature — Demon",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/41_Nightmare Shepherd.png"
+			}
+		},
+		{
+			"name": "Swan Song",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/26_Swan Song.png"
+			}
+		},
+		{
+			"name": "Skybind",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/12_Skybind.png"
+			}
+		},
+		{
+			"name": "Hero of Iroas",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/7_Hero of Iroas.png"
+			}
+		},
+		{
+			"name": "Eidolon of the Great Revel",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Enchantment Creature — Spirit",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/50_Eidolon of the Great Revel.png"
+			}
+		},
+		{
+			"name": "Furious Rise",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/52_Furious Rise.png"
+			}
+		},
+		{
+			"name": "Glimpse of Freedom",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/19_Glimpse of Freedom.png"
+			}
+		},
+		{
+			"name": "Colossal Heroics",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/62_Colossal Heroics.png"
+			}
+		},
+		{
+			"name": "Fanatic of Mogis",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Minotaur Shaman",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/51_Fanatic of Mogis.png"
+			}
+		},
+		{
+			"name": "Hero's Downfall",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/38_Hero's Downfall.png"
+			}
+		},
+		{
+			"name": "Dakra Mystic",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/18_Dakra Mystic.png"
+			}
+		},
+		{
+			"name": "Ghostblade Eidolon",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment Creature — Spirit",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/5_Ghostblade Eidolon.png"
+			}
+		},
+		{
+			"name": "Nessian Demolok",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/66_Nessian Demolok.png"
+			}
+		},
+		{
+			"name": "Maskwood Nexus",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/84_Maskwood Nexus.png"
+			}
+		},
+		{
+			"name": "Mirage Mirror",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/85_Mirage Mirror.png"
+			}
+		},
+		{
+			"name": "Pyxis of Pandemonium",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/86_Pyxis of Pandemonium.png"
+			}
+		},
+		{
+			"name": "Burnished Hart",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Elk",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/78_Burnished Hart.png"
+			}
+		},
+		{
+			"name": "Dager of the Worthy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/81_Dager of the Worthy.png"
+			}
+		},
+		{
+			"name": "Cosmos Elixir",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/80_Cosmos Elixir.png"
+			}
+		},
+		{
+			"name": "Armory of Iroas",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/76_Armory of Iroas.png"
+			}
+		},
+		{
+			"name": "Colossus of Akros",
+			"rarity": "rare",
+			"mana_cost": "{8}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/79_Colossus of Akros.png"
+			}
+		},
+		{
+			"name": "Embalmer's Tools",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/82_Embalmer's Tools.png"
+			}
+		},
+		{
+			"name": "God-Pharaoh's Gift",
+			"rarity": "rare",
+			"mana_cost": "{7}",
+			"type": "Artifact",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/83_God-Pharaoh's Gift.png"
+			}
+		},
+		{
+			"name": "Runed Crown",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/87_Runed Crown.png"
+			}
+		},
+		{
+			"name": "Bloodline Pretender",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Shapeshifter",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/77_Bloodline Pretender.png"
+			}
+		},
+		{
+			"name": "Mana Confluence",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/89_Mana Confluence.png"
+			}
+		},
+		{
+			"name": "Throne of the God-Pharaoh",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/88_Throne of the God-Pharaoh.png"
+			}
+		},
+		{
+			"name": "Tyrite Sanctum",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/90_Tyrite Sanctum.png"
+			}
+		},
+		{
+			"name": "Alseid of Life's Bounty",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Enchantment Creature — Nymph",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/2_Alseid of Life's Bounty.png"
+			}
+		},
+		{
+			"name": "Thassa, Deep-Dwelling",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Enchantment Creature — God",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/27_Thassa, Deep-Dwelling.png"
+			}
+		},
+		{
+			"name": "Alrund's Epiphany",
+			"rarity": "mythic",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/MUM-files/img/16_Alrund's Epiphany.png"
+			}
+		}
+	]
+
+[rare(1)]
+	5 Atunra, God of Rebirth
+	5 Reidane, Wings of Justice
+	5 Rune of Protection
+	5 Mistcut
+	5 Valor Horn
+	5 Divine Enchantress
+	5 Senrakh, God of Order
+	5 Cosima, Multiverse Voyager
+	5 Karfell Iceborn
+	5 Divine Illusionist
+	5 Surtland Snowstorm
+	5 Tergrid, Shrouded in Shadows
+	5 Nekiris, God of the Unseen
+	5 Sarulf, Devouring Apex
+	5 One With Nyx
+	5 Felhide Rampage
+	5 Divine Cryptbreaker
+	5 Birgi, Calamity Storyteller
+	5 Mountainside Gorger
+	5 Divine Stormsinger
+	5 Nikena, Expanse Sprinter
+	5 Mowoli, God of Tradition
+	5 Kolvori, Family to Strangers
+	5 Disciple of Affliction
+	5 Interplanar Emergence
+	5 Divine Druid
+	5 Divine Disaster
+	5 Anger of the Gods
+	5 Axgard Runestone
+	5 Burial Ruins
+	5 Buried Axe
+	5 Puzzling Cartouche
+	5 Fate-Treader Boots
+	5 The Omenkeel, Planar Karve
+	5 The Great Necropolis
+	5 Alexos, Protector of Heroes
+	5 Nyxborn Guardian
+	5 Alrund, the Wise
+	5 Aven Sandscribe
+	5 Cacophony, Nightmare Reborn
+	5 Brutal Reaper
+	5 Hazoret, the Zealous
+	5 Reveling Courser
+	5 Esika, Protector of the World Tree
+	5 Tyvar, Glory Seeker
+	5 Guardian of the Gods
+	5 Littjara Worldwalker
+	5 Watcher of the Necropolis
+	5 Retired Raider
+	5 Niko, Defier of Fate
+	5 Pharika, Deadly Apothecary
+	5 The Scarab God, Eternal General
+	5 Kruphix, Secret Keeper
+	5 Karametra, Bountiful Harvester
+	5 Toralf, Furious Challenger
+	5 Arngeir, Realm Raider
+	5 Athreos, Underworld Ferryman
+	5 Mogis, Brutal Massacre
+	5 Ephara, Rebuilding Architect
+	5 The Locust God, Cunning Swarmlord
+	5 Crimkhet, God of Chaos
+	5 Garruk, Mythos Hunter
+	5 Firja, Reaping Shepherd
+	5 Photia, Unextinguishable Flame
+	5 The World Tree Reborn
+	5 Nykthos, Divine Gate
+	5 Angrath, Interplanar Raider
+	5 Locust's Wrath
+	5 Scorpion's Torment
+	5 Scarab's Will
+[uncommon(3)]
+	5 Starbound Philosopher
+	5 Overseer of Balance
+	5 Muse of the Gods
+	5 Wandering Draugr
+	5 Stormbringer Giant
+	5 Bloodhorn Marauder
+	5 Swarmcaster
+	5 Trek the Deserts
+	5 Explore the Omenpaths
+	5 Rune of Solidarity
+	5 Overseeing Condor
+	5 Rune of Knowledge
+	5 Rune of Ambition
+	5 Rune of Zeal
+	5 Cut the Horizon
+	5 Rune of Strength
+	5 Eidolon of Protection
+	5 Akroan Veteran
+	5 Stone Hoplite
+	5 Bretagard Duelist
+	5 Angelic Reclaimer
+	5 Starnheim General
+	5 Champion of Kaldheim
+	5 Battle-Born Shepherd
+	5 Sealing Sarcophagus
+	5 Runeforge
+	5 Reidane's Judgement
+	5 Triton Tidebinder
+	5 Ammit Hydromancer
+	5 Frostsnap Goliath
+	5 Luxa Scourge
+	5 Returned Prophet
+	5 Spell Unravel
+	5 Witness History
+	5 Ephara's Judgement
+	5 Steward of the Scales
+	5 Unchained Mauler
+	5 Skophos Sellsword
+	5 Swarm of Scarabs
+	5 Returned Valkyrie
+	5 Champion of Amonkhet
+	5 Leonin Omenspeaker
+	5 Blood Siphon
+	5 Chains of Betrayal
+	5 March of Endless Dead
+	5 Nekiris' Judgement
+	5 Flametail Pilferer
+	5 Plane Raider
+	5 Keranos's Devoted
+	5 Divine Messenger
+	5 Battle-Scarred Raider
+	5 Blade Fanatic
+	5 Dune-Scourge Manticore
+	5 Leave Nothing Behind
+	5 Runed Shatterblades
+	5 Mogis' Judgement
+	5 Skemfar Lurker
+	5 Treetop Reclaimer
+	5 Slithering Greenblade
+	5 Bretagard Brute
+	5 Giant Dune Beetle
+	5 Ceaseless Hydra
+	5 Champion of Theros
+	5 Naga Leyweaver
+	5 Bretagard Reclaimed
+	5 World Tree's Blessing
+	5 Esika's Judgement
+	5 Dead Sands
+	5 Littjara Skullshaper
+	5 Labyrinth Kopis
+	5 Eroding Tomb
+	5 Champion of the Realms
+	5 Ramunap Excavation Site
+	5 Raging Seas
+	5 Ominous Shrine
+	5 Eroded Bluff
+	5 Overgrown Sanctum
+	5 Frozen Fortress
+	5 Trek the Realms
+	5 Devoted Mindblade
+[common(9)]
+	5 Undying Braggart
+	5 Valkyrie Fledgeling
+	5 Fatereader
+	5 Nyxborn Hoplite
+	5 Istfell Guardian
+	5 Oracle of the Cosmos
+	5 Devoted Dunepike
+	5 Nyx Prophet
+	5 Vizier of Strength
+	5 Broken-Faith Keeper
+	5 Eidolon of Heroism
+	5 Enduring Angel
+	5 Divine Strike
+	5 Bow in Majesty
+	5 Triumph of the Mighty
+	5 Withstanding Shield
+	5 Warhorn Blast
+	5 Shattering Flames
+	5 Triton Prophet
+	5 Draugr Frostmage
+	5 Tomb Thief
+	5 Arcane Reclaimer
+	5 Hashep Drake
+	5 Scaled Prophet
+	5 Vizier of Endless Dreams
+	5 Fishy Gladiator
+	5 Horizon Protector
+	5 Denied Presence
+	5 Spellweft
+	5 Frozen Fate
+	5 Sealed Fortune
+	5 Divine Scheming
+	5 Endless Voyage
+	5 Spectral Shackles
+	5 Disarming Wail
+	5 Broken-Horn Berserker
+	5 Khenra Shadowblade
+	5 Eternal Sentinel
+	5 Mogis's Devoted
+	5 Dread Valkyrie
+	5 Restless Draugr
+	5 Jarl of Undeath
+	5 Rotting Grizzly
+	5 Thunderblade Valkyrie
+	5 Monstrous Titan
+	5 Soul Drain
+	5 Ghostly Shiver
+	5 Vizier's Edict
+	5 Vanquish the Weak
+	5 Divinity at Any Cost
+	5 Unbury
+	5 Haunting Dreams
+	5 Raise the Necropolis
+	5 Naga Scrollburner
+	5 Felhide Berserker
+	5 Voyaging Protector
+	5 Crocodile Rider
+	5 Reckless Raider
+	5 Felhide Rampager
+	5 Battleforged Blacksmith
+	5 Molten Giant
+	5 Ragehorn Gladiator
+	5 Surtland Flame-Cleaver
+	5 Thundering Smite
+	5 Runebolt
+	5 Treasonous Aggression
+	5 Rally to Raid
+	5 Fleeting Songs
+	5 Blessing of Slaughter
+	5 Threatened Plundering
+	5 Slinking Viper
+	5 Setessan Cultivator
+	5 Skemfar Ritualist
+	5 Aurora Hunter
+	5 Satyr Protector
+	5 Setessan Enchantress
+	5 Oasis Harvester
+	5 Gnottvold Terror
+	5 Hungering Sabretooth
+	5 Nyxborn Titan
+	5 Ramunap Alpha
+	5 Divine Combat
+	5 Runic Growth
+	5 Karametra's Protection
+	5 Otherworldly Connections
+	5 Dust Storm
+	5 Rebirth of the World Tree
+	5 Eternal Revel
+	5 Stone Legion
+	5 Greyskin Skald
+	5 Necropolis Sentinel
+	5 Trained Gladius
+	5 Expedition Map
+	5 Frozen Astrolabe
+	5 Runed Watcher
+	5 Crackling Worship
+	5 Eternal Strength
+	5 Flickering Existence
+	5 Divine Poison
+	5 Raider's Axe
+	5 Snakebite Gift
+	5 Idyllic Beachfront
+	5 Sunlit Marsh
+	5 Contaminated Aquifer
+	5 Molten Tributary
+	5 Geothermal Bog
+	5 Haunted Mire
+	5 Wooded Ridgeline
+	5 Sacred Peaks
+	5 Radiant Grove
+	5 Tangled Islet
+	5 Terramorphic Expanse
+[Mythos(1)]
+	5 Bontu the Glorified
+	5 Starnheim Unleashed
+	5 Nylea, Keen-Eyed
+	5 Haunting Voyage
+	5 Quakebringer
+	5 Battle Mammoth
+	5 Oketra the True
+	5 Adorned Pouncer
+	5 Rhonas the Indomitable
+	5 Combat Celebrant
+	5 Kefnet the Mindful
+	5 Nimble Obstructionist
+	5 Vizier of Many Faces
+	5 Torment of Hailfire
+	5 Dread Wanderer
+	5 Hazoret's Undying Fury
+	5 Glorybringer
+	5 Honored Hydra
+	5 Sandwurm Convergence
+	5 Approach of the Second Sun
+	5 Cosmos Charger
+	5 Runeforge Champion
+	5 Crippling Fear
+	5 Dream Devourer
+	5 Doomskar
+	5 Dragonkin Berserker
+	5 Tibalt's Trickery
+	5 Toski, Bearer of Secrets
+	5 Realmwalker
+	5 Reflections of Littjara
+	5 Erebos, Bleak-Hearted
+	5 Heliod, Sun-Crowned
+	5 Purphoros, Bronze-Blooded
+	5 King Macar, the Gold-Cursed
+	5 Tromokratis
+	5 Hydra Broodmaster
+	5 Courser of Kruphix
+	5 Underworld Breach
+	5 Nightmare Shepherd
+	5 Swan Song
+	5 Skybind
+	5 Hero of Iroas
+	5 Eidolon of the Great Revel
+	5 Maskwood Nexus
+	5 Mirage Mirror
+	5 Pyxis of Pandemonium
+	5 Cosmos Elixir
+	5 Colossus of Akros
+	5 God-Pharaoh's Gift
+	5 Mana Confluence
+	5 Throne of the God-Pharaoh
+	5 Tyrite Sanctum
+	5 Thassa, Deep-Dwelling
+	5 Alrund's Epiphany
+	5 Vizier of Deferment
+	5 Trial of Solidarity
+	5 Trial of Knowledge
+	5 Sinuous Striker
+	5 Lord of the Accursed
+	5 Trial of Ambition
+	5 Ahn-Crop Crasher
+	5 Trial of Zeal
+	5 Shefet Monitor
+	5 Trial of Strength
+	5 Rune of Sustenance
+	5 Saw It Coming
+	5 Renegade Reaper
+	5 Rune of Mortality
+	5 Rune of Speed
+	5 Doomskar Titan
+	5 Rune of Might
+	5 Rootless Yew
+	5 Rune of Flight
+	5 Shepherd of the Cosmos
+	5 Gray Merchant of Asphodel
+	5 Furious Rise
+	5 Glimpse of Freedom
+	5 Colossal Heroics
+	5 Fanatic of Mogis
+	5 Hero's Downfall
+	5 Dakra Mystic
+	5 Ghostblade Eidolon
+	5 Nessian Demolok
+	5 Burnished Hart
+	5 Dager of the Worthy
+	5 Armory of Iroas
+	5 Embalmer's Tools
+	5 Runed Crown
+	5 Bloodline Pretender
+	5 Alseid of Life's Bounty
