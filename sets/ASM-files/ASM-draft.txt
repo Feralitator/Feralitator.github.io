@@ -1,0 +1,3068 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Masked Seer",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/28_Masked Seer.png"
+			}
+		},
+		{
+			"name": "Songwriter Protector",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Elf Warrior",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/35_Songwriter Protector.png"
+			}
+		},
+		{
+			"name": "Warrior Poet",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Warrior Bard",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/43_Warrior Poet.png"
+			}
+		},
+		{
+			"name": "Goldblaze Savior",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Enchantment Creature — Angel Warrior",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/20_Goldblaze Savior.png"
+			}
+		},
+		{
+			"name": "Festival Dance",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Instant",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/14_Festival Dance.png"
+			}
+		},
+		{
+			"name": "From the Storybooks",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/16_From the Storybooks.png"
+			}
+		},
+		{
+			"name": "Glide Gifter",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Performer",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/18_Glide Gifter.png"
+			}
+		},
+		{
+			"name": "Songsqueaker",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Mouse Bard",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/34_Songsqueaker.png"
+			}
+		},
+		{
+			"name": "Daring Trapezist",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Performer",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/9_Daring Trapezist.png"
+			}
+		},
+		{
+			"name": "Decorated Dancer",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Performer",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/10_Decorated Dancer.png"
+			}
+		},
+		{
+			"name": "Keeper of Tradition",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Performer",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/23_Keeper of Tradition.png"
+			}
+		},
+		{
+			"name": "Lightfin",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/24_Lightfin.png"
+			}
+		},
+		{
+			"name": "Brilliant Retribution",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/7_Brilliant Retribution.png"
+			}
+		},
+		{
+			"name": "Moonlight Violinist",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Bard",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/29_Moonlight Violinist.png"
+			}
+		},
+		{
+			"name": "Sorrowful Gaze",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/36_Sorrowful Gaze.png"
+			}
+		},
+		{
+			"name": "Phyrexian Invasion",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}{W/B}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/240_Phyrexian Invasion.png"
+			}
+		},
+		{
+			"name": "Teferi's Reascension",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/244_Teferi's Reascension.png"
+			}
+		},
+		{
+			"name": "False Strength",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/54_False Strength.png"
+			}
+		},
+		{
+			"name": "Search Beyond Eternity",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/71_Search Beyond Eternity.png"
+			}
+		},
+		{
+			"name": "Mothsquerade",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Insect",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/65_Mothsquerade.png"
+			}
+		},
+		{
+			"name": "Chilling Performer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Bird Performer",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/46_Chilling Performer.png"
+			}
+		},
+		{
+			"name": "Weaver of Reality",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment Creature — Nightmare Wizard",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/82_Weaver of Reality.png"
+			}
+		},
+		{
+			"name": "Script Thief",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/70_Script Thief.png"
+			}
+		},
+		{
+			"name": "False Lorekeeper",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment Creature — Nightmare",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/53_False Lorekeeper.png"
+			}
+		},
+		{
+			"name": "Airborne Fear",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Enchantment Creature — Nightmare Drake",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/44_Airborne Fear.png"
+			}
+		},
+		{
+			"name": "Haunting Heckling",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/58_Haunting Heckling.png"
+			}
+		},
+		{
+			"name": "Shattering Silence",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/74_Shattering Silence.png"
+			}
+		},
+		{
+			"name": "Stagefright",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/77_Stagefright.png"
+			}
+		},
+		{
+			"name": "Levitate",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/59_Levitate.png"
+			}
+		},
+		{
+			"name": "Reach Stardom",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/68_Reach Stardom.png"
+			}
+		},
+		{
+			"name": "Winding Waves",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/83_Winding Waves.png"
+			}
+		},
+		{
+			"name": "Crystalline Starlighter",
+			"rarity": "common",
+			"mana_cost": "{6}{U}",
+			"type": "Enchantment Creature — Elemental Giant",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/48_Crystalline Starlighter.png"
+			}
+		},
+		{
+			"name": "Spotlight Summoner",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/76_Spotlight Summoner.png"
+			}
+		},
+		{
+			"name": "Soul Snatcher",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment Creature — Nightmare Frog",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/75_Soul Snatcher.png"
+			}
+		},
+		{
+			"name": "Search for the Maze's End",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}{U/R}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/243_Search for the Maze's End.png"
+			}
+		},
+		{
+			"name": "Rise of the False King",
+			"rarity": "common",
+			"mana_cost": "{1}{U/B}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/242_Rise of the False King.png"
+			}
+		},
+		{
+			"name": "Play Dead",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/111_Play Dead.png"
+			}
+		},
+		{
+			"name": "Banehound",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Nightmare Dog",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/87_Banehound.png"
+			}
+		},
+		{
+			"name": "Backstage Saboteur",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/86_Backstage Saboteur.png"
+			}
+		},
+		{
+			"name": "Fear Rider",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment Creature — Nightmare Knight",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/99_Fear Rider.png"
+			}
+		},
+		{
+			"name": "Villainous Thespian",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Performer",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/121_Villainous Thespian.png"
+			}
+		},
+		{
+			"name": "March of the False King",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/107_March of the False King.png"
+			}
+		},
+		{
+			"name": "Sonic Songmasters",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bat Bard",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/116_Sonic Songmasters.png"
+			}
+		},
+		{
+			"name": "Tragic Offering",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/117_Tragic Offering.png"
+			}
+		},
+		{
+			"name": "Break a Leg",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/88_Break a Leg.png"
+			}
+		},
+		{
+			"name": "Inspiration Theft",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/105_Inspiration Theft.png"
+			}
+		},
+		{
+			"name": "False Slash",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/98_False Slash.png"
+			}
+		},
+		{
+			"name": "Unseen Terror",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Enchantment Creature — Nightmare",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/120_Unseen Terror.png"
+			}
+		},
+		{
+			"name": "Socialite's Demise",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/115_Socialite's Demise.png"
+			}
+		},
+		{
+			"name": "Gatherer of Doubt",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/102_Gatherer of Doubt.png"
+			}
+		},
+		{
+			"name": "Nocturnal Socialite",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Elf Noble",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/109_Nocturnal Socialite.png"
+			}
+		},
+		{
+			"name": "Cruel Celebrity",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Elf Noble",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/91_Cruel Celebrity.png"
+			}
+		},
+		{
+			"name": "Doombringer Falsehorn",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment Creature — Nightmare Minotaur",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/95_Doombringer Falsehorn.png"
+			}
+		},
+		{
+			"name": "Garruk's Curse",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/237_Garruk's Curse.png"
+			}
+		},
+		{
+			"name": "The Crimson Vow",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/236_The Crimson Vow.png"
+			}
+		},
+		{
+			"name": "Crowd's Favor",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/127_Crowd's Favor.png"
+			}
+		},
+		{
+			"name": "Stagelighter",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/154_Stagelighter.png"
+			}
+		},
+		{
+			"name": "Torchlight Orator",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/160_Torchlight Orator.png"
+			}
+		},
+		{
+			"name": "Thundering Storyteller",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/158_Thundering Storyteller.png"
+			}
+		},
+		{
+			"name": "Recreant Performer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Giant Coward Performer",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/145_Recreant Performer.png"
+			}
+		},
+		{
+			"name": "Lantern Dancer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Performer",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/142_Lantern Dancer.png"
+			}
+		},
+		{
+			"name": "Inspiring Daredevil",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Azra Performer",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/139_Inspiring Daredevil.png"
+			}
+		},
+		{
+			"name": "Audience Participation",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/123_Audience Participation.png"
+			}
+		},
+		{
+			"name": "Burning Ferocity",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/125_Burning Ferocity.png"
+			}
+		},
+		{
+			"name": "Reach for Inspiration",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/144_Reach for Inspiration.png"
+			}
+		},
+		{
+			"name": "Threatening Distraction",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/157_Threatening Distraction.png"
+			}
+		},
+		{
+			"name": "Shock the Crowd",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/151_Shock the Crowd.png"
+			}
+		},
+		{
+			"name": "Daring Lead",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Performer",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/129_Daring Lead.png"
+			}
+		},
+		{
+			"name": "Final Act Flamecaster",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/132_Final Act Flamecaster.png"
+			}
+		},
+		{
+			"name": "Hopeless Romantic",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/137_Hopeless Romantic.png"
+			}
+		},
+		{
+			"name": "Roaring Spotlight",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/147_Roaring Spotlight.png"
+			}
+		},
+		{
+			"name": "Searing Attention",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/150_Searing Attention.png"
+			}
+		},
+		{
+			"name": "Xenagos Rises to Godhood",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}{R/G}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/246_Xenagos Rises to Godhood.png"
+			}
+		},
+		{
+			"name": "The Trials of Amonkhet",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/245_The Trials of Amonkhet.png"
+			}
+		},
+		{
+			"name": "Lunar Dancer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Satyr Performer",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/180_Lunar Dancer.png"
+			}
+		},
+		{
+			"name": "Arachnid Actor",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Spider Performer",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/164_Arachnid Actor.png"
+			}
+		},
+		{
+			"name": "Forest Runner",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Performer",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/173_Forest Runner.png"
+			}
+		},
+		{
+			"name": "Versatile Stand-In",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment Creature — Treefolk Performer",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/199_Versatile Stand-In.png"
+			}
+		},
+		{
+			"name": "Solitary Performance",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/196_Solitary Performance.png"
+			}
+		},
+		{
+			"name": "Reincarnation Dance",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/188_Reincarnation Dance.png"
+			}
+		},
+		{
+			"name": "Plummet",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/186_Plummet.png"
+			}
+		},
+		{
+			"name": "Revitalizing Melody",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/190_Revitalizing Melody.png"
+			}
+		},
+		{
+			"name": "Wild Songmaster",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Bard",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/202_Wild Songmaster.png"
+			}
+		},
+		{
+			"name": "Autumn Observer",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Human",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/165_Autumn Observer.png"
+			}
+		},
+		{
+			"name": "Galloping Aristocrat",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Noble",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/174_Galloping Aristocrat.png"
+			}
+		},
+		{
+			"name": "Cold Chorister",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Elf Noble",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/169_Cold Chorister.png"
+			}
+		},
+		{
+			"name": "Secret Gathering",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/192_Secret Gathering.png"
+			}
+		},
+		{
+			"name": "Silent Ambush",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/193_Silent Ambush.png"
+			}
+		},
+		{
+			"name": "Masked Warrior",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Raccoon Warrior",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/183_Masked Warrior.png"
+			}
+		},
+		{
+			"name": "Wandering Elderwood",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Enchantment Creature — Treefolk",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/201_Wandering Elderwood.png"
+			}
+		},
+		{
+			"name": "Harmonizing Diva",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Bard",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/176_Harmonizing Diva.png"
+			}
+		},
+		{
+			"name": "The Harvesttide Festival",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}{G/W}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/238_The Harvesttide Festival.png"
+			}
+		},
+		{
+			"name": "Investigation on Innistrad",
+			"rarity": "common",
+			"mana_cost": "{1}{G/U}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/239_Investigation on Innistrad.png"
+			}
+		},
+		{
+			"name": "Opera Gargoyle",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Gargoyle",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/255_Opera Gargoyle.png"
+			}
+		},
+		{
+			"name": "Mystical Program",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/254_Mystical Program.png"
+			}
+		},
+		{
+			"name": "Backstage Curtain",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/247_Backstage Curtain.png"
+			}
+		},
+		{
+			"name": "Living Statue",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/251_Living Statue.png"
+			}
+		},
+		{
+			"name": "Fearful Fiddler",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Nightmare Scarecrow",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/250_Fearful Fiddler.png"
+			}
+		},
+		{
+			"name": "Sword of Revealing Light",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/259_Sword of Revealing Light.png"
+			}
+		},
+		{
+			"name": "Evolving Wilds",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/266_Evolving Wilds.png"
+			}
+		},
+		{
+			"name": "Prancing Piper",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Bard",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/33_Prancing Piper.png"
+			}
+		},
+		{
+			"name": "Inspiration Seeker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/21_Inspiration Seeker.png"
+			}
+		},
+		{
+			"name": "Upbeat Lightdancer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Performer",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/40_Upbeat Lightdancer.png"
+			}
+		},
+		{
+			"name": "Fleeting Songbird",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Creature — Bird Elemental",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/15_Fleeting Songbird.png"
+			}
+		},
+		{
+			"name": "Angelo, the Serenader",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Bard",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/5_Angelo, the Serenader.png"
+			}
+		},
+		{
+			"name": "Starstruck Songmaster",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Bard",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/38_Starstruck Songmaster.png"
+			}
+		},
+		{
+			"name": "Lovestruck Clairovoyant",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/26_Lovestruck Clairovoyant.png"
+			}
+		},
+		{
+			"name": "Opening Night",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/31_Opening Night.png"
+			}
+		},
+		{
+			"name": "Multiverse Opera",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/30_Multiverse Opera.png"
+			}
+		},
+		{
+			"name": "Otherworldly Composition",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/32_Otherworldly Composition.png"
+			}
+		},
+		{
+			"name": "Lockdown at the Inventor's Fair",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/25_Lockdown at the Inventor's Fair.png"
+			}
+		},
+		{
+			"name": "Stunning Entrance",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/78_Stunning Entrance.png"
+			}
+		},
+		{
+			"name": "Faerie Prankster",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment Creature — Faerie Performer",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/52_Faerie Prankster.png"
+			}
+		},
+		{
+			"name": "Fear Rallier",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment Creature — Nightmare Centaur",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/55_Fear Rallier.png"
+			}
+		},
+		{
+			"name": "Frost Seer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment Creature — Nightmare Bird",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/57_Frost Seer.png"
+			}
+		},
+		{
+			"name": "Terror Toad",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Nightmare Frog",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/80_Terror Toad.png"
+			}
+		},
+		{
+			"name": "Mask Maker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/62_Mask Maker.png"
+			}
+		},
+		{
+			"name": "Masked Deflector",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/63_Masked Deflector.png"
+			}
+		},
+		{
+			"name": "Apprentice Clairovoyant",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/45_Apprentice Clairovoyant.png"
+			}
+		},
+		{
+			"name": "Collective Cancel",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/47_Collective Cancel.png"
+			}
+		},
+		{
+			"name": "The Royal Transmutation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/69_The Royal Transmutation.png"
+			}
+		},
+		{
+			"name": "Convincing Performance",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Instant",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/90_Convincing Performance.png"
+			}
+		},
+		{
+			"name": "Award Ceremony",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/85_Award Ceremony.png"
+			}
+		},
+		{
+			"name": "Heartbreaking Trick",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/103_Heartbreaking Trick.png"
+			}
+		},
+		{
+			"name": "Puppeteering Act",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/113_Puppeteering Act.png"
+			}
+		},
+		{
+			"name": "Dancing Demon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment Creature — Demon Nightmare",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/92_Dancing Demon.png"
+			}
+		},
+		{
+			"name": "Undying Actor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Elf Warrior",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/118_Undying Actor.png"
+			}
+		},
+		{
+			"name": "Winged Dread",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Enchantment Creature — Nightmare Dragon",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/122_Winged Dread.png"
+			}
+		},
+		{
+			"name": "Deadly Serenader",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Elf Bard",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/93_Deadly Serenader.png"
+			}
+		},
+		{
+			"name": "Ashiok's Creeper",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment Creature — Nightmare",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/84_Ashiok's Creeper.png"
+			}
+		},
+		{
+			"name": "Planned End",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/110_Planned End.png"
+			}
+		},
+		{
+			"name": "The Promised End",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/112_The Promised End.png"
+			}
+		},
+		{
+			"name": "Rosa, the Romantic",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Performer",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/148_Rosa, the Romantic.png"
+			}
+		},
+		{
+			"name": "Shredding Soloist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/152_Shredding Soloist.png"
+			}
+		},
+		{
+			"name": "Fiddling Fiend",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Azra Bard",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/131_Fiddling Fiend.png"
+			}
+		},
+		{
+			"name": "Landscape Elemental",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/141_Landscape Elemental.png"
+			}
+		},
+		{
+			"name": "Charming Hero",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Performer",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/126_Charming Hero.png"
+			}
+		},
+		{
+			"name": "Firewhip Magician",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/134_Firewhip Magician.png"
+			}
+		},
+		{
+			"name": "Passionate Performance",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/143_Passionate Performance.png"
+			}
+		},
+		{
+			"name": "Inspired Ritual",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/138_Inspired Ritual.png"
+			}
+		},
+		{
+			"name": "Warming Up",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/162_Warming Up.png"
+			}
+		},
+		{
+			"name": "Song of Storms",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/153_Song of Storms.png"
+			}
+		},
+		{
+			"name": "Return of the Dragonlords",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/146_Return of the Dragonlords.png"
+			}
+		},
+		{
+			"name": "Grizzly Dancer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Bear Performer",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/175_Grizzly Dancer.png"
+			}
+		},
+		{
+			"name": "Socialite's Advice",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/194_Socialite's Advice.png"
+			}
+		},
+		{
+			"name": "Treetop Gremlins",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Gremlin",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/198_Treetop Gremlins.png"
+			}
+		},
+		{
+			"name": "Cursed Elderwood",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment Creature — Treefolk",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/171_Cursed Elderwood.png"
+			}
+		},
+		{
+			"name": "Soundshrouded Harpist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Bard",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/197_Soundshrouded Harpist.png"
+			}
+		},
+		{
+			"name": "Rescue From Tragedy",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/189_Rescue From Tragedy.png"
+			}
+		},
+		{
+			"name": "Masked Elf",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Elf Performer",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/182_Masked Elf.png"
+			}
+		},
+		{
+			"name": "Walking Shelter",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Enchantment Creature — Treefolk",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/200_Walking Shelter.png"
+			}
+		},
+		{
+			"name": "Manor Maiden",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Noble",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/181_Manor Maiden.png"
+			}
+		},
+		{
+			"name": "Method Actor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/184_Method Actor.png"
+			}
+		},
+		{
+			"name": "Mutations of Ikoria",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/185_Mutations of Ikoria.png"
+			}
+		},
+		{
+			"name": "Interplanar Seer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/221_Interplanar Seer.png"
+			}
+		},
+		{
+			"name": "Sap Strength",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Instant",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/232_Sap Strength.png"
+			}
+		},
+		{
+			"name": "Final Bow",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Instant",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/216_Final Bow.png"
+			}
+		},
+		{
+			"name": "Sparkthorn Stagehand",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/233_Sparkthorn Stagehand.png"
+			}
+		},
+		{
+			"name": "Musical Instructor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Elf Bard",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/225_Musical Instructor.png"
+			}
+		},
+		{
+			"name": "Embodiment of Duality",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Enchantment Creature — Avatar Performer",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/213_Embodiment of Duality.png"
+			}
+		},
+		{
+			"name": "Fluttering Lights",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/218_Fluttering Lights.png"
+			}
+		},
+		{
+			"name": "Unwelcome Presence",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/235_Unwelcome Presence.png"
+			}
+		},
+		{
+			"name": "Blade Dancer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Warrior Performer",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/207_Blade Dancer.png"
+			}
+		},
+		{
+			"name": "Masked Mistweaver",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Human Druid",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/223_Masked Mistweaver.png"
+			}
+		},
+		{
+			"name": "Supercalifragilisticexpialidocious",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Enchantment",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/39_Supercalifragilisticexpialidocious.png"
+			}
+		},
+		{
+			"name": "The Wanderer's Journey",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/42_The Wanderer's Journey.png"
+			}
+		},
+		{
+			"name": "Eva, Heavenly Voice",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Enchantment Creature — Angel Bard",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/12_Eva, Heavenly Voice.png"
+			}
+		},
+		{
+			"name": "Ghostly Waltz",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/17_Ghostly Waltz.png"
+			}
+		},
+		{
+			"name": "Chirping Balladeer",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Bard",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/8_Chirping Balladeer.png"
+			}
+		},
+		{
+			"name": "Exeunt",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/13_Exeunt.png"
+			}
+		},
+		{
+			"name": "Lost Again",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/61_Lost Again.png"
+			}
+		},
+		{
+			"name": "Danielle, Dragon Dancer",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Elf Performer",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/50_Danielle, Dragon Dancer.png"
+			}
+		},
+		{
+			"name": "Troupe Puppetmaster",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/81_Troupe Puppetmaster.png"
+			}
+		},
+		{
+			"name": "Dance of Tides",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{U}{U}",
+			"type": "Instant",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/49_Dance of Tides.png"
+			}
+		},
+		{
+			"name": "Performance Preparation",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/67_Performance Preparation.png"
+			}
+		},
+		{
+			"name": "Fearbreath Drake",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment Creature — Nightmare Drake",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/56_Fearbreath Drake.png"
+			}
+		},
+		{
+			"name": "Stunt Double",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/79_Stunt Double.png"
+			}
+		},
+		{
+			"name": "March of the Dreadhorde",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/106_March of the Dreadhorde.png"
+			}
+		},
+		{
+			"name": "Sarah, the Seamstress",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/114_Sarah, the Seamstress.png"
+			}
+		},
+		{
+			"name": "Deathly Dancer",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Zombie Performer",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/94_Deathly Dancer.png"
+			}
+		},
+		{
+			"name": "Undying Dread",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment Creature — Nightmare Hydra",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/119_Undying Dread.png"
+			}
+		},
+		{
+			"name": "Dramatic Solo",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/96_Dramatic Solo.png"
+			}
+		},
+		{
+			"name": "False King's Conquest",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/97_False King's Conquest.png"
+			}
+		},
+		{
+			"name": "Galloping Gorgon",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Gorgon",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/101_Galloping Gorgon.png"
+			}
+		},
+		{
+			"name": "Theft of the Tyrite Sword",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/156_Theft of the Tyrite Sword.png"
+			}
+		},
+		{
+			"name": "Discord, Dissonant Chaos",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Legendary Enchantment Creature — Elemental",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/130_Discord, Dissonant Chaos.png"
+			}
+		},
+		{
+			"name": "Hearthside Singer",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Elf Bard",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/136_Hearthside Singer.png"
+			}
+		},
+		{
+			"name": "Kobold Minstrel",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Kobold Bard",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/140_Kobold Minstrel.png"
+			}
+		},
+		{
+			"name": "Scene Change",
+			"rarity": "mythic",
+			"mana_cost": "{5}{R}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/149_Scene Change.png"
+			}
+		},
+		{
+			"name": "Final Song",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/133_Final Song.png"
+			}
+		},
+		{
+			"name": "Ruination of Zendikar",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/191_Ruination of Zendikar.png"
+			}
+		},
+		{
+			"name": "Chord of Calling",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{G}{G}",
+			"type": "Instant",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/168_Chord of Calling.png"
+			}
+		},
+		{
+			"name": "Inspiring Writing",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/177_Inspiring Writing.png"
+			}
+		},
+		{
+			"name": "Lounging Performer",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Performer",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/179_Lounging Performer.png"
+			}
+		},
+		{
+			"name": "Curious Mask",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/170_Curious Mask.png"
+			}
+		},
+		{
+			"name": "Advisor of Fame",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Advisor",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/163_Advisor of Fame.png"
+			}
+		},
+		{
+			"name": "Goldblaze Enforcer",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Enchantment Creature — Angel",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/19_Goldblaze Enforcer.png"
+			}
+		},
+		{
+			"name": "Shattered Facade",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/73_Shattered Facade.png"
+			}
+		},
+		{
+			"name": "Encore!",
+			"rarity": "mythic",
+			"mana_cost": "{6}{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/51_Encore!.png"
+			}
+		},
+		{
+			"name": "Impish Confidant",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Imp",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/104_Impish Confidant.png"
+			}
+		},
+		{
+			"name": "Nightshroud Steed",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment Creature — Nightmare Horse",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/108_Nightshroud Steed.png"
+			}
+		},
+		{
+			"name": "Tibalt, Finale Saboteur",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Planeswalker — Tibalt",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/159_Tibalt, Finale Saboteur.png"
+			}
+		},
+		{
+			"name": "Furious Conductor",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/135_Furious Conductor.png"
+			}
+		},
+		{
+			"name": "Bane of Creativity",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/166_Bane of Creativity.png"
+			}
+		},
+		{
+			"name": "Queen of Fame",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Elf Noble",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/187_Queen of Fame.png"
+			}
+		},
+		{
+			"name": "Pim, Exquisite Storyteller",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Human Bard",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/229_Pim, Exquisite Storyteller.png"
+			}
+		},
+		{
+			"name": "Dolion, the False King",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Enchantment Creature — Nightmare Performer",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/212_Dolion, the False King.png"
+			}
+		},
+		{
+			"name": "Climactic Moment",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/208_Climactic Moment.png"
+			}
+		},
+		{
+			"name": "Crowded Streets",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/209_Crowded Streets.png"
+			}
+		},
+		{
+			"name": "Lord of the Stage",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Creature — Human Bard",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/222_Lord of the Stage.png"
+			}
+		},
+		{
+			"name": "Paige, Devil's Violinist",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human Bard",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/228_Paige, Devil's Violinist.png"
+			}
+		},
+		{
+			"name": "Faldain, Cruel Director",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Elf Advisor",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/215_Faldain, Cruel Director.png"
+			}
+		},
+		{
+			"name": "Tag-Team Strike",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Instant",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/234_Tag-Team Strike.png"
+			}
+		},
+		{
+			"name": "Faerie Thief",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Enchantment Creature — Faerie Rogue",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/214_Faerie Thief.png"
+			}
+		},
+		{
+			"name": "Rebirth of the Guildpact",
+			"rarity": "mythic",
+			"mana_cost": "{W/U}{U/B}{B/R}{R/G}{G/W}",
+			"type": "Enchantment — Saga Performance",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/241_Rebirth of the Guildpact.png"
+			}
+		},
+		{
+			"name": "Secret Script",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/72_Secret Script.png"
+			}
+		},
+		{
+			"name": "Mind Read",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/64_Mind Read.png"
+			}
+		},
+		{
+			"name": "Contemplative Dead",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/89_Contemplative Dead.png"
+			}
+		},
+		{
+			"name": "Fleeting Queen",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment Creature — Nightmare Noble",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/100_Fleeting Queen.png"
+			}
+		},
+		{
+			"name": "Bold Stuntman",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Performer",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/124_Bold Stuntman.png"
+			}
+		},
+		{
+			"name": "Violent Inferno",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/161_Violent Inferno.png"
+			}
+		},
+		{
+			"name": "Blooming Elderwood",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment Creature — Treefolk",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/167_Blooming Elderwood.png"
+			}
+		},
+		{
+			"name": "Dance Preparation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/172_Dance Preparation.png"
+			}
+		},
+		{
+			"name": "Stage Scaffolding",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Wall",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/258_Stage Scaffolding.png"
+			}
+		},
+		{
+			"name": "Shifting Mask",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/256_Shifting Mask.png"
+			}
+		},
+		{
+			"name": "Costumed Mannequin",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/248_Costumed Mannequin.png"
+			}
+		},
+		{
+			"name": "World Lens",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/260_World Lens.png"
+			}
+		},
+		{
+			"name": "Protagonist's Pet",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Creature — Mouse",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/3_Protagonist's Pet.png"
+			}
+		},
+		{
+			"name": "Silent Statue",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/257_Silent Statue.png"
+			}
+		},
+		{
+			"name": "Oko, Charming Shapeshifter",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Planeswalker — Oko",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/227_Oko, Charming Shapeshifter.png"
+			}
+		},
+		{
+			"name": "Ashiok, Phantom of the Opera",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Planeswalker — Ashiok",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/204_Ashiok, Phantom of the Opera.png"
+			}
+		},
+		{
+			"name": "Dance of Flames",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{R}{R}",
+			"type": "Instant",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/128_Dance of Flames.png"
+			}
+		},
+		{
+			"name": "Interplanar Illusions",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Sorcery",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/220_Interplanar Illusions.png"
+			}
+		},
+		{
+			"name": "Ashiok's Masterwork",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Instant",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/205_Ashiok's Masterwork.png"
+			}
+		},
+		{
+			"name": "Finn, the Final Curtain",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Human Bard",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/217_Finn, the Final Curtain.png"
+			}
+		},
+		{
+			"name": "Dance Channeler",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Human Druid Performer",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/211_Dance Channeler.png"
+			}
+		},
+		{
+			"name": "Assemble the Band",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{W}",
+			"type": "Instant",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/206_Assemble the Band.png"
+			}
+		},
+		{
+			"name": "Crystallized Spotlight",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/210_Crystallized Spotlight.png"
+			}
+		},
+		{
+			"name": "Gravesong",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Instant",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/219_Gravesong.png"
+			}
+		},
+		{
+			"name": "Altar of Duets",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/203_Altar of Duets.png"
+			}
+		},
+		{
+			"name": "Masquerade",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/224_Masquerade.png"
+			}
+		},
+		{
+			"name": "Living Stage",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/178_Living Stage.png"
+			}
+		},
+		{
+			"name": "Darkwood Manor",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/264_Darkwood Manor.png"
+			}
+		},
+		{
+			"name": "Crystalline Cave",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/263_Crystalline Cave.png"
+			}
+		},
+		{
+			"name": "Festival Plaza",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/267_Festival Plaza.png"
+			}
+		},
+		{
+			"name": "Lively Stage",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/268_Lively Stage.png"
+			}
+		},
+		{
+			"name": "Changing Room",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/262_Changing Room.png"
+			}
+		},
+		{
+			"name": "Burning Theater",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/261_Burning Theater.png"
+			}
+		},
+		{
+			"name": "Romantic Rendezvous",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/271_Romantic Rendezvous.png"
+			}
+		},
+		{
+			"name": "Diviner's Study",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/265_Diviner's Study.png"
+			}
+		},
+		{
+			"name": "Opera of Horrors",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/270_Opera of Horrors.png"
+			}
+		},
+		{
+			"name": "Spectral Ballroom",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/272_Spectral Ballroom.png"
+			}
+		},
+		{
+			"name": "Luna Ring",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/252_Luna Ring.png"
+			}
+		},
+		{
+			"name": "Multiversal Lens",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/253_Multiversal Lens.png"
+			}
+		},
+		{
+			"name": "Stage of the Multiverse",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/273_Stage of the Multiverse.png"
+			}
+		},
+		{
+			"name": "Falseborn Greatsword",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/249_Falseborn Greatsword.png"
+			}
+		},
+		{
+			"name": "Hooded Visitors",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Enchantment Creature",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/1_Hooded Visitors.png"
+			}
+		},
+		{
+			"name": "Moment Frozen In Time",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Enchantment",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/2_Moment Frozen In Time.png"
+			}
+		},
+		{
+			"name": "Lightshow Lamps",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/60_Lightshow Lamps.png"
+			}
+		},
+		{
+			"name": "Solemn Sapling",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment Creature — Saproling",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/195_Solemn Sapling.png"
+			}
+		},
+		{
+			"name": "Mask Workshop",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/269_Mask Workshop.png"
+			}
+		},
+		{
+			"name": "Supporting Role",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elf Performer",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/155_Supporting Role.png"
+			}
+		},
+		{
+			"name": "Blessing of Sight",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/6_Blessing of Sight.png"
+			}
+		},
+		{
+			"name": "Never-Ending Story",
+			"rarity": "mythic",
+			"mana_cost": "{4}{W}{B}",
+			"type": "Enchantment",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/226_Never-Ending Story.png"
+			}
+		},
+		{
+			"name": "Enchanting Song",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/11_Enchanting Song.png"
+			}
+		},
+		{
+			"name": "Masked Lifeblade",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/27_Masked Lifeblade.png"
+			}
+		},
+		{
+			"name": "Verchiel, Face of Comedy",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Planeswalker — Verchiel",
+			"collector_number": "41",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Feralitator.github.io/sets/ASM-files/img/41_Verchiel, Face of Comedy_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/41_Verchiel, Face of Comedy_front.png"
+			}
+		},
+		{
+			"name": "Role Swap",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/230_Role Swap.png"
+			}
+		},
+		{
+			"name": "Spectral Gathering",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/37_Spectral Gathering.png"
+			}
+		},
+		{
+			"name": "It Takes Two",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/22_It Takes Two.png"
+			}
+		},
+		{
+			"name": "Amateur Auteur",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Bard",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/4_Amateur Auteur.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/274_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/275_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/276_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/277_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/278_Forest.png"
+			}
+		},
+		{
+			"name": "Ruvira, Technician Manager",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/231_Ruvira, Technician Manager.png"
+			}
+		},
+		{
+			"name": "Otherworldly Visions",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/66_Otherworldly Visions.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Sparkthorn Stagehand
+	2 Supercalifragilisticexpialidocious
+	2 Eva, Heavenly Voice
+	2 Ghostly Waltz
+	2 Chirping Balladeer
+	2 Exeunt
+	2 Danielle, Dragon Dancer
+	2 Dance of Tides
+	2 Performance Preparation
+	2 Fearbreath Drake
+	2 Stunt Double
+	2 Deathly Dancer
+	2 Undying Dread
+	2 Dramatic Solo
+	2 False King's Conquest
+	2 Galloping Gorgon
+	2 Discord, Dissonant Chaos
+	2 Hearthside Singer
+	2 Kobold Minstrel
+	2 Final Song
+	2 Chord of Calling
+	2 Inspiring Writing
+	2 Lounging Performer
+	2 Curious Mask
+	2 Advisor of Fame
+	2 Shattered Facade
+	2 Impish Confidant
+	2 Pim, Exquisite Storyteller
+	2 Dolion, the False King
+	2 Climactic Moment
+	2 Crowded Streets
+	2 Lord of the Stage
+	2 Paige, Devil's Violinist
+	2 Faldain, Cruel Director
+	2 Tag-Team Strike
+	2 Faerie Thief
+	2 Dance of Flames
+	2 Interplanar Illusions
+	2 Ashiok's Masterwork
+	2 Finn, the Final Curtain
+	2 Assemble the Band
+	2 Crystallized Spotlight
+	2 Gravesong
+	2 Altar of Duets
+	2 Masquerade
+	2 Living Stage
+	2 Luna Ring
+	2 Multiversal Lens
+	2 Stage of the Multiverse
+	2 Falseborn Greatsword
+	2 Hooded Visitors
+	2 Supporting Role
+	2 Role Swap
+	2 Spectral Gathering
+	2 Ruvira, Technician Manager
+	1 Verchiel, Face of Comedy
+	1 Tibalt, Finale Saboteur
+	1 Troupe Puppetmaster
+	1 Solemn Sapling
+	1 Scene Change
+	1 Sarah, the Seamstress
+	1 Queen of Fame
+	1 Oko, Charming Shapeshifter
+	1 Nightshroud Steed
+	1 Never-Ending Story
+	1 Moment Frozen In Time
+	1 Mask Workshop
+	1 Lightshow Lamps
+	1 Goldblaze Enforcer
+	1 Furious Conductor
+	1 Encore!
+	1 Blessing of Sight
+	1 Bane of Creativity
+	1 Ashiok, Phantom of the Opera
+[uncommon(3)]
+	9 Inspiring Daredevil
+	9 Forest Runner
+	9 Prancing Piper
+	9 Inspiration Seeker
+	9 Upbeat Lightdancer
+	9 Fleeting Songbird
+	9 Angelo, the Serenader
+	9 Starstruck Songmaster
+	9 Lovestruck Clairovoyant
+	9 Opening Night
+	9 Multiverse Opera
+	9 Otherworldly Composition
+	9 Stunning Entrance
+	9 Faerie Prankster
+	9 Fear Rallier
+	9 Frost Seer
+	9 Terror Toad
+	9 Mask Maker
+	9 Masked Deflector
+	9 Apprentice Clairovoyant
+	9 Collective Cancel
+	9 Convincing Performance
+	9 Award Ceremony
+	9 Heartbreaking Trick
+	9 Puppeteering Act
+	9 Dancing Demon
+	9 Undying Actor
+	9 Winged Dread
+	9 Deadly Serenader
+	9 Ashiok's Creeper
+	9 Planned End
+	9 Rosa, the Romantic
+	9 Shredding Soloist
+	9 Landscape Elemental
+	9 Charming Hero
+	9 Firewhip Magician
+	9 Passionate Performance
+	9 Inspired Ritual
+	9 Warming Up
+	9 Song of Storms
+	9 Grizzly Dancer
+	9 Socialite's Advice
+	9 Treetop Gremlins
+	9 Cursed Elderwood
+	9 Soundshrouded Harpist
+	9 Rescue From Tragedy
+	9 Masked Elf
+	9 Walking Shelter
+	9 Manor Maiden
+	9 Method Actor
+	9 Interplanar Seer
+	9 Sap Strength
+	9 Final Bow
+	9 Musical Instructor
+	9 Embodiment of Duality
+	9 Fluttering Lights
+	9 Unwelcome Presence
+	9 Blade Dancer
+	9 Masked Mistweaver
+	9 Secret Script
+	9 Mind Read
+	9 Contemplative Dead
+	9 Fleeting Queen
+	9 Bold Stuntman
+	9 Violent Inferno
+	9 Dance Preparation
+	9 Stage Scaffolding
+	9 Shifting Mask
+	9 Costumed Mannequin
+	9 World Lens
+	9 Protagonist's Pet
+	9 Silent Statue
+	9 Dance Channeler
+	9 Darkwood Manor
+	9 Crystalline Cave
+	9 Festival Plaza
+	9 Lively Stage
+	9 Changing Room
+	9 Burning Theater
+	9 Romantic Rendezvous
+	9 Diviner's Study
+	9 Opera of Horrors
+	9 Spectral Ballroom
+	9 Enchanting Song
+	9 Masked Lifeblade
+	9 Otherworldly Visions
+[common(9)]
+	30 Masked Seer
+	30 Songwriter Protector
+	30 Warrior Poet
+	30 Goldblaze Savior
+	30 Festival Dance
+	30 From the Storybooks
+	30 Glide Gifter
+	30 Songsqueaker
+	30 Daring Trapezist
+	30 Decorated Dancer
+	30 Keeper of Tradition
+	30 Lightfin
+	30 Brilliant Retribution
+	30 Moonlight Violinist
+	30 Sorrowful Gaze
+	30 False Strength
+	30 Search Beyond Eternity
+	30 Mothsquerade
+	30 Chilling Performer
+	30 Weaver of Reality
+	30 Script Thief
+	30 False Lorekeeper
+	30 Airborne Fear
+	30 Haunting Heckling
+	30 Shattering Silence
+	30 Stagefright
+	30 Levitate
+	30 Reach Stardom
+	30 Winding Waves
+	30 Crystalline Starlighter
+	30 Spotlight Summoner
+	30 Soul Snatcher
+	30 March of the False King
+	30 Play Dead
+	30 Banehound
+	30 Backstage Saboteur
+	30 Fear Rider
+	30 Villainous Thespian
+	30 Sonic Songmasters
+	30 Tragic Offering
+	30 Break a Leg
+	30 Inspiration Theft
+	30 False Slash
+	30 Unseen Terror
+	30 Socialite's Demise
+	30 Gatherer of Doubt
+	30 Nocturnal Socialite
+	30 Cruel Celebrity
+	30 Doombringer Falsehorn
+	30 Crowd's Favor
+	30 Stagelighter
+	30 Torchlight Orator
+	30 Thundering Storyteller
+	30 Recreant Performer
+	30 Lantern Dancer
+	30 Audience Participation
+	30 Burning Ferocity
+	30 Reach for Inspiration
+	30 Threatening Distraction
+	30 Shock the Crowd
+	30 Daring Lead
+	30 Final Act Flamecaster
+	30 Hopeless Romantic
+	30 Roaring Spotlight
+	30 Searing Attention
+	30 Lunar Dancer
+	30 Arachnid Actor
+	30 Versatile Stand-In
+	30 Solitary Performance
+	30 Reincarnation Dance
+	30 Plummet
+	30 Revitalizing Melody
+	30 Wild Songmaster
+	30 Autumn Observer
+	30 Galloping Aristocrat
+	30 Cold Chorister
+	30 Secret Gathering
+	30 Silent Ambush
+	30 Masked Warrior
+	30 Wandering Elderwood
+	30 Harmonizing Diva
+	30 Opera Gargoyle
+	30 Mystical Program
+	30 Backstage Curtain
+	30 Living Statue
+	30 Fearful Fiddler
+	30 Sword of Revealing Light
+	30 Evolving Wilds
+	30 Fiddling Fiend
+	30 Blooming Elderwood
+	30 It Takes Two
+	30 Amateur Auteur
+[performance(1)]
+	1 Rebirth of the Guildpact
+	2 The Wanderer's Journey
+	2 Lost Again
+	2 March of the Dreadhorde
+	2 Theft of the Tyrite Sword
+	2 Ruination of Zendikar
+	9 Mutations of Ikoria
+	9 Return of the Dragonlords
+	9 The Promised End
+	9 The Royal Transmutation
+	9 Lockdown at the Inventor's Fair
+	30 Garruk's Curse
+	30 The Crimson Vow
+	30 The Harvesttide Festival
+	30 Investigation on Innistrad
+	30 Xenagos Rises to Godhood
+	30 The Trials of Amonkhet
+	30 Search for the Maze's End
+	30 Rise of the False King
+	30 Phyrexian Invasion
+	30 Teferi's Reascension

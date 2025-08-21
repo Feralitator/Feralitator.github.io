@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/ASM-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>ASM visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/ASM-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ASM-files/icon.png" />
+		<img class="preload-hidden" src="/sets/RTG-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="ASM"><img src="/sets/ASM-files/icon.png">Athria: Stage of the Multiverse</a>
+	
+		<a class="set-bar inactive" href="RTG"><img src="/sets/RTG-files/icon.png">Retrogrid</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/ASM-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img alt="/sets\ASM-files\img\6_Blessing of Sight.png" id="6_Blessing of Sight" data-flag="@X" onclick="openSidebar('6_Blessing of Sight',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\51_Encore!.png" id="51_Encore!" data-flag="@X" onclick="openSidebar('51_Encore!',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\108_Nightshroud Steed.png" id="108_Nightshroud Steed" data-flag="@X" onclick="openSidebar('108_Nightshroud Steed',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\135_Furious Conductor.png" id="135_Furious Conductor" data-flag="@X" onclick="openSidebar('135_Furious Conductor',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\166_Bane of Creativity.png" id="166_Bane of Creativity" data-flag="@X" onclick="openSidebar('166_Bane of Creativity',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\19_Goldblaze Enforcer.png" id="19_Goldblaze Enforcer" data-flag="@X" onclick="openSidebar('19_Goldblaze Enforcer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\60_Lightshow Lamps.png" id="60_Lightshow Lamps" data-flag="@X" onclick="openSidebar('60_Lightshow Lamps',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\114_Sarah, the Seamstress.png" id="114_Sarah, the Seamstress" data-flag="@X" onclick="openSidebar('114_Sarah, the Seamstress',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\149_Scene Change.png" id="149_Scene Change" data-flag="@X" onclick="openSidebar('149_Scene Change',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\187_Queen of Fame.png" id="187_Queen of Fame" data-flag="@X" onclick="openSidebar('187_Queen of Fame',false)"></div>
+				<div class="container"><img data-alt_src="/sets\ASM-files\img\41_Verchiel, Face of Comedy_back.png" alt="/sets\ASM-files\img\41_Verchiel, Face of Comedy_front.png" id="41_Verchiel, Face of Comedy" data-flag="@XD" onclick="openSidebar('41_Verchiel, Face of Comedy',false)"><button class="flip-btn" onclick="imgFlip('41_Verchiel, Face of Comedy')"></button></div>
+				<div class="container"><img alt="/sets\ASM-files\img\81_Troupe Puppetmaster.png" id="81_Troupe Puppetmaster" data-flag="@X" onclick="openSidebar('81_Troupe Puppetmaster',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\94_Deathly Dancer.png" id="94_Deathly Dancer" data-flag="@X" onclick="openSidebar('94_Deathly Dancer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\159_Tibalt, Finale Saboteur.png" id="159_Tibalt, Finale Saboteur" data-flag="@X" onclick="openSidebar('159_Tibalt, Finale Saboteur',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\195_Solemn Sapling.png" id="195_Solemn Sapling" data-flag="@X" onclick="openSidebar('195_Solemn Sapling',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\8_Chirping Balladeer.png" id="8_Chirping Balladeer" data-flag="@X" onclick="openSidebar('8_Chirping Balladeer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\49_Dance of Tides.png" id="49_Dance of Tides" data-flag="@X" onclick="openSidebar('49_Dance of Tides',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\96_Dramatic Solo.png" id="96_Dramatic Solo" data-flag="@X" onclick="openSidebar('96_Dramatic Solo',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\128_Dance of Flames.png" id="128_Dance of Flames" data-flag="@X" onclick="openSidebar('128_Dance of Flames',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\163_Advisor of Fame.png" id="163_Advisor of Fame" data-flag="@X" onclick="openSidebar('163_Advisor of Fame',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\12_Eva, Heavenly Voice.png" id="12_Eva, Heavenly Voice" data-flag="@X" onclick="openSidebar('12_Eva, Heavenly Voice',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\50_Danielle, Dragon Dancer.png" id="50_Danielle, Dragon Dancer" data-flag="@X" onclick="openSidebar('50_Danielle, Dragon Dancer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\97_False King's Conquest.png" id="97_False Kings Conquest" data-flag="@X" onclick="openSidebar('97_False Kings Conquest',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\130_Discord, Dissonant Chaos.png" id="130_Discord, Dissonant Chaos" data-flag="@X" onclick="openSidebar('130_Discord, Dissonant Chaos',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\168_Chord of Calling.png" id="168_Chord of Calling" data-flag="@X" onclick="openSidebar('168_Chord of Calling',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\13_Exeunt.png" id="13_Exeunt" data-flag="@X" onclick="openSidebar('13_Exeunt',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\56_Fearbreath Drake.png" id="56_Fearbreath Drake" data-flag="@X" onclick="openSidebar('56_Fearbreath Drake',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\101_Galloping Gorgon.png" id="101_Galloping Gorgon" data-flag="@X" onclick="openSidebar('101_Galloping Gorgon',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\133_Final Song.png" id="133_Final Song" data-flag="@X" onclick="openSidebar('133_Final Song',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\170_Curious Mask.png" id="170_Curious Mask" data-flag="@X" onclick="openSidebar('170_Curious Mask',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\17_Ghostly Waltz.png" id="17_Ghostly Waltz" data-flag="@X" onclick="openSidebar('17_Ghostly Waltz',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\61_Lost Again.png" id="61_Lost Again" data-flag="@X" onclick="openSidebar('61_Lost Again',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\104_Impish Confidant.png" id="104_Impish Confidant" data-flag="@X" onclick="openSidebar('104_Impish Confidant',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\136_Hearthside Singer.png" id="136_Hearthside Singer" data-flag="@X" onclick="openSidebar('136_Hearthside Singer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\177_Inspiring Writing.png" id="177_Inspiring Writing" data-flag="@X" onclick="openSidebar('177_Inspiring Writing',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\37_Spectral Gathering.png" id="37_Spectral Gathering" data-flag="@X" onclick="openSidebar('37_Spectral Gathering',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\67_Performance Preparation.png" id="67_Performance Preparation" data-flag="@X" onclick="openSidebar('67_Performance Preparation',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\106_March of the Dreadhorde.png" id="106_March of the Dreadhorde" data-flag="@X" onclick="openSidebar('106_March of the Dreadhorde',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\140_Kobold Minstrel.png" id="140_Kobold Minstrel" data-flag="@X" onclick="openSidebar('140_Kobold Minstrel',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\178_Living Stage.png" id="178_Living Stage" data-flag="@X" onclick="openSidebar('178_Living Stage',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\39_Supercalifragilisticexpialidocious.png" id="39_Supercalifragilisticexpialidocious" data-flag="@X" onclick="openSidebar('39_Supercalifragilisticexpialidocious',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\73_Shattered Facade.png" id="73_Shattered Facade" data-flag="@X" onclick="openSidebar('73_Shattered Facade',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\119_Undying Dread.png" id="119_Undying Dread" data-flag="@X" onclick="openSidebar('119_Undying Dread',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\155_Supporting Role.png" id="155_Supporting Role" data-flag="@X" onclick="openSidebar('155_Supporting Role',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\179_Lounging Performer.png" id="179_Lounging Performer" data-flag="@X" onclick="openSidebar('179_Lounging Performer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\42_The Wanderer's Journey.png" id="42_The Wanderers Journey" data-flag="@X" onclick="openSidebar('42_The Wanderers Journey',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\79_Stunt Double.png" id="79_Stunt Double" data-flag="@X" onclick="openSidebar('79_Stunt Double',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\84_Ashiok's Creeper.png" id="84_Ashioks Creeper" data-flag="@X" onclick="openSidebar('84_Ashioks Creeper',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\156_Theft of the Tyrite Sword.png" id="156_Theft of the Tyrite Sword" data-flag="@X" onclick="openSidebar('156_Theft of the Tyrite Sword',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\191_Ruination of Zendikar.png" id="191_Ruination of Zendikar" data-flag="@X" onclick="openSidebar('191_Ruination of Zendikar',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\5_Angelo, the Serenader.png" id="5_Angelo, the Serenader" data-flag="@X" onclick="openSidebar('5_Angelo, the Serenader',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\45_Apprentice Clairovoyant.png" id="45_Apprentice Clairovoyant" data-flag="@X" onclick="openSidebar('45_Apprentice Clairovoyant',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\85_Award Ceremony.png" id="85_Award Ceremony" data-flag="@X" onclick="openSidebar('85_Award Ceremony',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\124_Bold Stuntman.png" id="124_Bold Stuntman" data-flag="@X" onclick="openSidebar('124_Bold Stuntman',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\171_Cursed Elderwood.png" id="171_Cursed Elderwood" data-flag="@X" onclick="openSidebar('171_Cursed Elderwood',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\11_Enchanting Song.png" id="11_Enchanting Song" data-flag="@X" onclick="openSidebar('11_Enchanting Song',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\47_Collective Cancel.png" id="47_Collective Cancel" data-flag="@X" onclick="openSidebar('47_Collective Cancel',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\89_Contemplative Dead.png" id="89_Contemplative Dead" data-flag="@X" onclick="openSidebar('89_Contemplative Dead',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\126_Charming Hero.png" id="126_Charming Hero" data-flag="@X" onclick="openSidebar('126_Charming Hero',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\172_Dance Preparation.png" id="172_Dance Preparation" data-flag="@X" onclick="openSidebar('172_Dance Preparation',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\15_Fleeting Songbird.png" id="15_Fleeting Songbird" data-flag="@X" onclick="openSidebar('15_Fleeting Songbird',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\52_Faerie Prankster.png" id="52_Faerie Prankster" data-flag="@X" onclick="openSidebar('52_Faerie Prankster',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\90_Convincing Performance.png" id="90_Convincing Performance" data-flag="@X" onclick="openSidebar('90_Convincing Performance',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\134_Firewhip Magician.png" id="134_Firewhip Magician" data-flag="@X" onclick="openSidebar('134_Firewhip Magician',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\173_Forest Runner.png" id="173_Forest Runner" data-flag="@X" onclick="openSidebar('173_Forest Runner',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\21_Inspiration Seeker.png" id="21_Inspiration Seeker" data-flag="@X" onclick="openSidebar('21_Inspiration Seeker',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\55_Fear Rallier.png" id="55_Fear Rallier" data-flag="@X" onclick="openSidebar('55_Fear Rallier',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\92_Dancing Demon.png" id="92_Dancing Demon" data-flag="@X" onclick="openSidebar('92_Dancing Demon',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\138_Inspired Ritual.png" id="138_Inspired Ritual" data-flag="@X" onclick="openSidebar('138_Inspired Ritual',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\175_Grizzly Dancer.png" id="175_Grizzly Dancer" data-flag="@X" onclick="openSidebar('175_Grizzly Dancer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\25_Lockdown at the Inventor's Fair.png" id="25_Lockdown at the Inventors Fair" data-flag="@X" onclick="openSidebar('25_Lockdown at the Inventors Fair',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\57_Frost Seer.png" id="57_Frost Seer" data-flag="@X" onclick="openSidebar('57_Frost Seer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\93_Deadly Serenader.png" id="93_Deadly Serenader" data-flag="@X" onclick="openSidebar('93_Deadly Serenader',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\139_Inspiring Daredevil.png" id="139_Inspiring Daredevil" data-flag="@X" onclick="openSidebar('139_Inspiring Daredevil',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\181_Manor Maiden.png" id="181_Manor Maiden" data-flag="@X" onclick="openSidebar('181_Manor Maiden',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\26_Lovestruck Clairovoyant.png" id="26_Lovestruck Clairovoyant" data-flag="@X" onclick="openSidebar('26_Lovestruck Clairovoyant',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\62_Mask Maker.png" id="62_Mask Maker" data-flag="@X" onclick="openSidebar('62_Mask Maker',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\100_Fleeting Queen.png" id="100_Fleeting Queen" data-flag="@X" onclick="openSidebar('100_Fleeting Queen',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\141_Landscape Elemental.png" id="141_Landscape Elemental" data-flag="@X" onclick="openSidebar('141_Landscape Elemental',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\182_Masked Elf.png" id="182_Masked Elf" data-flag="@X" onclick="openSidebar('182_Masked Elf',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\27_Masked Lifeblade.png" id="27_Masked Lifeblade" data-flag="@X" onclick="openSidebar('27_Masked Lifeblade',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\63_Masked Deflector.png" id="63_Masked Deflector" data-flag="@X" onclick="openSidebar('63_Masked Deflector',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\103_Heartbreaking Trick.png" id="103_Heartbreaking Trick" data-flag="@X" onclick="openSidebar('103_Heartbreaking Trick',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\143_Passionate Performance.png" id="143_Passionate Performance" data-flag="@X" onclick="openSidebar('143_Passionate Performance',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\184_Method Actor.png" id="184_Method Actor" data-flag="@X" onclick="openSidebar('184_Method Actor',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\30_Multiverse Opera.png" id="30_Multiverse Opera" data-flag="@X" onclick="openSidebar('30_Multiverse Opera',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\64_Mind Read.png" id="64_Mind Read" data-flag="@X" onclick="openSidebar('64_Mind Read',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\110_Planned End.png" id="110_Planned End" data-flag="@X" onclick="openSidebar('110_Planned End',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\146_Return of the Dragonlords.png" id="146_Return of the Dragonlords" data-flag="@X" onclick="openSidebar('146_Return of the Dragonlords',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\185_Mutations of Ikoria.png" id="185_Mutations of Ikoria" data-flag="@X" onclick="openSidebar('185_Mutations of Ikoria',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\31_Opening Night.png" id="31_Opening Night" data-flag="@X" onclick="openSidebar('31_Opening Night',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\66_Otherworldly Visions.png" id="66_Otherworldly Visions" data-flag="@X" onclick="openSidebar('66_Otherworldly Visions',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\112_The Promised End.png" id="112_The Promised End" data-flag="@X" onclick="openSidebar('112_The Promised End',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\148_Rosa, the Romantic.png" id="148_Rosa, the Romantic" data-flag="@X" onclick="openSidebar('148_Rosa, the Romantic',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\189_Rescue From Tragedy.png" id="189_Rescue From Tragedy" data-flag="@X" onclick="openSidebar('189_Rescue From Tragedy',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\32_Otherworldly Composition.png" id="32_Otherworldly Composition" data-flag="@X" onclick="openSidebar('32_Otherworldly Composition',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\69_The Royal Transmutation.png" id="69_The Royal Transmutation" data-flag="@X" onclick="openSidebar('69_The Royal Transmutation',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\113_Puppeteering Act.png" id="113_Puppeteering Act" data-flag="@X" onclick="openSidebar('113_Puppeteering Act',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\152_Shredding Soloist.png" id="152_Shredding Soloist" data-flag="@X" onclick="openSidebar('152_Shredding Soloist',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\194_Socialite's Advice.png" id="194_Socialites Advice" data-flag="@X" onclick="openSidebar('194_Socialites Advice',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\33_Prancing Piper.png" id="33_Prancing Piper" data-flag="@X" onclick="openSidebar('33_Prancing Piper',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\72_Secret Script.png" id="72_Secret Script" data-flag="@X" onclick="openSidebar('72_Secret Script',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\118_Undying Actor.png" id="118_Undying Actor" data-flag="@X" onclick="openSidebar('118_Undying Actor',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\153_Song of Storms.png" id="153_Song of Storms" data-flag="@X" onclick="openSidebar('153_Song of Storms',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\197_Soundshrouded Harpist.png" id="197_Soundshrouded Harpist" data-flag="@X" onclick="openSidebar('197_Soundshrouded Harpist',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\38_Starstruck Songmaster.png" id="38_Starstruck Songmaster" data-flag="@X" onclick="openSidebar('38_Starstruck Songmaster',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\78_Stunning Entrance.png" id="78_Stunning Entrance" data-flag="@X" onclick="openSidebar('78_Stunning Entrance',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\122_Winged Dread.png" id="122_Winged Dread" data-flag="@X" onclick="openSidebar('122_Winged Dread',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\161_Violent Inferno.png" id="161_Violent Inferno" data-flag="@X" onclick="openSidebar('161_Violent Inferno',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\198_Treetop Gremlins.png" id="198_Treetop Gremlins" data-flag="@X" onclick="openSidebar('198_Treetop Gremlins',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\40_Upbeat Lightdancer.png" id="40_Upbeat Lightdancer" data-flag="@X" onclick="openSidebar('40_Upbeat Lightdancer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\80_Terror Toad.png" id="80_Terror Toad" data-flag="@X" onclick="openSidebar('80_Terror Toad',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\86_Backstage Saboteur.png" id="86_Backstage Saboteur" data-flag="@X" onclick="openSidebar('86_Backstage Saboteur',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\162_Warming Up.png" id="162_Warming Up" data-flag="@X" onclick="openSidebar('162_Warming Up',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\200_Walking Shelter.png" id="200_Walking Shelter" data-flag="@X" onclick="openSidebar('200_Walking Shelter',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\4_Amateur Auteur.png" id="4_Amateur Auteur" data-flag="@X" onclick="openSidebar('4_Amateur Auteur',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\44_Airborne Fear.png" id="44_Airborne Fear" data-flag="@X" onclick="openSidebar('44_Airborne Fear',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\87_Banehound.png" id="87_Banehound" data-flag="@X" onclick="openSidebar('87_Banehound',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\123_Audience Participation.png" id="123_Audience Participation" data-flag="@X" onclick="openSidebar('123_Audience Participation',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\164_Arachnid Actor.png" id="164_Arachnid Actor" data-flag="@X" onclick="openSidebar('164_Arachnid Actor',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\7_Brilliant Retribution.png" id="7_Brilliant Retribution" data-flag="@X" onclick="openSidebar('7_Brilliant Retribution',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\46_Chilling Performer.png" id="46_Chilling Performer" data-flag="@X" onclick="openSidebar('46_Chilling Performer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\88_Break a Leg.png" id="88_Break a Leg" data-flag="@X" onclick="openSidebar('88_Break a Leg',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\125_Burning Ferocity.png" id="125_Burning Ferocity" data-flag="@X" onclick="openSidebar('125_Burning Ferocity',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\165_Autumn Observer.png" id="165_Autumn Observer" data-flag="@X" onclick="openSidebar('165_Autumn Observer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\9_Daring Trapezist.png" id="9_Daring Trapezist" data-flag="@X" onclick="openSidebar('9_Daring Trapezist',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\48_Crystalline Starlighter.png" id="48_Crystalline Starlighter" data-flag="@X" onclick="openSidebar('48_Crystalline Starlighter',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\91_Cruel Celebrity.png" id="91_Cruel Celebrity" data-flag="@X" onclick="openSidebar('91_Cruel Celebrity',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\127_Crowd's Favor.png" id="127_Crowds Favor" data-flag="@X" onclick="openSidebar('127_Crowds Favor',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\167_Blooming Elderwood.png" id="167_Blooming Elderwood" data-flag="@X" onclick="openSidebar('167_Blooming Elderwood',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\10_Decorated Dancer.png" id="10_Decorated Dancer" data-flag="@X" onclick="openSidebar('10_Decorated Dancer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\53_False Lorekeeper.png" id="53_False Lorekeeper" data-flag="@X" onclick="openSidebar('53_False Lorekeeper',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\95_Doombringer Falsehorn.png" id="95_Doombringer Falsehorn" data-flag="@X" onclick="openSidebar('95_Doombringer Falsehorn',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\129_Daring Lead.png" id="129_Daring Lead" data-flag="@X" onclick="openSidebar('129_Daring Lead',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\169_Cold Chorister.png" id="169_Cold Chorister" data-flag="@X" onclick="openSidebar('169_Cold Chorister',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\14_Festival Dance.png" id="14_Festival Dance" data-flag="@X" onclick="openSidebar('14_Festival Dance',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\54_False Strength.png" id="54_False Strength" data-flag="@X" onclick="openSidebar('54_False Strength',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\98_False Slash.png" id="98_False Slash" data-flag="@X" onclick="openSidebar('98_False Slash',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\131_Fiddling Fiend.png" id="131_Fiddling Fiend" data-flag="@X" onclick="openSidebar('131_Fiddling Fiend',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\174_Galloping Aristocrat.png" id="174_Galloping Aristocrat" data-flag="@X" onclick="openSidebar('174_Galloping Aristocrat',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\16_From the Storybooks.png" id="16_From the Storybooks" data-flag="@X" onclick="openSidebar('16_From the Storybooks',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\58_Haunting Heckling.png" id="58_Haunting Heckling" data-flag="@X" onclick="openSidebar('58_Haunting Heckling',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\99_Fear Rider.png" id="99_Fear Rider" data-flag="@X" onclick="openSidebar('99_Fear Rider',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\132_Final Act Flamecaster.png" id="132_Final Act Flamecaster" data-flag="@X" onclick="openSidebar('132_Final Act Flamecaster',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\176_Harmonizing Diva.png" id="176_Harmonizing Diva" data-flag="@X" onclick="openSidebar('176_Harmonizing Diva',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\18_Glide Gifter.png" id="18_Glide Gifter" data-flag="@X" onclick="openSidebar('18_Glide Gifter',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\59_Levitate.png" id="59_Levitate" data-flag="@X" onclick="openSidebar('59_Levitate',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\102_Gatherer of Doubt.png" id="102_Gatherer of Doubt" data-flag="@X" onclick="openSidebar('102_Gatherer of Doubt',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\137_Hopeless Romantic.png" id="137_Hopeless Romantic" data-flag="@X" onclick="openSidebar('137_Hopeless Romantic',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\180_Lunar Dancer.png" id="180_Lunar Dancer" data-flag="@X" onclick="openSidebar('180_Lunar Dancer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\20_Goldblaze Savior.png" id="20_Goldblaze Savior" data-flag="@X" onclick="openSidebar('20_Goldblaze Savior',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\65_Mothsquerade.png" id="65_Mothsquerade" data-flag="@X" onclick="openSidebar('65_Mothsquerade',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\105_Inspiration Theft.png" id="105_Inspiration Theft" data-flag="@X" onclick="openSidebar('105_Inspiration Theft',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\142_Lantern Dancer.png" id="142_Lantern Dancer" data-flag="@X" onclick="openSidebar('142_Lantern Dancer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\183_Masked Warrior.png" id="183_Masked Warrior" data-flag="@X" onclick="openSidebar('183_Masked Warrior',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\22_It Takes Two.png" id="22_It Takes Two" data-flag="@X" onclick="openSidebar('22_It Takes Two',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\68_Reach Stardom.png" id="68_Reach Stardom" data-flag="@X" onclick="openSidebar('68_Reach Stardom',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\107_March of the False King.png" id="107_March of the False King" data-flag="@X" onclick="openSidebar('107_March of the False King',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\144_Reach for Inspiration.png" id="144_Reach for Inspiration" data-flag="@X" onclick="openSidebar('144_Reach for Inspiration',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\186_Plummet.png" id="186_Plummet" data-flag="@X" onclick="openSidebar('186_Plummet',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\23_Keeper of Tradition.png" id="23_Keeper of Tradition" data-flag="@X" onclick="openSidebar('23_Keeper of Tradition',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\70_Script Thief.png" id="70_Script Thief" data-flag="@X" onclick="openSidebar('70_Script Thief',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\109_Nocturnal Socialite.png" id="109_Nocturnal Socialite" data-flag="@X" onclick="openSidebar('109_Nocturnal Socialite',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\145_Recreant Performer.png" id="145_Recreant Performer" data-flag="@X" onclick="openSidebar('145_Recreant Performer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\188_Reincarnation Dance.png" id="188_Reincarnation Dance" data-flag="@X" onclick="openSidebar('188_Reincarnation Dance',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\24_Lightfin.png" id="24_Lightfin" data-flag="@X" onclick="openSidebar('24_Lightfin',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\71_Search Beyond Eternity.png" id="71_Search Beyond Eternity" data-flag="@X" onclick="openSidebar('71_Search Beyond Eternity',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\111_Play Dead.png" id="111_Play Dead" data-flag="@X" onclick="openSidebar('111_Play Dead',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\147_Roaring Spotlight.png" id="147_Roaring Spotlight" data-flag="@X" onclick="openSidebar('147_Roaring Spotlight',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\190_Revitalizing Melody.png" id="190_Revitalizing Melody" data-flag="@X" onclick="openSidebar('190_Revitalizing Melody',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\28_Masked Seer.png" id="28_Masked Seer" data-flag="@X" onclick="openSidebar('28_Masked Seer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\74_Shattering Silence.png" id="74_Shattering Silence" data-flag="@X" onclick="openSidebar('74_Shattering Silence',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\115_Socialite's Demise.png" id="115_Socialites Demise" data-flag="@X" onclick="openSidebar('115_Socialites Demise',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\150_Searing Attention.png" id="150_Searing Attention" data-flag="@X" onclick="openSidebar('150_Searing Attention',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\192_Secret Gathering.png" id="192_Secret Gathering" data-flag="@X" onclick="openSidebar('192_Secret Gathering',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\29_Moonlight Violinist.png" id="29_Moonlight Violinist" data-flag="@X" onclick="openSidebar('29_Moonlight Violinist',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\75_Soul Snatcher.png" id="75_Soul Snatcher" data-flag="@X" onclick="openSidebar('75_Soul Snatcher',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\116_Sonic Songmasters.png" id="116_Sonic Songmasters" data-flag="@X" onclick="openSidebar('116_Sonic Songmasters',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\151_Shock the Crowd.png" id="151_Shock the Crowd" data-flag="@X" onclick="openSidebar('151_Shock the Crowd',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\193_Silent Ambush.png" id="193_Silent Ambush" data-flag="@X" onclick="openSidebar('193_Silent Ambush',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\34_Songsqueaker.png" id="34_Songsqueaker" data-flag="@X" onclick="openSidebar('34_Songsqueaker',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\76_Spotlight Summoner.png" id="76_Spotlight Summoner" data-flag="@X" onclick="openSidebar('76_Spotlight Summoner',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\117_Tragic Offering.png" id="117_Tragic Offering" data-flag="@X" onclick="openSidebar('117_Tragic Offering',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\154_Stagelighter.png" id="154_Stagelighter" data-flag="@X" onclick="openSidebar('154_Stagelighter',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\196_Solitary Performance.png" id="196_Solitary Performance" data-flag="@X" onclick="openSidebar('196_Solitary Performance',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\35_Songwriter Protector.png" id="35_Songwriter Protector" data-flag="@X" onclick="openSidebar('35_Songwriter Protector',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\77_Stagefright.png" id="77_Stagefright" data-flag="@X" onclick="openSidebar('77_Stagefright',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\120_Unseen Terror.png" id="120_Unseen Terror" data-flag="@X" onclick="openSidebar('120_Unseen Terror',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\157_Threatening Distraction.png" id="157_Threatening Distraction" data-flag="@X" onclick="openSidebar('157_Threatening Distraction',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\199_Versatile Stand-In.png" id="199_Versatile Stand-In" data-flag="@X" onclick="openSidebar('199_Versatile Stand-In',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\36_Sorrowful Gaze.png" id="36_Sorrowful Gaze" data-flag="@X" onclick="openSidebar('36_Sorrowful Gaze',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\82_Weaver of Reality.png" id="82_Weaver of Reality" data-flag="@X" onclick="openSidebar('82_Weaver of Reality',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\121_Villainous Thespian.png" id="121_Villainous Thespian" data-flag="@X" onclick="openSidebar('121_Villainous Thespian',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\158_Thundering Storyteller.png" id="158_Thundering Storyteller" data-flag="@X" onclick="openSidebar('158_Thundering Storyteller',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\201_Wandering Elderwood.png" id="201_Wandering Elderwood" data-flag="@X" onclick="openSidebar('201_Wandering Elderwood',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\43_Warrior Poet.png" id="43_Warrior Poet" data-flag="@X" onclick="openSidebar('43_Warrior Poet',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\83_Winding Waves.png" id="83_Winding Waves" data-flag="@X" onclick="openSidebar('83_Winding Waves',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\160_Torchlight Orator.png" id="160_Torchlight Orator" data-flag="@X" onclick="openSidebar('160_Torchlight Orator',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\202_Wild Songmaster.png" id="202_Wild Songmaster" data-flag="@X" onclick="openSidebar('202_Wild Songmaster',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\220_Interplanar Illusions.png" id="220_Interplanar Illusions" data-flag="@X" onclick="openSidebar('220_Interplanar Illusions',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\204_Ashiok, Phantom of the Opera.png" id="204_Ashiok, Phantom of the Opera" data-flag="@X" onclick="openSidebar('204_Ashiok, Phantom of the Opera',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\208_Climactic Moment.png" id="208_Climactic Moment" data-flag="@X" onclick="openSidebar('208_Climactic Moment',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\209_Crowded Streets.png" id="209_Crowded Streets" data-flag="@X" onclick="openSidebar('209_Crowded Streets',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\206_Assemble the Band.png" id="206_Assemble the Band" data-flag="@X" onclick="openSidebar('206_Assemble the Band',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\229_Pim, Exquisite Storyteller.png" id="229_Pim, Exquisite Storyteller" data-flag="@X" onclick="openSidebar('229_Pim, Exquisite Storyteller',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\205_Ashiok's Masterwork.png" id="205_Ashioks Masterwork" data-flag="@X" onclick="openSidebar('205_Ashioks Masterwork',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\217_Finn, the Final Curtain.png" id="217_Finn, the Final Curtain" data-flag="@X" onclick="openSidebar('217_Finn, the Final Curtain',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\233_Sparkthorn Stagehand.png" id="233_Sparkthorn Stagehand" data-flag="@X" onclick="openSidebar('233_Sparkthorn Stagehand',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\222_Lord of the Stage.png" id="222_Lord of the Stage" data-flag="@X" onclick="openSidebar('222_Lord of the Stage',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\221_Interplanar Seer.png" id="221_Interplanar Seer" data-flag="@X" onclick="openSidebar('221_Interplanar Seer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\212_Dolion, the False King.png" id="212_Dolion, the False King" data-flag="@X" onclick="openSidebar('212_Dolion, the False King',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\216_Final Bow.png" id="216_Final Bow" data-flag="@X" onclick="openSidebar('216_Final Bow',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\211_Dance Channeler.png" id="211_Dance Channeler" data-flag="@X" onclick="openSidebar('211_Dance Channeler',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\225_Musical Instructor.png" id="225_Musical Instructor" data-flag="@X" onclick="openSidebar('225_Musical Instructor',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\244_Teferi's Reascension.png" id="244_Teferis Reascension" data-flag="@X" onclick="openSidebar('244_Teferis Reascension',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\232_Sap Strength.png" id="232_Sap Strength" data-flag="@X" onclick="openSidebar('232_Sap Strength',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\236_The Crimson Vow.png" id="236_The Crimson Vow" data-flag="@X" onclick="openSidebar('236_The Crimson Vow',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\246_Xenagos Rises to Godhood.png" id="246_Xenagos Rises to Godhood" data-flag="@X" onclick="openSidebar('246_Xenagos Rises to Godhood',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\238_The Harvesttide Festival.png" id="238_The Harvesttide Festival" data-flag="@X" onclick="openSidebar('238_The Harvesttide Festival',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\242_Rise of the False King.png" id="242_Rise of the False King" data-flag="@X" onclick="openSidebar('242_Rise of the False King',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\226_Never-Ending Story.png" id="226_Never-Ending Story" data-flag="@X" onclick="openSidebar('226_Never-Ending Story',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\210_Crystallized Spotlight.png" id="210_Crystallized Spotlight" data-flag="@X" onclick="openSidebar('210_Crystallized Spotlight',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\215_Faldain, Cruel Director.png" id="215_Faldain, Cruel Director" data-flag="@X" onclick="openSidebar('215_Faldain, Cruel Director',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\203_Altar of Duets.png" id="203_Altar of Duets" data-flag="@X" onclick="openSidebar('203_Altar of Duets',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\227_Oko, Charming Shapeshifter.png" id="227_Oko, Charming Shapeshifter" data-flag="@X" onclick="openSidebar('227_Oko, Charming Shapeshifter',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\228_Paige, Devil's Violinist.png" id="228_Paige, Devils Violinist" data-flag="@X" onclick="openSidebar('228_Paige, Devils Violinist',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\231_Ruvira, Technician Manager.png" id="231_Ruvira, Technician Manager" data-flag="@X" onclick="openSidebar('231_Ruvira, Technician Manager',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\219_Gravesong.png" id="219_Gravesong" data-flag="@X" onclick="openSidebar('219_Gravesong',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\234_Tag-Team Strike.png" id="234_Tag-Team Strike" data-flag="@X" onclick="openSidebar('234_Tag-Team Strike',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\214_Faerie Thief.png" id="214_Faerie Thief" data-flag="@X" onclick="openSidebar('214_Faerie Thief',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\230_Role Swap.png" id="230_Role Swap" data-flag="@X" onclick="openSidebar('230_Role Swap',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\218_Fluttering Lights.png" id="218_Fluttering Lights" data-flag="@X" onclick="openSidebar('218_Fluttering Lights',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\235_Unwelcome Presence.png" id="235_Unwelcome Presence" data-flag="@X" onclick="openSidebar('235_Unwelcome Presence',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\207_Blade Dancer.png" id="207_Blade Dancer" data-flag="@X" onclick="openSidebar('207_Blade Dancer',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\224_Masquerade.png" id="224_Masquerade" data-flag="@X" onclick="openSidebar('224_Masquerade',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\213_Embodiment of Duality.png" id="213_Embodiment of Duality" data-flag="@X" onclick="openSidebar('213_Embodiment of Duality',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\243_Search for the Maze's End.png" id="243_Search for the Mazes End" data-flag="@X" onclick="openSidebar('243_Search for the Mazes End',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\237_Garruk's Curse.png" id="237_Garruks Curse" data-flag="@X" onclick="openSidebar('237_Garruks Curse',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\245_The Trials of Amonkhet.png" id="245_The Trials of Amonkhet" data-flag="@X" onclick="openSidebar('245_The Trials of Amonkhet',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\223_Masked Mistweaver.png" id="223_Masked Mistweaver" data-flag="@X" onclick="openSidebar('223_Masked Mistweaver',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\240_Phyrexian Invasion.png" id="240_Phyrexian Invasion" data-flag="@X" onclick="openSidebar('240_Phyrexian Invasion',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\239_Investigation on Innistrad.png" id="239_Investigation on Innistrad" data-flag="@X" onclick="openSidebar('239_Investigation on Innistrad',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\241_Rebirth of the Guildpact.png" id="241_Rebirth of the Guildpact" data-flag="@X" onclick="openSidebar('241_Rebirth of the Guildpact',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\2_Moment Frozen In Time.png" id="2_Moment Frozen In Time" data-flag="@X" onclick="openSidebar('2_Moment Frozen In Time',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\1_Hooded Visitors.png" id="1_Hooded Visitors" data-flag="@X" onclick="openSidebar('1_Hooded Visitors',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\249_Falseborn Greatsword.png" id="249_Falseborn Greatsword" data-flag="@X" onclick="openSidebar('249_Falseborn Greatsword',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\252_Luna Ring.png" id="252_Luna Ring" data-flag="@X" onclick="openSidebar('252_Luna Ring',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\253_Multiversal Lens.png" id="253_Multiversal Lens" data-flag="@X" onclick="openSidebar('253_Multiversal Lens',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\3_Protagonist's Pet.png" id="3_Protagonists Pet" data-flag="@X" onclick="openSidebar('3_Protagonists Pet',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\248_Costumed Mannequin.png" id="248_Costumed Mannequin" data-flag="@X" onclick="openSidebar('248_Costumed Mannequin',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\256_Shifting Mask.png" id="256_Shifting Mask" data-flag="@X" onclick="openSidebar('256_Shifting Mask',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\257_Silent Statue.png" id="257_Silent Statue" data-flag="@X" onclick="openSidebar('257_Silent Statue',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\258_Stage Scaffolding.png" id="258_Stage Scaffolding" data-flag="@X" onclick="openSidebar('258_Stage Scaffolding',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\260_World Lens.png" id="260_World Lens" data-flag="@X" onclick="openSidebar('260_World Lens',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\247_Backstage Curtain.png" id="247_Backstage Curtain" data-flag="@X" onclick="openSidebar('247_Backstage Curtain',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\250_Fearful Fiddler.png" id="250_Fearful Fiddler" data-flag="@X" onclick="openSidebar('250_Fearful Fiddler',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\251_Living Statue.png" id="251_Living Statue" data-flag="@X" onclick="openSidebar('251_Living Statue',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\254_Mystical Program.png" id="254_Mystical Program" data-flag="@X" onclick="openSidebar('254_Mystical Program',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\255_Opera Gargoyle.png" id="255_Opera Gargoyle" data-flag="@X" onclick="openSidebar('255_Opera Gargoyle',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\259_Sword of Revealing Light.png" id="259_Sword of Revealing Light" data-flag="@X" onclick="openSidebar('259_Sword of Revealing Light',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\265_Diviner's Study.png" id="265_Diviners Study" data-flag="@X" onclick="openSidebar('265_Diviners Study',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\270_Opera of Horrors.png" id="270_Opera of Horrors" data-flag="@X" onclick="openSidebar('270_Opera of Horrors',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\261_Burning Theater.png" id="261_Burning Theater" data-flag="@X" onclick="openSidebar('261_Burning Theater',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\267_Festival Plaza.png" id="267_Festival Plaza" data-flag="@X" onclick="openSidebar('267_Festival Plaza',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\268_Lively Stage.png" id="268_Lively Stage" data-flag="@X" onclick="openSidebar('268_Lively Stage',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\272_Spectral Ballroom.png" id="272_Spectral Ballroom" data-flag="@X" onclick="openSidebar('272_Spectral Ballroom',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\263_Crystalline Cave.png" id="263_Crystalline Cave" data-flag="@X" onclick="openSidebar('263_Crystalline Cave',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\264_Darkwood Manor.png" id="264_Darkwood Manor" data-flag="@X" onclick="openSidebar('264_Darkwood Manor',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\271_Romantic Rendezvous.png" id="271_Romantic Rendezvous" data-flag="@X" onclick="openSidebar('271_Romantic Rendezvous',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\262_Changing Room.png" id="262_Changing Room" data-flag="@X" onclick="openSidebar('262_Changing Room',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\269_Mask Workshop.png" id="269_Mask Workshop" data-flag="@X" onclick="openSidebar('269_Mask Workshop',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\273_Stage of the Multiverse.png" id="273_Stage of the Multiverse" data-flag="@X" onclick="openSidebar('273_Stage of the Multiverse',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\266_Evolving Wilds.png" id="266_Evolving Wilds" data-flag="@X" onclick="openSidebar('266_Evolving Wilds',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\274_Plains.png" id="274_Plains" data-flag="@X" onclick="openSidebar('274_Plains',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\275_Island.png" id="275_Island" data-flag="@X" onclick="openSidebar('275_Island',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\276_Swamp.png" id="276_Swamp" data-flag="@X" onclick="openSidebar('276_Swamp',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\277_Mountain.png" id="277_Mountain" data-flag="@X" onclick="openSidebar('277_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\ASM-files\img\278_Forest.png" id="278_Forest" data-flag="@X" onclick="openSidebar('278_Forest',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

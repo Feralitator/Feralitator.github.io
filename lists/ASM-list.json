@@ -1,0 +1,1852 @@
+﻿[
+    {
+        "card_name": "Blessing of Sight",
+        "number": 6,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Encore!",
+        "number": 51,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Nightshroud Steed",
+        "number": 108,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Furious Conductor",
+        "number": 135,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Bane of Creativity",
+        "number": 166,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Goldblaze Enforcer",
+        "number": 19,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lightshow Lamps",
+        "number": 60,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Sarah, the Seamstress",
+        "number": 114,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Scene Change",
+        "number": 149,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Queen of Fame",
+        "number": 187,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Verchiel, Face of Comedy",
+        "number": 41,
+        "shape": "transform double faced",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Troupe Puppetmaster",
+        "number": 81,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Deathly Dancer",
+        "number": 94,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Tibalt, Finale Saboteur",
+        "number": 159,
+        "shape": "planeswalker",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Solemn Sapling",
+        "number": 195,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Chirping Balladeer",
+        "number": 8,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Dance of Tides",
+        "number": 49,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Dramatic Solo",
+        "number": 96,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Dance of Flames",
+        "number": 128,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Advisor of Fame",
+        "number": 163,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Eva, Heavenly Voice",
+        "number": 12,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Danielle, Dragon Dancer",
+        "number": 50,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "False King's Conquest",
+        "number": 97,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Discord, Dissonant Chaos",
+        "number": 130,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Chord of Calling",
+        "number": 168,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Exeunt",
+        "number": 13,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Fearbreath Drake",
+        "number": 56,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Galloping Gorgon",
+        "number": 101,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Final Song",
+        "number": 133,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Curious Mask",
+        "number": 170,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Ghostly Waltz",
+        "number": 17,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lost Again",
+        "number": 61,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Impish Confidant",
+        "number": 104,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Hearthside Singer",
+        "number": 136,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Inspiring Writing",
+        "number": 177,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Spectral Gathering",
+        "number": 37,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Performance Preparation",
+        "number": 67,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "March of the Dreadhorde",
+        "number": 106,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Kobold Minstrel",
+        "number": 140,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Living Stage",
+        "number": 178,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Supercalifragilisticexpialidocious",
+        "number": 39,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Shattered Facade",
+        "number": 73,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Undying Dread",
+        "number": 119,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Supporting Role",
+        "number": 155,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lounging Performer",
+        "number": 179,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "The Wanderer's Journey",
+        "number": 42,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Stunt Double",
+        "number": 79,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Ashiok's Creeper",
+        "number": 84,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Theft of the Tyrite Sword",
+        "number": 156,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Ruination of Zendikar",
+        "number": 191,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Angelo, the Serenader",
+        "number": 5,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Apprentice Clairovoyant",
+        "number": 45,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Award Ceremony",
+        "number": 85,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Bold Stuntman",
+        "number": 124,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Cursed Elderwood",
+        "number": 171,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Enchanting Song",
+        "number": 11,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Collective Cancel",
+        "number": 47,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Contemplative Dead",
+        "number": 89,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Charming Hero",
+        "number": 126,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Dance Preparation",
+        "number": 172,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Fleeting Songbird",
+        "number": 15,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Faerie Prankster",
+        "number": 52,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Convincing Performance",
+        "number": 90,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Firewhip Magician",
+        "number": 134,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Forest Runner",
+        "number": 173,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Inspiration Seeker",
+        "number": 21,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Fear Rallier",
+        "number": 55,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Dancing Demon",
+        "number": 92,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Inspired Ritual",
+        "number": 138,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Grizzly Dancer",
+        "number": 175,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lockdown at the Inventor's Fair",
+        "number": 25,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Frost Seer",
+        "number": 57,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Deadly Serenader",
+        "number": 93,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Inspiring Daredevil",
+        "number": 139,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Manor Maiden",
+        "number": 181,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lovestruck Clairovoyant",
+        "number": 26,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Mask Maker",
+        "number": 62,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Fleeting Queen",
+        "number": 100,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Landscape Elemental",
+        "number": 141,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Masked Elf",
+        "number": 182,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Masked Lifeblade",
+        "number": 27,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Masked Deflector",
+        "number": 63,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Heartbreaking Trick",
+        "number": 103,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Passionate Performance",
+        "number": 143,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Method Actor",
+        "number": 184,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Multiverse Opera",
+        "number": 30,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Mind Read",
+        "number": 64,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Planned End",
+        "number": 110,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Return of the Dragonlords",
+        "number": 146,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Mutations of Ikoria",
+        "number": 185,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Opening Night",
+        "number": 31,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Otherworldly Visions",
+        "number": 66,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "The Promised End",
+        "number": 112,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Rosa, the Romantic",
+        "number": 148,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Rescue From Tragedy",
+        "number": 189,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Otherworldly Composition",
+        "number": 32,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "The Royal Transmutation",
+        "number": 69,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Puppeteering Act",
+        "number": 113,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Shredding Soloist",
+        "number": 152,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Socialite's Advice",
+        "number": 194,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Prancing Piper",
+        "number": 33,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Secret Script",
+        "number": 72,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Undying Actor",
+        "number": 118,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Song of Storms",
+        "number": 153,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Soundshrouded Harpist",
+        "number": 197,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Starstruck Songmaster",
+        "number": 38,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Stunning Entrance",
+        "number": 78,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Winged Dread",
+        "number": 122,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Violent Inferno",
+        "number": 161,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Treetop Gremlins",
+        "number": 198,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Upbeat Lightdancer",
+        "number": 40,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Terror Toad",
+        "number": 80,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Backstage Saboteur",
+        "number": 86,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Warming Up",
+        "number": 162,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Walking Shelter",
+        "number": 200,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Amateur Auteur",
+        "number": 4,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Airborne Fear",
+        "number": 44,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Banehound",
+        "number": 87,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Audience Participation",
+        "number": 123,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Arachnid Actor",
+        "number": 164,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Brilliant Retribution",
+        "number": 7,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Chilling Performer",
+        "number": 46,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Break a Leg",
+        "number": 88,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Burning Ferocity",
+        "number": 125,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Autumn Observer",
+        "number": 165,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Daring Trapezist",
+        "number": 9,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Crystalline Starlighter",
+        "number": 48,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Cruel Celebrity",
+        "number": 91,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Crowd's Favor",
+        "number": 127,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Blooming Elderwood",
+        "number": 167,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Decorated Dancer",
+        "number": 10,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "False Lorekeeper",
+        "number": 53,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Doombringer Falsehorn",
+        "number": 95,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Daring Lead",
+        "number": 129,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Cold Chorister",
+        "number": 169,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Festival Dance",
+        "number": 14,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "False Strength",
+        "number": 54,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "False Slash",
+        "number": 98,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Fiddling Fiend",
+        "number": 131,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Galloping Aristocrat",
+        "number": 174,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "From the Storybooks",
+        "number": 16,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Haunting Heckling",
+        "number": 58,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Fear Rider",
+        "number": 99,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Final Act Flamecaster",
+        "number": 132,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Harmonizing Diva",
+        "number": 176,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Glide Gifter",
+        "number": 18,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Levitate",
+        "number": 59,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Gatherer of Doubt",
+        "number": 102,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Hopeless Romantic",
+        "number": 137,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lunar Dancer",
+        "number": 180,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Goldblaze Savior",
+        "number": 20,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Mothsquerade",
+        "number": 65,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Inspiration Theft",
+        "number": 105,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lantern Dancer",
+        "number": 142,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Masked Warrior",
+        "number": 183,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "It Takes Two",
+        "number": 22,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Reach Stardom",
+        "number": 68,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "March of the False King",
+        "number": 107,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Reach for Inspiration",
+        "number": 144,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Plummet",
+        "number": 186,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Keeper of Tradition",
+        "number": 23,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Script Thief",
+        "number": 70,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Nocturnal Socialite",
+        "number": 109,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Recreant Performer",
+        "number": 145,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Reincarnation Dance",
+        "number": 188,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lightfin",
+        "number": 24,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Search Beyond Eternity",
+        "number": 71,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Play Dead",
+        "number": 111,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Roaring Spotlight",
+        "number": 147,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Revitalizing Melody",
+        "number": 190,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Masked Seer",
+        "number": 28,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Shattering Silence",
+        "number": 74,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Socialite's Demise",
+        "number": 115,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Searing Attention",
+        "number": 150,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Secret Gathering",
+        "number": 192,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Moonlight Violinist",
+        "number": 29,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Soul Snatcher",
+        "number": 75,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Sonic Songmasters",
+        "number": 116,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Shock the Crowd",
+        "number": 151,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Silent Ambush",
+        "number": 193,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Songsqueaker",
+        "number": 34,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Spotlight Summoner",
+        "number": 76,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Tragic Offering",
+        "number": 117,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Stagelighter",
+        "number": 154,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Solitary Performance",
+        "number": 196,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Songwriter Protector",
+        "number": 35,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Stagefright",
+        "number": 77,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Unseen Terror",
+        "number": 120,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Threatening Distraction",
+        "number": 157,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Versatile Stand-In",
+        "number": 199,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Sorrowful Gaze",
+        "number": 36,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Weaver of Reality",
+        "number": 82,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Villainous Thespian",
+        "number": 121,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Thundering Storyteller",
+        "number": 158,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Wandering Elderwood",
+        "number": 201,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Warrior Poet",
+        "number": 43,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Winding Waves",
+        "number": 83,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Torchlight Orator",
+        "number": 160,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Wild Songmaster",
+        "number": 202,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Interplanar Illusions",
+        "number": 220,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Ashiok, Phantom of the Opera",
+        "number": 204,
+        "shape": "planeswalker",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Climactic Moment",
+        "number": 208,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Crowded Streets",
+        "number": 209,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Assemble the Band",
+        "number": 206,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Pim, Exquisite Storyteller",
+        "number": 229,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Ashiok's Masterwork",
+        "number": 205,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Finn, the Final Curtain",
+        "number": 217,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Sparkthorn Stagehand",
+        "number": 233,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lord of the Stage",
+        "number": 222,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Interplanar Seer",
+        "number": 221,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Dolion, the False King",
+        "number": 212,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Final Bow",
+        "number": 216,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Dance Channeler",
+        "number": 211,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Musical Instructor",
+        "number": 225,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Teferi's Reascension",
+        "number": 244,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Sap Strength",
+        "number": 232,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "The Crimson Vow",
+        "number": 236,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Xenagos Rises to Godhood",
+        "number": 246,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "The Harvesttide Festival",
+        "number": 238,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Rise of the False King",
+        "number": 242,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Never-Ending Story",
+        "number": 226,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Crystallized Spotlight",
+        "number": 210,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Faldain, Cruel Director",
+        "number": 215,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Altar of Duets",
+        "number": 203,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Oko, Charming Shapeshifter",
+        "number": 227,
+        "shape": "planeswalker",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Paige, Devil's Violinist",
+        "number": 228,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Ruvira, Technician Manager",
+        "number": 231,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Gravesong",
+        "number": 219,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Tag-Team Strike",
+        "number": 234,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Faerie Thief",
+        "number": 214,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Role Swap",
+        "number": 230,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Fluttering Lights",
+        "number": 218,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Unwelcome Presence",
+        "number": 235,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Blade Dancer",
+        "number": 207,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Masquerade",
+        "number": 224,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Embodiment of Duality",
+        "number": 213,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Search for the Maze's End",
+        "number": 243,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Garruk's Curse",
+        "number": 237,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "The Trials of Amonkhet",
+        "number": 245,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Masked Mistweaver",
+        "number": 223,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Phyrexian Invasion",
+        "number": 240,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Investigation on Innistrad",
+        "number": 239,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Rebirth of the Guildpact",
+        "number": 241,
+        "shape": "saga",
+        "set": "ASM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Moment Frozen In Time",
+        "number": 2,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Hooded Visitors",
+        "number": 1,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Falseborn Greatsword",
+        "number": 249,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Luna Ring",
+        "number": 252,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Multiversal Lens",
+        "number": 253,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Protagonist's Pet",
+        "number": 3,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Costumed Mannequin",
+        "number": 248,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Shifting Mask",
+        "number": 256,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Silent Statue",
+        "number": 257,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Stage Scaffolding",
+        "number": 258,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "World Lens",
+        "number": 260,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Backstage Curtain",
+        "number": 247,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Fearful Fiddler",
+        "number": 250,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Living Statue",
+        "number": 251,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Mystical Program",
+        "number": 254,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Opera Gargoyle",
+        "number": 255,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Sword of Revealing Light",
+        "number": 259,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Diviner's Study",
+        "number": 265,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Opera of Horrors",
+        "number": 270,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Burning Theater",
+        "number": 261,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Festival Plaza",
+        "number": 267,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Lively Stage",
+        "number": 268,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Spectral Ballroom",
+        "number": 272,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Crystalline Cave",
+        "number": 263,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Darkwood Manor",
+        "number": 264,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Romantic Rendezvous",
+        "number": 271,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Changing Room",
+        "number": 262,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Mask Workshop",
+        "number": 269,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Stage of the Multiverse",
+        "number": 273,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Evolving Wilds",
+        "number": 266,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plains",
+        "number": 274,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Island",
+        "number": 275,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 276,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 277,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "Forest",
+        "number": 278,
+        "shape": "normal",
+        "set": "ASM"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]
