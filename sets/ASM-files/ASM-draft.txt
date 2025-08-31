@@ -2661,23 +2661,6 @@
 			}
 		},
 		{
-			"name": "Verchiel, Face of Comedy",
-			"rarity": "mythic",
-			"mana_cost": "{2}{W}{W}",
-			"type": "Legendary Planeswalker — Verchiel",
-			"collector_number": "41",
-			"back": {
-				"name": "",
-				"type": "",
-				"image_uris": {
-					"en": "https://Feralitator.github.io/sets/ASM-files/img/41_Verchiel, Face of Comedy_back.png"
-				}
-			},
-			"image_uris": {
-				"en": "https://Feralitator.github.io/sets/ASM-files/img/41_Verchiel, Face of Comedy_front.png"
-			}
-		},
-		{
 			"name": "Role Swap",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{B}",
@@ -2786,7 +2769,24 @@
 			"image_uris": {
 				"en": "https://Feralitator.github.io/sets/ASM-files/img/66_Otherworldly Visions.png"
 			}
-		}
+		},
+		{
+			"name": "Verchiel, Face of Comedy",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Planeswalker — Verchiel",
+			"collector_number": "41",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Feralitator.github.io/sets/ASM-files/img/41_Verchiel, Face of Comedy_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Feralitator.github.io/sets/ASM-files/img/41_Verchiel, Face of Comedy_front.png"
+			}
+		},
 	]
 
 [rare(1)]
@@ -2866,10 +2866,10 @@
 	5 Supporting Role
 	5 Blessing of Sight
 	5 Never-Ending Story
-	5 Verchiel, Face of Comedy
 	5 Role Swap
 	5 Spectral Gathering
 	5 Ruvira, Technician Manager
+	5 Verchiel, Face of Comedy
 [uncommon(3)]
 	5 Inspiring Daredevil
 	5 Forest Runner

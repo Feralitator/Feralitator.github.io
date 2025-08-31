@@ -1,4 +1,58 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Chilling Performer
+rules_text: Flying
+When Chilling Performer enters, tap target creature you don't control and put a stun counter on it. => Flying
+When Chilling Performer enters, tap target creature you don't control and put a stun counter on it. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]
+
+Garruk's Curse
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+I — Target creature gets +1/+1 and gains deathtouch until end of turn.
+II — You may sacrifice a creature. If you do, you gain life equal to that creature's power.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Target creature gets +1/+1 and gains deathtouch until end of turn.
+You may sacrifice a creature. If you do, you gain life equal to that creature's power.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+I — Target creature gets +1/+1 and gains deathtouch until end of turn.
+II — You may sacrifice a creature. If you do, you gain life equal to that creature's power.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Target creature gets +1/+1 and gains deathtouch until end of turn.
+You may sacrifice a creature. If you do, you gain life equal to that creature's power.
+
+The Crimson Vow
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+I — Up to two target creatures you control gain menace until end of turn.
+II — The Crimson Vow deals 1 damage to each player.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Up to two target creatures you control gain menace until end of turn.
+The Crimson Vow deals 1 damage to each player.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+I — Up to two target creatures you control gain menace until end of turn.
+II — The Crimson Vow deals 1 damage to each player.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after II.)[/i]
+Up to two target creatures you control gain menace until end of turn.
+The Crimson Vow deals 1 damage to each player.
+
+Stunning Entrance
+rules_text: Distribute two stun counters among up to two target creatures you don't control. Tap each creature that had a stun counter put on it this way. => Distribute two stun counters among up to two target creatures you don't control. Tap each creature that had a stun counter put on it this way. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]
+
+Frost Seer
+rules_text: Flying
+Whenever an effect causes you to look at one or more cards from the top of your library, you may put a stun counter on target artifact or creature. This triggers only once each turn. => Flying
+Whenever an effect causes you to look at one or more cards from the top of your library, you may put a stun counter on target artifact or creature. This triggers only once each turn. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]
+
+Danielle, Dragon Dancer
+rules_text: Whenever Danielle becomes tapped, put a stun counter on another target creature.
+Remove a stun counter from another creature: Untap Danielle. => Whenever Danielle becomes tapped, put a stun counter on another target creature. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]
+Remove a stun counter from another creature: Untap Danielle.
+
+Verchiel, Face of Comedy
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
